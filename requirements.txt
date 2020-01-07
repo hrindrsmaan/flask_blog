@@ -1,0 +1,5 @@
+flask
+flask_sqlalchemy
+flask_wtf
+flask_migrate
+flask_script
