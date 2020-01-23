@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %} Setting Up {% endblock %}
+
+{% block content %} 
+
+
+	<h2> Set Up</h2>
+
+	<form method="post" action="{{ url_for('setup')}}">
+
+	  {{ form.hidden_tag() }}
+
+	  {{ form.blog_name.label }}:<br>
+	  {{ form.blog_name }}
+	  
+	  <br><br><hr><br>
+
+	  {{ form.author_name.label }}:<br>
+	  {{ form.author_name }}
+	  
+	  <br><br>
+
+	  {{ form.email.label }}:<br>
+	  {{ form.email }}<br><br>
+
+	  {{ form.username.label }}:<br>
+	  {{ form.username }}<br><br>
+
+	  {{ form.password.label }}:<br>
+	  {{ form.password }}<br><br>
+
+	  {{ form.confirm.label }}:<br>
+	  {{ form.confirm }}<br><br>
+
+
+	  <input type="submit" value="Submit">
+
+	</form> 
+
+
+
+
+{% endblock %}

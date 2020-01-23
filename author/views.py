@@ -1,7 +1,8 @@
 from flask_blog import app, db
-from author.forms import RegisterForm
+from author.forms import RegisterForm, SetupForm
 from flask import render_template, request
-from author.models import Register 
+from author.models import Register, Author
+from blog.models import Blog
 
 @app.route('/register', methods = ['GET', 'POST'])
 def register():
@@ -44,3 +45,38 @@ def register():
 @app.route('/login', methods = ['GET', 'POST'])
 def login():
 	return 'Login'
+
+
+@app.route('/setup', methods = ['GET', 'POST'])
+def setup():
+	form = SetupForm()
+
+	if request.method == 'POST':
+
+		if form.validate_on_submit():
+			
+			blog_name = form.blog_name.data
+			author_name = form.author_name.data
+			email = form.email.data
+			username = form.username.data
+			password = form.password.data
+			is_author = True
+
+			print("Blog = %s, Author = %s, Email = %s, Username = %s, Password = %s " % (blog_name, author_name, email, username, password))
+
+			author = Author(author_name, email, username, password, is_author)
+			db.session.add(author)
+			db.session.flush()
+
+			print("Admin ID: %d" % author.id)
+
+			if author.id:
+				blog = Blog(blog_name, author.id)
+				db.session.add(blog)
+				db.session.commit()
+
+			return 'Form Set Up Done!!'
+
+		
+
+	return render_template('author/setup.html', form = form)
