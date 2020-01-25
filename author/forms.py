@@ -25,4 +25,11 @@ class SetupForm(Form):
 										   validators.Length(min=5, max=20)])
 	confirm = PasswordField('Confirm Password', [ validators.Required(),
 												  validators.EqualTo('password')])
+
+
+
+class LoginForm(Form):
+	username = StringField("Username", [ validators.Required(), 
+										 validators.Length(min = 3, max = 10) ])
+	password = StringField("Password", [ validators.Required()])
 	

@@ -1,6 +1,6 @@
 from flask_blog import app, db
-from author.forms import RegisterForm, SetupForm
-from flask import render_template, request
+from author.forms import RegisterForm, SetupForm, LoginForm
+from flask import render_template, request, session
 from author.models import Register, Author
 from blog.models import Blog
 
@@ -42,10 +42,6 @@ def register():
 	return render_template('author/register.html', form = form)
 
 
-@app.route('/login', methods = ['GET', 'POST'])
-def login():
-	return 'Login'
-
 
 @app.route('/setup', methods = ['GET', 'POST'])
 def setup():
@@ -77,6 +73,34 @@ def setup():
 
 			return 'Form Set Up Done!!'
 
-		
-
 	return render_template('author/setup.html', form = form)
+
+
+
+
+@app.route('/login', methods = ['GET', 'POST'])
+def login():
+	form = LoginForm()
+
+	if request.method == 'POST':
+
+		if form.validate_on_submit():
+
+			username = form.username.data
+			password = form.password.data
+
+			print("Username = {0}, Password = {1}".format(username, password))
+
+			result = Author.query.filter_by(username = username, password = password).first()
+
+			print('Name = {0}, Email = {1}'.format(result.name, result.email))
+
+			if result:
+				session['user'] = result.name
+				print('Session Started for %s' % session['user'])
+
+				return render_template('author/todo.html')
+			else:
+				return 'Login Failed!!'
+
+	return render_template('author/login.html', form = form)
