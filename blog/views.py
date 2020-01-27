@@ -1,5 +1,5 @@
 from flask_blog import app, db
-from flask import render_template, request, session
+from flask import render_template, request, session, redirect
 from slugify import slugify
 from blog.forms import PostForm
 from slugify import slugify
@@ -9,10 +9,26 @@ from author.models import Author
 
 
 
-@app.route('/index')
+@app.route('/index', methods = ['GET', 'POST'])
 @app.route('/', methods = ['GET', 'POST'])
 def  index():
-	return 'This will show all the active posts'
+
+	posts = Post.query.all()
+
+	for post in posts:
+		print("Title %s" % post.title)
+
+
+	return render_template('blog/index.html', posts = posts)
+
+
+
+@app.route('/article/<slug>', methods = ['GET', 'POST'])
+def article(slug):
+
+	post = Post.query.filter_by(slug = slug).first()
+
+	return render_template('blog/single_post.html', post = post)
 
 
 @app.route('/post', methods = ['GET', 'POST'])

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+
+{% block title %} Read Posts {% endblock %}
+
+{% block content %} 
+
+	
+	<h2> Articles </h2> <hr>
+
+	{% for post in posts %}
+
+		<a href="#"> EDIT </a>  &nbsp; <a href="#"> Delete </a> 
+
+		<h3> <a href="{{ url_for('article', slug = post.slug) }}"> {{ post.title }} </a> </h3> 
+
+		<p> {{ post.body }}  </p>
+
+
+		<strong> Posted by Pending...</strong> 
+
+		<hr>
+
+	{% endfor %}
+
+{% endblock %}
