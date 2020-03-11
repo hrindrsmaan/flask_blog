@@ -1,20 +1,17 @@
-{% extends "base.html" %}
+{% extends "layout.html" %}
 
 {% block title %} {{ post.title }} {% endblock %}
+
 
 {% block content %} 
 
 	
 	<h2> {{ post.title }} </h2> <hr>
 
-	{% if action is admin %}
-		<a href="#"> EDIT </a>  &nbsp; <a href="#"> Delete </a> 
-	{% endif %}
-
 
 	<p> {{ post.body }}  </p>
 
-	<strong> Posted by: Harinder Singh in Python on 
+	<strong> Posted by: {{ author }} in {{ category }} on 
 
 
 		{% if post.publish_date %}

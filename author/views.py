@@ -2,7 +2,12 @@ from flask_blog import app, db
 from author.forms import RegisterForm, SetupForm, LoginForm
 from flask import render_template, request, session
 from author.models import Register, Author
-from blog.models import Blog
+from blog.models import Blog, Post
+from functools import wraps
+
+
+POST_PER_PAGE = 5
+
 
 @app.route('/register', methods = ['GET', 'POST'])
 def register():
@@ -104,3 +109,30 @@ def login():
 				return 'Login Failed!!'
 
 	return render_template('author/login.html', form = form)
+
+	
+
+
+def login_required(f):
+	print(' In login_required() ')
+
+	@wraps(f)
+	def decorated_function(*args, **kwargs):
+		print('In wrapper_func() ')
+		print("User is %s" % session['user'])
+		if session.get('username') is None:
+			return redirect(url_for('login', next = request.url))
+		return f(*args, **kwargs)
+
+	return decorated_function
+
+
+@login_required
+@app.route('/admin')
+@app.route('/admin/<int:page>', methods = ['GET', 'POST'])
+def admin(page=1):
+
+	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
+
+
+	return render_template('author/admin.html', posts = posts)

@@ -13,16 +13,15 @@ from blog import models
 
 #migrations
 migrate = Migrate(app, db)
-
+	
 manager = Manager(app)
 
 manager.add_command('runserver', Server(
-
 	use_debugger = True,
 	use_reloader = True,
 	host = os.getenv('IP', '0.0.0.0'),
-    port = int(os.getenv('PORT', 5000))
-	))
+    port = int(os.getenv('PORT', 8080))
+))
 
 manager.add_command("db", MigrateCommand)
 

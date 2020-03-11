@@ -1,19 +1,13 @@
-{% extends "base.html" %}
+{% extends "layout.html" %}
 
 
 {% block title %} Read Posts {% endblock %}
 
 {% block content %} 
 
-	
-	<h2> Articles </h2> <hr>
-
-	{% for post in posts %}
+	{% for post in posts.items %}
 
 		<h3> <a href="{{ url_for('article', slug = post.slug) }}"> {{ post.title }} </a> </h3> 
-
-		<p> {{ post.body }}  </p>
-
 
 		<strong> Posted by Harinder Singh in Python on 
 
@@ -29,5 +23,21 @@
 		<hr>
 
 	{% endfor %}
+
+
+	{% for page in posts.iter_pages() %}
+	          
+		{% if page %}
+
+			<a href="{{ url_for('index', page = page )}}"> {{ page }} </a>
+
+		{% else %}
+
+			...
+
+		{% endif %}
+
+	{% endfor %}
+	
 
 {% endblock %}

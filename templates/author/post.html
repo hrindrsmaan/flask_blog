@@ -1,13 +1,30 @@
-{% extends "base.html" %}
+{% extends "layout.html" %}
 
 {% block title %} Post {% endblock %}
 
 {% block content %} 
-
 	
-	<h2> Post Article </h2>
+	{% if action == 'update' %}
 
-	<form method="post" action="">
+		<h2> Update Article </h2>
+
+	{% else %}
+	
+		<h2> Post Article </h2>
+
+	{% endif %}
+
+
+	{% if action == 'update' %}
+
+		<form method="post" action="{{ url_for('update',post_id = post.id ) }}">
+
+	{% else %}
+
+		<form method="post" action="{{ url_for('post') }}" >
+
+	{% endif %}
+
 
 	  {{ form.hidden_tag() }}
 
@@ -23,7 +40,18 @@
 	  {{ form.category.label }}:<br>
 	  {{ form.category }} <br><br>
 
-	  <input type="submit" value="Post">
+
+	  {% if action == 'update' %}
+
+	  	<input type="submit" value="Update">
+
+	  {% else %}
+
+	  	<input type="submit" value="Post">
+
+	  {% endif %}
+
+	  
 
 	</form> 
 

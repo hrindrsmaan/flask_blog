@@ -1,5 +1,5 @@
 from flask_blog import app, db
-from flask import render_template, request, session, redirect
+from flask import render_template, request, session, redirect, url_for
 from slugify import slugify
 from blog.forms import PostForm
 from slugify import slugify
@@ -8,32 +8,55 @@ from blog.models import Category, Blog, Post
 from author.models import Author
 from datetime import datetime
 
+import pdb
 
+POST_PER_PAGE = 5
 
-@app.route('/index', methods = ['GET', 'POST'])
+@app.route('/index/<int:page>', methods = ['GET', 'POST'])
 @app.route('/', methods = ['GET', 'POST'])
-def  index():
+def  index(page=1):
 
-	posts = Post.query.all()
+	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
 
-	for post in posts:
-		print("Title %s" % post.title)
+	print("Total No. of pages: {0}".format(posts.pages))
+	print("Posts per page = %d" % posts.page)
+
+	for item in posts.items:
+		print('Post Title = {0}'.format(item.title))
+
+
+	for page in posts.iter_pages():
+		if page:
+			print(page)
+		else:
+			print('...')
 
 
 	return render_template('blog/index.html', posts = posts)
 
+
+@app.route('/home', methods = ['GET', 'POST'])
+def home():
+
+	posts = Post.query.all()
+	return render_template('layout.html', posts = posts)
 
 
 @app.route('/article/<slug>', methods = ['GET', 'POST'])
 def article(slug):
 
 	post = Post.query.filter_by(slug = slug).first()
+	author = Author.query.filter_by(id = post.author_id).first()
+	category = Category.query.filter_by(id = post.category_id).first()
 
-	return render_template('blog/single_post.html', post = post)
+	return render_template('blog/single_post.html', post = post, author = author.name, category = category.name)
+
+
 
 
 @app.route('/post', methods = ['GET', 'POST'])
 def post():
+
 	form = PostForm()
 
 	if request.method == 'POST':
@@ -44,7 +67,7 @@ def post():
 			body = form.body.data
 			category = form.category.data
 
-			print("Title = {0}, Body = {1}, Category = {2}".format(title, body, category))
+			#print("Title = {0}, Body = {1}, Category = {2}".format(title, body, category))
 
 			slug = slugify(title).encode('utf-8')
 
@@ -56,7 +79,7 @@ def post():
 
 
 
-			print('Slug = {0},Author ID = {1}, Category = {2}'.format(slug, author_id, category_id))
+			#print('Slug = {0},Author ID = {1}, Category = {2}'.format(slug, author_id, category_id))
 
 			post = Post(title, body, slug, blog_id, author_id, category_id, publish_date)
 			db.session.add(post)
@@ -68,10 +91,58 @@ def post():
 	return render_template('author/post.html', form = form)
 
 
+@app.route('/edit/<int:post_id>', methods = ['GET', 'POST'])
+def edit(post_id):
 
-@app.route('/admin', methods = ['GET', 'POST'])
-def admin():
+	#pdb.set_trace()
+	post_obj = Post.query.filter_by(id = post_id).first_or_404()
 
-	posts = Post.query.order_by(Post.publish_date.desc())
+	print("POST ID: %d" % post_obj.id)
 
-	return render_template('author/admin.html', posts = posts)
+	form = PostForm(obj = post_obj)
+
+	return render_template('author/post.html', form = form, action = 'update', post = post_obj)
+
+
+@app.route('/update/<int:post_id>', methods = ['GET', 'POST'])
+def update(post_id):
+
+	form = PostForm()
+	post = Post.query.filter_by(id = post_id).first()
+
+	if request.method == 'POST':
+
+
+		
+
+			post.title = form.title.data
+			post.body = form.body.data 
+			post.slug = Post.query.filter_by(id = post_id).first().slug
+			post.publish_date = Post.query.filter_by(id = post_id).first().publish_date
+
+			if form.category.data:
+				category = Category.query.filter_by(name = str(form.category.data)).first()
+				post.category_id = category.id
+
+			print('Category = {0}'.format(category.id))
+
+			blog = Blog.query.first()
+			post.blog_id = blog.id
+
+			# author = Author.query.filter_by(username = session['user']).first()
+			# post.author_id = author.id
+
+
+			db.session.commit()
+
+	
+
+			#db.session.rollback()
+
+
+	return redirect(url_for('article', slug = post.slug))
+
+
+
+
+
