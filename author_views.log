@@ -1,0 +1,141 @@
+
+2020-03-11 15:05:42,115127.0.0.1 - - [11/Mar/2020 15:05:42] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:05:44,202Username = harinder, Password = 12345
+2020-03-11 15:05:44,208Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-11 15:05:44,209Session Started for Harinder Singh
+2020-03-11 15:05:44,214127.0.0.1 - - [11/Mar/2020 15:05:44] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-11 15:08:06,406 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:08:06,916 * Debugger is active!
+2020-03-11 15:08:06,916 * Debugger PIN: 270-990-620
+2020-03-11 15:08:14,698127.0.0.1 - - [11/Mar/2020 15:08:14] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:08:16,291127.0.0.1 - - [11/Mar/2020 15:08:16] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:08:19,738Username = harinder, Password = 12345
+2020-03-11 15:08:19,838Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-11 15:08:19,838Session Started for Harinder Singh
+2020-03-11 15:08:19,842127.0.0.1 - - [11/Mar/2020 15:08:19] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-11 15:08:21,207127.0.0.1 - - [11/Mar/2020 15:08:21] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:08:38,042127.0.0.1 - - [11/Mar/2020 15:08:38] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:08:39,249Username = harinder, Password = 12345
+2020-03-11 15:08:39,254Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-11 15:08:39,254Session Started for Harinder Singh
+2020-03-11 15:08:39,260127.0.0.1 - - [11/Mar/2020 15:08:39] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-11 15:08:40,357127.0.0.1 - - [11/Mar/2020 15:08:40] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:08:55,904127.0.0.1 - - [11/Mar/2020 15:08:55] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-11 15:10:05,872127.0.0.1 - - [11/Mar/2020 15:10:05] "[35m[1mPOST /update/21 HTTP/1.1[0m" 500 -
+2020-03-11 15:10:05,899127.0.0.1 - - [11/Mar/2020 15:10:05] "[37mGET /update/21?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-03-11 15:10:05,900127.0.0.1 - - [11/Mar/2020 15:10:05] "[37mGET /update/21?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-03-11 15:10:05,901127.0.0.1 - - [11/Mar/2020 15:10:05] "[37mGET /update/21?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-03-11 15:10:06,102127.0.0.1 - - [11/Mar/2020 15:10:06] "[37mGET /update/21?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:10:20,655127.0.0.1 - - [11/Mar/2020 15:10:20] "[32mPOST /update/21 HTTP/1.1[0m" 302 -
+2020-03-11 15:10:20,731127.0.0.1 - - [11/Mar/2020 15:10:20] "[37mGET /article/find-median-of-list-in-python HTTP/1.1[0m" 200 -
+2020-03-11 15:13:30,405127.0.0.1 - - [11/Mar/2020 15:13:30] "[37mGET /article/find-median-of-list-in-python HTTP/1.1[0m" 200 -
+2020-03-11 15:13:34,261127.0.0.1 - - [11/Mar/2020 15:13:34] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:13:39,939127.0.0.1 - - [11/Mar/2020 15:13:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:13:51,743127.0.0.1 - - [11/Mar/2020 15:13:51] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:14:01,933127.0.0.1 - - [11/Mar/2020 15:14:01] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:18:20,712 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-11 15:18:20,712 * Restarting with stat
+2020-03-11 15:18:21,133 * Debugger is active!
+2020-03-11 15:18:21,133 * Debugger PIN: 270-990-620
+2020-03-11 15:20:58,960 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-11 15:20:58,961 * Restarting with stat
+2020-03-11 15:20:59,450 * Debugger is active!
+2020-03-11 15:20:59,451 * Debugger PIN: 270-990-620
+2020-03-11 15:21:11,837127.0.0.1 - - [11/Mar/2020 15:21:11] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:21:24,685127.0.0.1 - - [11/Mar/2020 15:21:24] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:21:24,733127.0.0.1 - - [11/Mar/2020 15:21:24] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:21:31,689127.0.0.1 - - [11/Mar/2020 15:21:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:21:31,723127.0.0.1 - - [11/Mar/2020 15:21:31] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-03-11 15:21:37,178127.0.0.1 - - [11/Mar/2020 15:21:37] "[37mGET /article/find-median-of-list-in-python HTTP/1.1[0m" 200 -
+2020-03-11 15:21:39,378127.0.0.1 - - [11/Mar/2020 15:21:39] "[37mGET /article/download-instagram-profile-pic-using-python HTTP/1.1[0m" 200 -
+2020-03-11 15:21:42,817127.0.0.1 - - [11/Mar/2020 15:21:42] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-11 15:21:43,621127.0.0.1 - - [11/Mar/2020 15:21:43] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-11 15:21:48,491127.0.0.1 - - [11/Mar/2020 15:21:48] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:21:49,285127.0.0.1 - - [11/Mar/2020 15:21:49] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:21:57,527Username = harinder, Password = 12345
+2020-03-11 15:21:57,531Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-11 15:21:57,532Session Started for Harinder Singh
+2020-03-11 15:21:57,541127.0.0.1 - - [11/Mar/2020 15:21:57] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-11 15:22:00,733127.0.0.1 - - [11/Mar/2020 15:22:00] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:22:05,634127.0.0.1 - - [11/Mar/2020 15:22:05] "[37mGET /edit/22 HTTP/1.1[0m" 200 -
+2020-03-11 15:22:08,562127.0.0.1 - - [11/Mar/2020 15:22:08] "[32mPOST /update/22 HTTP/1.1[0m" 302 -
+2020-03-11 15:22:08,573127.0.0.1 - - [11/Mar/2020 15:22:08] "[37mGET /article/convert-list-to-python-array HTTP/1.1[0m" 200 -
+2020-03-11 15:22:11,971127.0.0.1 - - [11/Mar/2020 15:22:11] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:22:14,520127.0.0.1 - - [11/Mar/2020 15:22:14] "[37mGET /admin/3 HTTP/1.1[0m" 200 -
+2020-03-11 15:22:17,807127.0.0.1 - - [11/Mar/2020 15:22:17] "[37mGET /edit/18 HTTP/1.1[0m" 200 -
+2020-03-11 15:22:19,321127.0.0.1 - - [11/Mar/2020 15:22:19] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:22:23,850127.0.0.1 - - [11/Mar/2020 15:22:23] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:24:32,180 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:24:32,255 * Restarting with stat
+2020-03-11 15:24:32,688 * Debugger is active!
+2020-03-11 15:24:32,688 * Debugger PIN: 270-990-620
+2020-03-11 15:24:59,147 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:24:59,222 * Restarting with stat
+2020-03-11 15:24:59,658 * Debugger is active!
+2020-03-11 15:24:59,659 * Debugger PIN: 270-990-620
+2020-03-11 15:25:22,143127.0.0.1 - - [11/Mar/2020 15:25:22] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2020-03-11 15:25:22,158127.0.0.1 - - [11/Mar/2020 15:25:22] "[37mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-03-11 15:25:22,159127.0.0.1 - - [11/Mar/2020 15:25:22] "[37mGET /admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-03-11 15:25:22,160127.0.0.1 - - [11/Mar/2020 15:25:22] "[37mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-03-11 15:25:22,282127.0.0.1 - - [11/Mar/2020 15:25:22] "[37mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:25:22,294127.0.0.1 - - [11/Mar/2020 15:25:22] "[37mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:26:04,755 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:26:04,842 * Restarting with stat
+2020-03-11 15:26:05,288 * Debugger is active!
+2020-03-11 15:26:05,288 * Debugger PIN: 270-990-620
+2020-03-11 15:26:18,537127.0.0.1 - - [11/Mar/2020 15:26:18] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:26:22,290127.0.0.1 - - [11/Mar/2020 15:26:22] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2020-03-11 15:26:22,311127.0.0.1 - - [11/Mar/2020 15:26:22] "[37mGET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-03-11 15:26:22,312127.0.0.1 - - [11/Mar/2020 15:26:22] "[37mGET /logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-03-11 15:26:22,314127.0.0.1 - - [11/Mar/2020 15:26:22] "[37mGET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-03-11 15:26:22,372127.0.0.1 - - [11/Mar/2020 15:26:22] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:26:22,376127.0.0.1 - - [11/Mar/2020 15:26:22] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:26:56,164 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:26:56,256 * Restarting with stat
+2020-03-11 15:26:56,688 * Debugger is active!
+2020-03-11 15:26:56,688 * Debugger PIN: 270-990-620
+2020-03-11 15:27:02,805 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:27:02,881 * Restarting with stat
+2020-03-11 15:27:03,324 * Debugger is active!
+2020-03-11 15:27:03,324 * Debugger PIN: 270-990-620
+2020-03-11 15:27:07,977Harinder Singh about to log out!!
+2020-03-11 15:27:08,000127.0.0.1 - - [11/Mar/2020 15:27:08] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2020-03-11 15:27:08,020127.0.0.1 - - [11/Mar/2020 15:27:08] "[37mGET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-03-11 15:27:08,022127.0.0.1 - - [11/Mar/2020 15:27:08] "[37mGET /logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-03-11 15:27:08,023127.0.0.1 - - [11/Mar/2020 15:27:08] "[37mGET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-03-11 15:27:08,079127.0.0.1 - - [11/Mar/2020 15:27:08] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:27:08,085127.0.0.1 - - [11/Mar/2020 15:27:08] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:27:19,589 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:27:19,668 * Restarting with stat
+2020-03-11 15:27:20,129 * Debugger is active!
+2020-03-11 15:27:20,130 * Debugger PIN: 270-990-620
+2020-03-11 15:27:27,874127.0.0.1 - - [11/Mar/2020 15:27:27] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:27:28,597Harinder Singh about to log out!!
+2020-03-11 15:27:28,618127.0.0.1 - - [11/Mar/2020 15:27:28] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2020-03-11 15:27:28,637127.0.0.1 - - [11/Mar/2020 15:27:28] "[37mGET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-03-11 15:27:28,638127.0.0.1 - - [11/Mar/2020 15:27:28] "[37mGET /logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-03-11 15:27:28,640127.0.0.1 - - [11/Mar/2020 15:27:28] "[37mGET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-03-11 15:27:28,696127.0.0.1 - - [11/Mar/2020 15:27:28] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:27:28,703127.0.0.1 - - [11/Mar/2020 15:27:28] "[37mGET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-11 15:27:40,479 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-11 15:27:40,561 * Restarting with stat
+2020-03-11 15:27:41,045 * Debugger is active!
+2020-03-11 15:27:41,045 * Debugger PIN: 270-990-620
+2020-03-11 15:27:45,459127.0.0.1 - - [11/Mar/2020 15:27:45] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:27:46,688Harinder Singh about to log out!!
+2020-03-11 15:27:46,689127.0.0.1 - - [11/Mar/2020 15:27:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-11 15:27:46,696127.0.0.1 - - [11/Mar/2020 15:27:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:27:58,893127.0.0.1 - - [11/Mar/2020 15:27:58] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-11 15:27:58,947127.0.0.1 - - [11/Mar/2020 15:27:58] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-03-11 15:28:04,359127.0.0.1 - - [11/Mar/2020 15:28:04] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:28:05,266127.0.0.1 - - [11/Mar/2020 15:28:05] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:28:10,005Username = harinder, Password = 12345
+2020-03-11 15:28:10,011Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-11 15:28:10,011Session Started for Harinder Singh
+2020-03-11 15:28:10,020127.0.0.1 - - [11/Mar/2020 15:28:10] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-11 15:28:14,835127.0.0.1 - - [11/Mar/2020 15:28:14] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:28:16,562127.0.0.1 - - [11/Mar/2020 15:28:16] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-11 15:28:18,688127.0.0.1 - - [11/Mar/2020 15:28:18] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-11 15:28:20,708Harinder Singh about to log out!!
+2020-03-11 15:28:20,711127.0.0.1 - - [11/Mar/2020 15:28:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-11 15:28:20,719127.0.0.1 - - [11/Mar/2020 15:28:20] "[37mGET /login HTTP/1.1[0m" 200 -

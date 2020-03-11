@@ -10,11 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
-    {% if title %}
-        <title>Flask Blog - {{ title }}</title>
-    {% else %}
-        <title>Flask Blog</title>
-    {% endif %}
+   <title> Flask Blog</title>
 
 </head>
 
@@ -27,6 +23,16 @@
         <div class="container">
 
           <a class="navbar-brand mr-4" href="/">Flask Blog</a>
+
+          {% if session['user'] %}
+
+             <a class="navbar-brand mr-4" href="{{ url_for('admin') }}">Admin</a>
+
+             <a class="navbar-brand mr-4" href="{{ url_for('logout') }}">Logout</a>
+
+          {% endif %}
+
+
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
 
