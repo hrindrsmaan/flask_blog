@@ -3,14 +3,16 @@
 {% block title %} Post {% endblock %}
 
 {% block content %} 
+
+
 	
 	{% if action == 'update' %}
 
-		<h2> Update Article </h2>
+		<H3>Edit Post</H3>
 
 	{% else %}
 	
-		<h2> Post Article </h2>
+		<H3>Create Post</H3>
 
 	{% endif %}
 
@@ -28,18 +30,20 @@
 
 	  {{ form.hidden_tag() }}
 
-	  {{ form.title.label }}:<br>
-	  {{ form.title }}
-	  
-	  <br><br>
+	  <dl>
 
-	  {{ form.body.label }}:<br>
-	  {{ form.body }} <br><br>
+	      <dt>{{ form.title.label }}:
+	      <dd>{{ form.title }}
 
+	      <dt>{{ form.body.label }}:
+	      <dd>{{ form.body(cols="55", rows="10") }}
 
-	  {{ form.category.label }}:<br>
-	  {{ form.category }} <br><br>
+	      <dt>{{ form.category.label }}
+	      <dd>{{ form.category }}
 
+	   </dl>
+
+	   <p>
 
 	  {% if action == 'update' %}
 
@@ -47,12 +51,11 @@
 
 	  {% else %}
 
-	  	<input type="submit" value="Post">
+	  	<input type="submit" value="Publish">
 
 	  {% endif %}
 
-	  
-
+	   
 	</form> 
 
 {% endblock %}

@@ -18,18 +18,18 @@ def  index(page=1):
 
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
 
-	print("Total No. of pages: {0}".format(posts.pages))
-	print("Posts per page = %d" % posts.page)
+	#print("Total No. of pages: {0}".format(posts.pages))
+	#print("Posts per page = %d" % posts.page)
 
-	for item in posts.items:
-		print('Post Title = {0}'.format(item.title))
+	# for item in posts.items:
+	# 	print('Post Title = {0}'.format(item.title))
 
 
-	for page in posts.iter_pages():
-		if page:
-			print(page)
-		else:
-			print('...')
+	# for page in posts.iter_pages():
+	# 	if page:
+	# 		print(page)
+	# 	else:
+	# 		print('...')
 
 
 	return render_template('blog/index.html', posts = posts)
@@ -56,6 +56,10 @@ def article(slug):
 
 @app.route('/post', methods = ['GET', 'POST'])
 def post():
+
+	if session.get('user') is None:
+		
+		return redirect(url_for('login'))
 
 	form = PostForm()
 
@@ -94,7 +98,11 @@ def post():
 @app.route('/edit/<int:post_id>', methods = ['GET', 'POST'])
 def edit(post_id):
 
-	#pdb.set_trace()
+	if session.get('user') is None:
+		
+		return redirect(url_for('login'))
+
+	
 	post_obj = Post.query.filter_by(id = post_id).first_or_404()
 
 	print("POST ID: %d" % post_obj.id)
@@ -107,13 +115,14 @@ def edit(post_id):
 @app.route('/update/<int:post_id>', methods = ['GET', 'POST'])
 def update(post_id):
 
+	if session.get('user') is None:
+		
+		return redirect(url_for('login'))
+
 	form = PostForm()
 	post = Post.query.filter_by(id = post_id).first()
 
 	if request.method == 'POST':
-
-
-		
 
 			post.title = form.title.data
 			post.body = form.body.data 
@@ -135,12 +144,37 @@ def update(post_id):
 
 			db.session.commit()
 
-	
-
-			#db.session.rollback()
-
-
 	return redirect(url_for('article', slug = post.slug))
+
+
+def login_req(f):
+
+	print('login')
+
+	def wrapper_func(*args, **kwargs):
+
+		print('wrapper_func()')
+
+		return f(*args, **args)
+
+	return wrapper_func
+
+
+
+@app.route('/delete/<int:post_id>', methods = ['GET', 'POST'])
+def delete(post_id):
+
+	if session.get('user') is None:
+		
+		return redirect(url_for('login'))
+
+	post = Post.query.filter_by(id = post_id).first()
+
+	post.is_live = 0
+
+	db.session.commit()
+
+	return redirect(url_for('index'))
 
 
 

@@ -7,13 +7,15 @@
 
 	{% for post in posts.items %}
 
+		{% if post.is_live %}
+
 		<h3> <a href="{{ url_for('article', slug = post.slug) }}"> {{ post.title }} </a> </h3> 
 
 		<strong> Posted by Harinder Singh in Python on 
 
 			{% if post.publish_date %}
 
-			{{ post.publish_date }} 
+				{{ post.publish_date }} 
 
 			{% endif %}
 
@@ -21,6 +23,10 @@
 		</strong> 
 
 		<hr>
+
+		{% endif %}
+
+		
 
 	{% endfor %}
 

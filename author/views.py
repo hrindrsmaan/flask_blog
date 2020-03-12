@@ -114,14 +114,20 @@ def login():
 
 
 def login_required(f):
-	print(' In login_required() ')
+
+	#print(' In login_required() ')
 
 	@wraps(f)
 	def decorated_function(*args, **kwargs):
+
 		print('In wrapper_func() ')
-		print("User is %s" % session['user'])
-		if session.get('username') is None:
+
+		#print("User is %s" % session['user'])
+
+		if session.get('user') is None:
+
 			return redirect(url_for('login', next = request.url))
+
 		return f(*args, **kwargs)
 
 	return decorated_function
@@ -131,6 +137,11 @@ def login_required(f):
 @app.route('/admin')
 @app.route('/admin/<int:page>', methods = ['GET', 'POST'])
 def admin(page=1):
+
+
+	if session.get('user') is None:
+		
+		return redirect(url_for('login'))
 
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
 	return render_template('author/admin.html', posts = posts)

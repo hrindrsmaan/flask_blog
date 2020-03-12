@@ -139,3 +139,268 @@
 2020-03-11 15:28:20,708Harinder Singh about to log out!!
 2020-03-11 15:28:20,711127.0.0.1 - - [11/Mar/2020 15:28:20] "[32mGET /logout HTTP/1.1[0m" 302 -
 2020-03-11 15:28:20,719127.0.0.1 - - [11/Mar/2020 15:28:20] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-11 15:30:50,991 * Debugger is active!
+2020-03-11 15:30:50,992 * Debugger PIN: 270-990-620
+2020-03-12 12:44:18,095 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 12:44:18,096 * Restarting with stat
+2020-03-12 12:44:18,481 * Debugger is active!
+2020-03-12 12:44:18,481 * Debugger PIN: 270-990-620
+2020-03-12 12:44:27,696127.0.0.1 - - [12/Mar/2020 12:44:27] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 12:44:27,738127.0.0.1 - - [12/Mar/2020 12:44:27] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-03-12 12:44:51,869127.0.0.1 - - [12/Mar/2020 12:44:51] "[37mGET /article/how-to-print-without-newline-in-python HTTP/1.1[0m" 200 -
+2020-03-12 12:44:54,046127.0.0.1 - - [12/Mar/2020 12:44:54] "[37mGET /article/convert-list-to-python-array HTTP/1.1[0m" 200 -
+2020-03-12 12:44:59,420127.0.0.1 - - [12/Mar/2020 12:44:59] "[37mGET /article/convert-list-to-python-array HTTP/1.1[0m" 200 -
+2020-03-12 12:45:07,129127.0.0.1 - - [12/Mar/2020 12:45:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 12:45:08,915127.0.0.1 - - [12/Mar/2020 12:45:08] "[37mGET /article/how-to-print-without-newline-in-python HTTP/1.1[0m" 200 -
+2020-03-12 12:45:10,914127.0.0.1 - - [12/Mar/2020 12:45:10] "[37mGET /article/how-to-print-without-newline-in-python HTTP/1.1[0m" 200 -
+2020-03-12 12:45:35,226127.0.0.1 - - [12/Mar/2020 12:45:35] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 12:45:43,540127.0.0.1 - - [12/Mar/2020 12:45:43] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 12:45:49,376127.0.0.1 - - [12/Mar/2020 12:45:49] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:02:44,168127.0.0.1 - - [12/Mar/2020 13:02:44] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:02:48,274127.0.0.1 - - [12/Mar/2020 13:02:48] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:02:52,697127.0.0.1 - - [12/Mar/2020 13:02:52] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:03:41,012 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-12 13:03:41,093 * Restarting with stat
+2020-03-12 13:03:41,531 * Debugger is active!
+2020-03-12 13:03:41,532 * Debugger PIN: 270-990-620
+2020-03-12 13:03:47,629 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-12 13:03:47,707 * Restarting with stat
+2020-03-12 13:03:48,130 * Debugger is active!
+2020-03-12 13:03:48,130 * Debugger PIN: 270-990-620
+2020-03-12 13:03:53,852127.0.0.1 - - [12/Mar/2020 13:03:53] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:03:54,685127.0.0.1 - - [12/Mar/2020 13:03:54] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:03:58,954127.0.0.1 - - [12/Mar/2020 13:03:58] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:04:03,046127.0.0.1 - - [12/Mar/2020 13:04:03] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 13:04:12,209127.0.0.1 - - [12/Mar/2020 13:04:12] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:07:25,943 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-12 13:07:26,010 * Restarting with stat
+2020-03-12 13:07:26,443 * Debugger is active!
+2020-03-12 13:07:26,443 * Debugger PIN: 270-990-620
+2020-03-12 13:07:47,743 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-12 13:07:47,821 * Restarting with stat
+2020-03-12 13:07:48,271 * Debugger is active!
+2020-03-12 13:07:48,271 * Debugger PIN: 270-990-620
+2020-03-12 13:07:51,329127.0.0.1 - - [12/Mar/2020 13:07:51] "[32mGET /admin HTTP/1.1[0m" 302 -
+2020-03-12 13:07:51,354127.0.0.1 - - [12/Mar/2020 13:07:51] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:09:27,010Username = harinder, Password = 12345
+2020-03-12 13:09:27,100Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-12 13:09:27,100Session Started for Harinder Singh
+2020-03-12 13:09:27,104127.0.0.1 - - [12/Mar/2020 13:09:27] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-12 13:09:31,598127.0.0.1 - - [12/Mar/2020 13:09:31] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:09:35,229127.0.0.1 - - [12/Mar/2020 13:09:35] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:11:15,448 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/forms.py', reloading
+2020-03-12 13:11:15,532 * Restarting with stat
+2020-03-12 13:13:06,252 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 13:13:06,253 * Restarting with stat
+2020-03-12 13:13:06,653 * Debugger is active!
+2020-03-12 13:13:06,654 * Debugger PIN: 270-990-620
+2020-03-12 13:13:09,777127.0.0.1 - - [12/Mar/2020 13:13:09] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:13:34,091127.0.0.1 - - [12/Mar/2020 13:13:34] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:13:35,470127.0.0.1 - - [12/Mar/2020 13:13:35] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:13:46,290127.0.0.1 - - [12/Mar/2020 13:13:46] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:13:59,344127.0.0.1 - - [12/Mar/2020 13:13:59] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:14:16,436127.0.0.1 - - [12/Mar/2020 13:14:16] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:14:21,727127.0.0.1 - - [12/Mar/2020 13:14:21] "[32mPOST /update/21 HTTP/1.1[0m" 302 -
+2020-03-12 13:14:21,749127.0.0.1 - - [12/Mar/2020 13:14:21] "[37mGET /article/find-median-of-list-in-python HTTP/1.1[0m" 200 -
+2020-03-12 13:14:50,799127.0.0.1 - - [12/Mar/2020 13:14:50] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:14:55,857Harinder Singh about to log out!!
+2020-03-12 13:14:55,861127.0.0.1 - - [12/Mar/2020 13:14:55] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-12 13:14:55,880127.0.0.1 - - [12/Mar/2020 13:14:55] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:15:00,019127.0.0.1 - - [12/Mar/2020 13:15:00] "[32mGET /admin HTTP/1.1[0m" 302 -
+2020-03-12 13:15:01,280127.0.0.1 - - [12/Mar/2020 13:15:01] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:15:06,610127.0.0.1 - - [12/Mar/2020 13:15:06] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 13:15:23,662127.0.0.1 - - [12/Mar/2020 13:15:23] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:16:03,597 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 13:16:03,674 * Restarting with stat
+2020-03-12 13:16:04,128 * Debugger is active!
+2020-03-12 13:16:04,129 * Debugger PIN: 270-990-620
+2020-03-12 13:16:06,250127.0.0.1 - - [12/Mar/2020 13:16:06] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-12 13:16:06,296127.0.0.1 - - [12/Mar/2020 13:16:06] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:16:08,985127.0.0.1 - - [12/Mar/2020 13:16:08] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-12 13:16:09,923127.0.0.1 - - [12/Mar/2020 13:16:09] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:16:16,711127.0.0.1 - - [12/Mar/2020 13:16:16] "[32mGET /update/21 HTTP/1.1[0m" 302 -
+2020-03-12 13:16:16,724127.0.0.1 - - [12/Mar/2020 13:16:16] "[37mGET /article/find-median-of-list-in-python HTTP/1.1[0m" 200 -
+2020-03-12 13:17:23,084127.0.0.1 - - [12/Mar/2020 13:17:23] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-12 13:17:23,092127.0.0.1 - - [12/Mar/2020 13:17:23] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:17:29,716Username = harinder, Password = 12345
+2020-03-12 13:17:29,726Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-12 13:17:29,726Session Started for Harinder Singh
+2020-03-12 13:17:29,738127.0.0.1 - - [12/Mar/2020 13:17:29] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-12 13:17:32,126127.0.0.1 - - [12/Mar/2020 13:17:32] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:20:07,434127.0.0.1 - - [12/Mar/2020 13:20:07] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:21:17,788127.0.0.1 - - [12/Mar/2020 13:21:17] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:21:30,728127.0.0.1 - - [12/Mar/2020 13:21:30] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:21:42,631127.0.0.1 - - [12/Mar/2020 13:21:42] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:21:43,583127.0.0.1 - - [12/Mar/2020 13:21:43] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:21:43,720127.0.0.1 - - [12/Mar/2020 13:21:43] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:21:52,029127.0.0.1 - - [12/Mar/2020 13:21:52] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:22:57,976127.0.0.1 - - [12/Mar/2020 13:22:57] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:23:06,422127.0.0.1 - - [12/Mar/2020 13:23:06] "[32mGET /update/21 HTTP/1.1[0m" 302 -
+2020-03-12 13:23:06,436127.0.0.1 - - [12/Mar/2020 13:23:06] "[37mGET /article/find-median-of-list-in-python HTTP/1.1[0m" 200 -
+2020-03-12 13:23:13,580127.0.0.1 - - [12/Mar/2020 13:23:13] "[33mGET /update HTTP/1.1[0m" 404 -
+2020-03-12 13:23:15,998127.0.0.1 - - [12/Mar/2020 13:23:15] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:23:47,205127.0.0.1 - - [12/Mar/2020 13:23:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 13:23:53,565127.0.0.1 - - [12/Mar/2020 13:23:53] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-12 13:23:54,772127.0.0.1 - - [12/Mar/2020 13:23:54] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-12 13:31:55,049127.0.0.1 - - [12/Mar/2020 13:31:55] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-12 13:32:10,359127.0.0.1 - - [12/Mar/2020 13:32:10] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-12 13:32:43,066127.0.0.1 - - [12/Mar/2020 13:32:43] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-12 13:33:05,250127.0.0.1 - - [12/Mar/2020 13:33:05] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-12 13:33:08,903127.0.0.1 - - [12/Mar/2020 13:33:08] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:33:10,232Harinder Singh about to log out!!
+2020-03-12 13:33:10,235127.0.0.1 - - [12/Mar/2020 13:33:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-12 13:33:10,245127.0.0.1 - - [12/Mar/2020 13:33:10] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:33:14,373127.0.0.1 - - [12/Mar/2020 13:33:14] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 13:33:18,103127.0.0.1 - - [12/Mar/2020 13:33:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2020-03-12 13:33:18,110127.0.0.1 - - [12/Mar/2020 13:33:18] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:33:20,415127.0.0.1 - - [12/Mar/2020 13:33:20] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-12 13:33:20,434127.0.0.1 - - [12/Mar/2020 13:33:20] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:33:28,418127.0.0.1 - - [12/Mar/2020 13:33:28] "[37mGET /edit/21 HTTP/1.1[0m" 200 -
+2020-03-12 13:34:10,477 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 13:34:10,562 * Restarting with stat
+2020-03-12 13:34:11,010 * Debugger is active!
+2020-03-12 13:34:11,010 * Debugger PIN: 270-990-620
+2020-03-12 13:34:14,073 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 13:34:14,152 * Restarting with stat
+2020-03-12 13:34:14,577 * Debugger is active!
+2020-03-12 13:34:14,577 * Debugger PIN: 270-990-620
+2020-03-12 13:34:19,226127.0.0.1 - - [12/Mar/2020 13:34:19] "[32mGET /edit/21 HTTP/1.1[0m" 302 -
+2020-03-12 13:34:19,276127.0.0.1 - - [12/Mar/2020 13:34:19] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:34:28,154127.0.0.1 - - [12/Mar/2020 13:34:28] "[32mGET /update/21 HTTP/1.1[0m" 302 -
+2020-03-12 13:34:28,161127.0.0.1 - - [12/Mar/2020 13:34:28] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:34:32,535127.0.0.1 - - [12/Mar/2020 13:34:32] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-12 13:34:33,237127.0.0.1 - - [12/Mar/2020 13:34:33] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 13:34:37,564Username = harinder, Password = 12345
+2020-03-12 13:34:37,655Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-12 13:34:37,655Session Started for Harinder Singh
+2020-03-12 13:34:37,659127.0.0.1 - - [12/Mar/2020 13:34:37] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-12 13:34:39,877127.0.0.1 - - [12/Mar/2020 13:34:39] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-12 13:34:43,129127.0.0.1 - - [12/Mar/2020 13:34:43] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 13:34:46,847127.0.0.1 - - [12/Mar/2020 13:34:46] "[37mGET /edit/25 HTTP/1.1[0m" 200 -
+2020-03-12 14:37:47,040 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:37:47,121 * Restarting with stat
+2020-03-12 14:37:47,537 * Debugger is active!
+2020-03-12 14:37:47,538 * Debugger PIN: 270-990-620
+2020-03-12 14:39:17,008 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:39:17,087 * Restarting with stat
+2020-03-12 14:39:17,512 * Debugger is active!
+2020-03-12 14:39:17,513 * Debugger PIN: 270-990-620
+2020-03-12 14:39:31,756 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:39:31,817 * Restarting with stat
+2020-03-12 14:39:32,238 * Debugger is active!
+2020-03-12 14:39:32,238 * Debugger PIN: 270-990-620
+2020-03-12 14:39:45,457 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:39:45,534 * Restarting with stat
+2020-03-12 14:39:45,949 * Debugger is active!
+2020-03-12 14:39:45,949 * Debugger PIN: 270-990-620
+2020-03-12 14:53:13,898 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:53:13,984 * Restarting with stat
+2020-03-12 14:53:14,411 * Debugger is active!
+2020-03-12 14:53:14,411 * Debugger PIN: 270-990-620
+2020-03-12 14:53:20,504 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:53:20,581 * Restarting with stat
+2020-03-12 14:53:21,004 * Debugger is active!
+2020-03-12 14:53:21,005 * Debugger PIN: 270-990-620
+2020-03-12 14:53:59,676 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:53:59,755 * Restarting with stat
+2020-03-12 14:54:00,179 * Debugger is active!
+2020-03-12 14:54:00,179 * Debugger PIN: 270-990-620
+2020-03-12 14:54:32,206127.0.0.1 - - [12/Mar/2020 14:54:32] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 14:54:36,875127.0.0.1 - - [12/Mar/2020 14:54:36] "[37mGET /delete HTTP/1.1[0m" 200 -
+2020-03-12 14:55:02,201 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:55:02,280 * Restarting with stat
+2020-03-12 14:55:02,703 * Debugger is active!
+2020-03-12 14:55:02,703 * Debugger PIN: 270-990-620
+2020-03-12 14:55:14,859 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 14:55:14,931 * Restarting with stat
+2020-03-12 14:55:15,336 * Debugger is active!
+2020-03-12 14:55:15,336 * Debugger PIN: 270-990-620
+2020-03-12 14:55:28,895127.0.0.1 - - [12/Mar/2020 14:55:28] "[37mGET /delete HTTP/1.1[0m" 200 -
+2020-03-12 14:56:53,789 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-03-12 14:56:53,867 * Restarting with stat
+2020-03-12 14:56:54,319 * Debugger is active!
+2020-03-12 14:56:54,319 * Debugger PIN: 270-990-620
+2020-03-12 14:57:01,148127.0.0.1 - - [12/Mar/2020 14:57:01] "[37mGET /delete HTTP/1.1[0m" 200 -
+2020-03-12 14:57:47,344 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 14:57:47,344 * Restarting with stat
+2020-03-12 14:57:47,748 * Debugger is active!
+2020-03-12 14:57:47,748 * Debugger PIN: 270-990-620
+2020-03-12 14:57:54,064 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 14:57:54,065 * Restarting with stat
+2020-03-12 14:57:54,474 * Debugger is active!
+2020-03-12 14:57:54,474 * Debugger PIN: 270-990-620
+2020-03-12 14:58:00,752127.0.0.1 - - [12/Mar/2020 14:58:00] "[37mGET /delete HTTP/1.1[0m" 200 -
+2020-03-12 15:01:19,103 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 15:01:19,182 * Restarting with stat
+2020-03-12 15:01:19,589 * Debugger is active!
+2020-03-12 15:01:19,590 * Debugger PIN: 270-990-620
+2020-03-12 15:01:30,426 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 15:01:30,427 * Restarting with stat
+2020-03-12 15:01:30,833 * Debugger is active!
+2020-03-12 15:01:30,834 * Debugger PIN: 270-990-620
+2020-03-12 15:01:54,705127.0.0.1 - - [12/Mar/2020 15:01:54] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:02:09,923 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 15:02:09,924 * Restarting with stat
+2020-03-12 15:02:10,357 * Debugger is active!
+2020-03-12 15:02:10,358 * Debugger PIN: 270-990-620
+2020-03-12 15:02:16,436127.0.0.1 - - [12/Mar/2020 15:02:16] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:02:57,483127.0.0.1 - - [12/Mar/2020 15:02:57] "[37mGET /delete HTTP/1.1[0m" 200 -
+2020-03-12 15:22:16,639 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 15:22:16,639 * Restarting with stat
+2020-03-12 15:22:17,127 * Debugger is active!
+2020-03-12 15:22:17,128 * Debugger PIN: 270-990-620
+2020-03-12 15:22:25,939127.0.0.1 - - [12/Mar/2020 15:22:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:22:29,995127.0.0.1 - - [12/Mar/2020 15:22:29] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:22:37,903127.0.0.1 - - [12/Mar/2020 15:22:37] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:22:44,261127.0.0.1 - - [12/Mar/2020 15:22:44] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:23:39,257 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 15:23:39,335 * Restarting with stat
+2020-03-12 15:23:39,826 * Debugger is active!
+2020-03-12 15:23:39,827 * Debugger PIN: 270-990-620
+2020-03-12 15:23:45,442127.0.0.1 - - [12/Mar/2020 15:23:45] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:23:47,521127.0.0.1 - - [12/Mar/2020 15:23:47] "[37mGET /delete/21 HTTP/1.1[0m" 200 -
+2020-03-12 15:23:51,441127.0.0.1 - - [12/Mar/2020 15:23:51] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:23:57,719127.0.0.1 - - [12/Mar/2020 15:23:57] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:24:27,639 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 15:24:27,726 * Restarting with stat
+2020-03-12 15:24:28,222 * Debugger is active!
+2020-03-12 15:24:28,223 * Debugger PIN: 270-990-620
+2020-03-12 15:25:33,414127.0.0.1 - - [12/Mar/2020 15:25:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2020-03-12 15:25:33,433127.0.0.1 - - [12/Mar/2020 15:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-03-12 15:25:33,434127.0.0.1 - - [12/Mar/2020 15:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-03-12 15:25:33,437127.0.0.1 - - [12/Mar/2020 15:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-03-12 15:25:33,601127.0.0.1 - - [12/Mar/2020 15:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-12 15:25:33,616127.0.0.1 - - [12/Mar/2020 15:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-12 15:26:02,761127.0.0.1 - - [12/Mar/2020 15:26:02] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:26:05,403127.0.0.1 - - [12/Mar/2020 15:26:05] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:26:23,112127.0.0.1 - - [12/Mar/2020 15:26:23] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:26:27,365127.0.0.1 - - [12/Mar/2020 15:26:27] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:26:41,450127.0.0.1 - - [12/Mar/2020 15:26:41] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:26:45,382127.0.0.1 - - [12/Mar/2020 15:26:45] "[35m[1mGET /delete/22 HTTP/1.1[0m" 500 -
+2020-03-12 15:26:45,446127.0.0.1 - - [12/Mar/2020 15:26:45] "[37mGET /delete/22?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2020-03-12 15:26:45,448127.0.0.1 - - [12/Mar/2020 15:26:45] "[37mGET /delete/22?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2020-03-12 15:26:45,449127.0.0.1 - - [12/Mar/2020 15:26:45] "[37mGET /delete/22?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2020-03-12 15:26:45,530127.0.0.1 - - [12/Mar/2020 15:26:45] "[37mGET /delete/22?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-12 15:26:45,542127.0.0.1 - - [12/Mar/2020 15:26:45] "[37mGET /delete/22?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2020-03-12 15:27:10,731 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 15:27:10,826 * Restarting with stat
+2020-03-12 15:27:11,340 * Debugger is active!
+2020-03-12 15:27:11,341 * Debugger PIN: 270-990-620
+2020-03-12 15:27:14,558127.0.0.1 - - [12/Mar/2020 15:27:14] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:27:16,556127.0.0.1 - - [12/Mar/2020 15:27:16] "[32mGET /delete/23 HTTP/1.1[0m" 302 -
+2020-03-12 15:27:16,578127.0.0.1 - - [12/Mar/2020 15:27:16] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:27:25,971127.0.0.1 - - [12/Mar/2020 15:27:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:27:27,850127.0.0.1 - - [12/Mar/2020 15:27:27] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-12 15:27:29,915127.0.0.1 - - [12/Mar/2020 15:27:29] "[37mGET /index/1 HTTP/1.1[0m" 200 -
+2020-03-12 15:27:32,538127.0.0.1 - - [12/Mar/2020 15:27:32] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-12 15:27:37,122127.0.0.1 - - [12/Mar/2020 15:27:37] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:27:40,928127.0.0.1 - - [12/Mar/2020 15:27:40] "[37mGET /admin/2 HTTP/1.1[0m" 200 -
+2020-03-12 15:27:42,672127.0.0.1 - - [12/Mar/2020 15:27:42] "[32mGET /delete/26 HTTP/1.1[0m" 302 -
+2020-03-12 15:27:42,697127.0.0.1 - - [12/Mar/2020 15:27:42] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 15:27:44,553127.0.0.1 - - [12/Mar/2020 15:27:44] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-12 15:27:50,184127.0.0.1 - - [12/Mar/2020 15:27:50] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 15:27:54,898127.0.0.1 - - [12/Mar/2020 15:27:54] "[37mGET /admin/2 HTTP/1.1[0m" 200 -
+2020-03-12 15:27:59,243 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-03-12 15:27:59,351 * Restarting with stat
+2020-03-12 15:27:59,868 * Debugger is active!
+2020-03-12 15:27:59,869 * Debugger PIN: 270-990-620

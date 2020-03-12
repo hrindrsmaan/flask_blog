@@ -37,7 +37,9 @@ class Post(db.Model):
 	author_id = db.Column(db.Integer, db.ForeignKey("author.id"))
 	category_id = db.Column(db.Integer, db.ForeignKey("category.id"))
 
-	def __init__(self, title, body, slug, blog_id, author_id, category_id, date):
+	is_live = db.Column(db.Boolean)
+
+	def __init__(self, title, body, slug, blog_id, author_id, category_id, date, is_live = 1):
 		self.title = title
 		self.body = body
 		self.slug = slug
