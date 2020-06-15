@@ -5,6 +5,8 @@ from author.models import Register, Author
 from blog.models import Blog, Post
 from functools import wraps
 
+import pdb
+
 import logging
 FORMAT = '%(asctime)s%(message)s'
 logging.basicConfig(filename = 'author_views.log', level = logging.INFO, format = FORMAT)
@@ -91,14 +93,17 @@ def login():
 
 		if form.validate_on_submit():
 
+			#pdb.set_trace()
+
 			username = form.username.data
 			password = form.password.data
 
-			logging.info("Username = {0}, Password = {1}".format(username, password))
+			#logging.info("Username = {0}, Password = {1}".format(username, password))
 
 			result = Author.query.filter_by(username = username, password = password).first()
 
-			logging.info('Name = {0}, Email = {1}'.format(result.name, result.email))
+
+			#logging.info('Name = {0}, Email = {1}'.format(result.name, result.email))
 
 			if result:
 				session['user'] = result.name

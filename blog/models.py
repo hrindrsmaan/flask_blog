@@ -47,6 +47,7 @@ class Post(db.Model):
 		self.author_id = author_id
 		self.category_id = category_id
 		self.publish_date = date
+		self.is_live = is_live
 
 	def __repr__(self):
 		return "<Post %r>" % self.title

@@ -31,6 +31,7 @@ def  index(page=1):
 	# 	else:
 	# 		print('...')
 
+	print("Post = {0}".format(posts))
 
 	return render_template('blog/index.html', posts = posts)
 

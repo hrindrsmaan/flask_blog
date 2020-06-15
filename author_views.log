@@ -404,3 +404,632 @@
 2020-03-12 15:27:59,351 * Restarting with stat
 2020-03-12 15:27:59,868 * Debugger is active!
 2020-03-12 15:27:59,869 * Debugger PIN: 270-990-620
+2020-03-12 16:01:53,969 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-12 16:01:53,970 * Restarting with stat
+2020-03-12 16:01:54,385 * Debugger is active!
+2020-03-12 16:01:54,385 * Debugger PIN: 270-990-620
+2020-03-12 16:01:59,716127.0.0.1 - - [12/Mar/2020 16:01:59] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 16:02:00,875127.0.0.1 - - [12/Mar/2020 16:02:00] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 16:02:02,200127.0.0.1 - - [12/Mar/2020 16:02:02] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 16:02:03,432Harinder Singh about to log out!!
+2020-03-12 16:02:03,436127.0.0.1 - - [12/Mar/2020 16:02:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-12 16:02:03,454127.0.0.1 - - [12/Mar/2020 16:02:03] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 16:02:08,393127.0.0.1 - - [12/Mar/2020 16:02:08] "[33mGET /delete HTTP/1.1[0m" 404 -
+2020-03-12 16:02:34,477127.0.0.1 - - [12/Mar/2020 16:02:34] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-12 16:02:47,978127.0.0.1 - - [12/Mar/2020 16:02:47] "[32mGET /edit/21 HTTP/1.1[0m" 302 -
+2020-03-12 16:02:47,984127.0.0.1 - - [12/Mar/2020 16:02:47] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 16:02:54,365127.0.0.1 - - [12/Mar/2020 16:02:54] "[32mGET /update/21 HTTP/1.1[0m" 302 -
+2020-03-12 16:02:54,373127.0.0.1 - - [12/Mar/2020 16:02:54] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 16:02:57,481127.0.0.1 - - [12/Mar/2020 16:02:57] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-12 16:02:57,493127.0.0.1 - - [12/Mar/2020 16:02:57] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 16:02:58,305127.0.0.1 - - [12/Mar/2020 16:02:58] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-12 16:03:03,557Username = harinder, Password = 12345
+2020-03-12 16:03:03,574Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-12 16:03:03,574Session Started for Harinder Singh
+2020-03-12 16:03:03,585127.0.0.1 - - [12/Mar/2020 16:03:03] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-12 16:03:05,240127.0.0.1 - - [12/Mar/2020 16:03:05] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 16:03:08,946127.0.0.1 - - [12/Mar/2020 16:03:08] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-12 16:03:10,906127.0.0.1 - - [12/Mar/2020 16:03:10] "[37mGET /admin/3 HTTP/1.1[0m" 200 -
+2020-03-12 16:03:12,060127.0.0.1 - - [12/Mar/2020 16:03:12] "[37mGET /admin/2 HTTP/1.1[0m" 200 -
+2020-03-12 16:03:12,947127.0.0.1 - - [12/Mar/2020 16:03:12] "[37mGET /admin/4 HTTP/1.1[0m" 200 -
+2020-03-12 16:03:16,411Harinder Singh about to log out!!
+2020-03-12 16:03:16,416127.0.0.1 - - [12/Mar/2020 16:03:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-12 16:03:16,429127.0.0.1 - - [12/Mar/2020 16:03:16] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-15 13:05:20,997 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-15 13:05:21,034 * Restarting with stat
+2020-03-15 13:05:21,310 * Debugger is active!
+2020-03-15 13:05:21,330 * Debugger PIN: 930-933-848
+2020-03-15 13:06:09,255127.0.0.1 - - [15/Mar/2020 13:06:09] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-15 13:06:09,365127.0.0.1 - - [15/Mar/2020 13:06:09] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-03-15 13:06:10,414127.0.0.1 - - [15/Mar/2020 13:06:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-03-15 13:06:15,477127.0.0.1 - - [15/Mar/2020 13:06:15] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-15 13:06:18,277127.0.0.1 - - [15/Mar/2020 13:06:18] "[37mGET /article/strings HTTP/1.1[0m" 200 -
+2020-03-15 13:06:23,940127.0.0.1 - - [15/Mar/2020 13:06:23] "[37mGET /article/arrays-in-c HTTP/1.1[0m" 200 -
+2020-03-15 13:06:29,169127.0.0.1 - - [15/Mar/2020 13:06:29] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-15 13:06:29,226127.0.0.1 - - [15/Mar/2020 13:06:29] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-15 13:06:30,190127.0.0.1 - - [15/Mar/2020 13:06:30] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-15 13:06:35,569Username = harinder, Password = 12345
+2020-03-15 13:06:35,577Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-15 13:06:35,577Session Started for Harinder Singh
+2020-03-15 13:06:35,590127.0.0.1 - - [15/Mar/2020 13:06:35] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-15 13:06:37,234127.0.0.1 - - [15/Mar/2020 13:06:37] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-03-16 12:56:25,957127.0.0.1 - - [16/Mar/2020 12:56:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 12:56:26,030127.0.0.1 - - [16/Mar/2020 12:56:26] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2020-03-16 12:58:10,906127.0.0.1 - - [16/Mar/2020 12:58:10] "[37mGET /article/how-to-print-without-newline-in-python HTTP/1.1[0m" 200 -
+2020-03-16 13:33:02,056127.0.0.1 - - [16/Mar/2020 13:33:02] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-16 13:33:03,047127.0.0.1 - - [16/Mar/2020 13:33:03] "[37mGET /article/pointers-in-cc HTTP/1.1[0m" 200 -
+2020-03-16 13:33:06,608127.0.0.1 - - [16/Mar/2020 13:33:06] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-16 13:33:08,263127.0.0.1 - - [16/Mar/2020 13:33:08] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-03-16 13:33:09,145Harinder Singh about to log out!!
+2020-03-16 13:33:09,152127.0.0.1 - - [16/Mar/2020 13:33:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-16 13:33:09,161127.0.0.1 - - [16/Mar/2020 13:33:09] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-16 13:33:14,063127.0.0.1 - - [16/Mar/2020 13:33:14] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:33:16,602127.0.0.1 - - [16/Mar/2020 13:33:16] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-16 13:33:18,463127.0.0.1 - - [16/Mar/2020 13:33:18] "[37mGET /article/arrays-in-c HTTP/1.1[0m" 200 -
+2020-03-16 13:33:19,817127.0.0.1 - - [16/Mar/2020 13:33:19] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:33:22,095127.0.0.1 - - [16/Mar/2020 13:33:22] "[37mGET /index/3 HTTP/1.1[0m" 200 -
+2020-03-16 13:33:26,193127.0.0.1 - - [16/Mar/2020 13:33:26] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:33:27,910127.0.0.1 - - [16/Mar/2020 13:33:27] "[37mGET /article/how-to-print-without-newline-in-python HTTP/1.1[0m" 200 -
+2020-03-16 13:33:29,023127.0.0.1 - - [16/Mar/2020 13:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:33:32,592127.0.0.1 - - [16/Mar/2020 13:33:32] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:33:36,874127.0.0.1 - - [16/Mar/2020 13:33:36] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-03-16 13:33:38,663127.0.0.1 - - [16/Mar/2020 13:33:38] "[37mGET /article/convert-list-of-lists-to-list-of-strings HTTP/1.1[0m" 200 -
+2020-03-16 13:33:38,724Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 323, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 315, in execute
+    write(data)
+  File "/home/harinder/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 276, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-03-16 13:33:38,747127.0.0.1 - - [16/Mar/2020 13:33:38] "[37mGET /article/convert-list-of-lists-to-list-of-strings HTTP/1.1[0m" 200 -
+2020-03-16 13:33:45,119127.0.0.1 - - [16/Mar/2020 13:33:45] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:33:47,439127.0.0.1 - - [16/Mar/2020 13:33:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:33:48,683127.0.0.1 - - [16/Mar/2020 13:33:48] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:34:18,491127.0.0.1 - - [16/Mar/2020 13:34:18] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-16 13:34:24,633Username = harinder, Password = 12345
+2020-03-16 13:34:24,642Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-03-16 13:34:24,643Session Started for Harinder Singh
+2020-03-16 13:34:24,647127.0.0.1 - - [16/Mar/2020 13:34:24] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-03-16 13:34:32,360Harinder Singh about to log out!!
+2020-03-16 13:34:32,366127.0.0.1 - - [16/Mar/2020 13:34:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2020-03-16 13:34:32,379127.0.0.1 - - [16/Mar/2020 13:34:32] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-16 13:34:36,433127.0.0.1 - - [16/Mar/2020 13:34:36] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-16 13:34:39,594127.0.0.1 - - [16/Mar/2020 13:34:39] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-03-16 13:34:39,599127.0.0.1 - - [16/Mar/2020 13:34:39] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-03-25 20:15:45,854 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-03-25 20:15:45,855 * Restarting with stat
+2020-03-25 20:15:46,238 * Debugger is active!
+2020-03-25 20:15:46,239 * Debugger PIN: 270-990-620
+2020-03-25 20:15:52,039127.0.0.1 - - [25/Mar/2020 20:15:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-03-25 20:15:52,086127.0.0.1 - - [25/Mar/2020 20:15:52] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-03-25 20:15:52,298127.0.0.1 - - [25/Mar/2020 20:15:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-04-23 19:22:12,206 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-04-23 19:22:12,238 * Restarting with stat
+2020-04-23 19:22:12,656 * Debugger is active!
+2020-04-23 19:22:12,704 * Debugger PIN: 270-990-620
+2020-06-13 11:26:59,490 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-13 11:26:59,523 * Restarting with stat
+2020-06-13 11:26:59,963 * Debugger is active!
+2020-06-13 11:26:59,963 * Debugger PIN: 270-990-620
+2020-06-13 11:27:25,917 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-13 11:27:25,918 * Restarting with stat
+2020-06-13 11:27:26,200 * Debugger is active!
+2020-06-13 11:27:26,200 * Debugger PIN: 930-933-848
+2020-06-13 11:27:41,179127.0.0.1 - - [13/Jun/2020 11:27:41] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-13 11:27:41,239127.0.0.1 - - [13/Jun/2020 11:27:41] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-06-13 11:27:41,541127.0.0.1 - - [13/Jun/2020 11:27:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-06-13 11:27:45,577127.0.0.1 - - [13/Jun/2020 11:27:45] "[37mGET /index/2 HTTP/1.1[0m" 200 -
+2020-06-13 11:27:47,818127.0.0.1 - - [13/Jun/2020 11:27:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-06-13 11:27:51,931127.0.0.1 - - [13/Jun/2020 11:27:51] "[32mGET /post HTTP/1.1[0m" 302 -
+2020-06-13 11:27:52,027127.0.0.1 - - [13/Jun/2020 11:27:52] "[37mGET /login HTTP/1.1[0m" 200 -
+2020-06-13 11:29:01,531Username = harinder, Password = 12345
+2020-06-13 11:29:01,549Name = Harinder Singh, Email = maan.harinder99@gmail.com
+2020-06-13 11:29:01,550Session Started for Harinder Singh
+2020-06-13 11:29:01,592127.0.0.1 - - [13/Jun/2020 11:29:01] "[37mPOST /login HTTP/1.1[0m" 200 -
+2020-06-13 11:29:08,054127.0.0.1 - - [13/Jun/2020 11:29:08] "[37mGET /post HTTP/1.1[0m" 200 -
+2020-06-13 11:29:17,319127.0.0.1 - - [13/Jun/2020 11:29:17] "[37mGET /admin HTTP/1.1[0m" 200 -
+2020-06-13 11:29:22,784127.0.0.1 - - [13/Jun/2020 11:29:22] "[37mGET /edit/24 HTTP/1.1[0m" 200 -
+2020-06-13 11:29:30,749127.0.0.1 - - [13/Jun/2020 11:29:30] "[37mGET /admin/2 HTTP/1.1[0m" 200 -
+2020-06-13 11:29:32,321127.0.0.1 - - [13/Jun/2020 11:29:32] "[37mGET /admin/3 HTTP/1.1[0m" 200 -
+2020-06-13 11:37:18,800 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/settings.py', reloading
+2020-06-13 11:37:18,847 * Restarting with stat
+2020-06-13 11:37:19,162 * Debugger is active!
+2020-06-13 11:37:19,163 * Debugger PIN: 930-933-848
+2020-06-13 11:37:55,717 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/settings.py', reloading
+2020-06-13 11:37:55,757 * Restarting with stat
+2020-06-13 11:37:56,064 * Debugger is active!
+2020-06-13 11:37:56,064 * Debugger PIN: 930-933-848
+2020-06-13 11:39:01,969 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-13 11:39:01,996 * Restarting with stat
+2020-06-13 11:39:02,347 * Debugger is active!
+2020-06-13 11:39:02,347 * Debugger PIN: 930-933-848
+2020-06-13 11:51:03,362Error: Directory migrations already exists and is not empty
+2020-06-13 11:53:31,850 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-13 11:53:31,862 * Restarting with stat
+2020-06-13 11:53:32,166 * Debugger is active!
+2020-06-13 11:53:32,167 * Debugger PIN: 239-795-515
+2020-06-13 11:53:41,267127.0.0.1 - - [13/Jun/2020 11:53:41] "GET / HTTP/1.1" 500 -
+2020-06-13 11:53:41,411127.0.0.1 - - [13/Jun/2020 11:53:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 11:53:41,439127.0.0.1 - - [13/Jun/2020 11:53:41] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 11:53:41,440127.0.0.1 - - [13/Jun/2020 11:53:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 11:53:41,604127.0.0.1 - - [13/Jun/2020 11:53:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 11:53:41,627127.0.0.1 - - [13/Jun/2020 11:53:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:02:17,732Error: Directory migrations already exists and is not empty
+2020-06-13 12:11:37,917 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-13 12:11:37,917 * Restarting with stat
+2020-06-13 12:11:38,200 * Debugger is active!
+2020-06-13 12:11:38,201 * Debugger PIN: 239-795-515
+2020-06-13 12:11:48,156127.0.0.1 - - [13/Jun/2020 12:11:48] "GET / HTTP/1.1" 200 -
+2020-06-13 12:11:53,620Harinder Singh about to log out!!
+2020-06-13 12:11:53,623127.0.0.1 - - [13/Jun/2020 12:11:53] "GET /logout HTTP/1.1" 302 -
+2020-06-13 12:11:53,637127.0.0.1 - - [13/Jun/2020 12:11:53] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:11:59,659Username = harinder, Password = 12345
+2020-06-13 12:11:59,724127.0.0.1 - - [13/Jun/2020 12:11:59] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:11:59,759127.0.0.1 - - [13/Jun/2020 12:11:59] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:11:59,761127.0.0.1 - - [13/Jun/2020 12:11:59] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:11:59,763127.0.0.1 - - [13/Jun/2020 12:11:59] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:11:59,891127.0.0.1 - - [13/Jun/2020 12:11:59] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:11:59,904127.0.0.1 - - [13/Jun/2020 12:11:59] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:12:04,682127.0.0.1 - - [13/Jun/2020 12:12:04] "GET / HTTP/1.1" 200 -
+2020-06-13 12:12:07,207127.0.0.1 - - [13/Jun/2020 12:12:07] "GET / HTTP/1.1" 200 -
+2020-06-13 12:12:08,428127.0.0.1 - - [13/Jun/2020 12:12:08] "GET / HTTP/1.1" 200 -
+2020-06-13 12:12:15,364127.0.0.1 - - [13/Jun/2020 12:12:15] "GET /post HTTP/1.1" 302 -
+2020-06-13 12:12:15,377127.0.0.1 - - [13/Jun/2020 12:12:15] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:12:28,092127.0.0.1 - - [13/Jun/2020 12:12:28] "GET /register HTTP/1.1" 200 -
+2020-06-13 12:12:50,437127.0.0.1 - - [13/Jun/2020 12:12:50] "POST /register HTTP/1.1" 200 -
+2020-06-13 12:12:57,343127.0.0.1 - - [13/Jun/2020 12:12:57] "GET / HTTP/1.1" 200 -
+2020-06-13 12:12:58,481127.0.0.1 - - [13/Jun/2020 12:12:58] "GET / HTTP/1.1" 200 -
+2020-06-13 12:13:02,457127.0.0.1 - - [13/Jun/2020 12:13:02] "GET /post HTTP/1.1" 302 -
+2020-06-13 12:13:02,466127.0.0.1 - - [13/Jun/2020 12:13:02] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:13:09,172Username = harinder, Password = 12345
+2020-06-13 12:13:09,289127.0.0.1 - - [13/Jun/2020 12:13:09] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:13:09,332127.0.0.1 - - [13/Jun/2020 12:13:09] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:13:09,334127.0.0.1 - - [13/Jun/2020 12:13:09] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:13:09,336127.0.0.1 - - [13/Jun/2020 12:13:09] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:13:09,432127.0.0.1 - - [13/Jun/2020 12:13:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:13:09,448127.0.0.1 - - [13/Jun/2020 12:13:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:13:26,397127.0.0.1 - - [13/Jun/2020 12:13:26] "GET /read HTTP/1.1" 404 -
+2020-06-13 12:13:31,344127.0.0.1 - - [13/Jun/2020 12:13:31] "GET /post HTTP/1.1" 302 -
+2020-06-13 12:13:31,356127.0.0.1 - - [13/Jun/2020 12:13:31] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:14:53,767127.0.0.1 - - [13/Jun/2020 12:14:53] "GET /register HTTP/1.1" 200 -
+2020-06-13 12:15:26,061127.0.0.1 - - [13/Jun/2020 12:15:26] "POST /register HTTP/1.1" 200 -
+2020-06-13 12:20:23,041127.0.0.1 - - [13/Jun/2020 12:20:23] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:20:29,093Username = harinder, Password = 12345
+2020-06-13 12:20:29,334127.0.0.1 - - [13/Jun/2020 12:20:29] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:20:29,379127.0.0.1 - - [13/Jun/2020 12:20:29] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:20:29,381127.0.0.1 - - [13/Jun/2020 12:20:29] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:20:29,383127.0.0.1 - - [13/Jun/2020 12:20:29] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:20:29,532127.0.0.1 - - [13/Jun/2020 12:20:29] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:20:29,568127.0.0.1 - - [13/Jun/2020 12:20:29] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:20:41,226127.0.0.1 - - [13/Jun/2020 12:20:41] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:20:46,187Username = harinder, Password = 12345
+2020-06-13 12:20:46,409127.0.0.1 - - [13/Jun/2020 12:20:46] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:20:46,452127.0.0.1 - - [13/Jun/2020 12:20:46] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:20:46,466127.0.0.1 - - [13/Jun/2020 12:20:46] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:20:46,467127.0.0.1 - - [13/Jun/2020 12:20:46] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:20:46,576127.0.0.1 - - [13/Jun/2020 12:20:46] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:20:46,591127.0.0.1 - - [13/Jun/2020 12:20:46] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:22:26,746 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:22:26,791 * Restarting with stat
+2020-06-13 12:22:27,089 * Debugger is active!
+2020-06-13 12:22:27,090 * Debugger PIN: 239-795-515
+2020-06-13 12:22:48,418 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:22:48,448 * Restarting with stat
+2020-06-13 12:22:48,753 * Debugger is active!
+2020-06-13 12:22:48,754 * Debugger PIN: 239-795-515
+2020-06-13 12:22:54,887127.0.0.1 - - [13/Jun/2020 12:22:54] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:23:30,371Username = harinder, Password = 12345
+2020-06-13 12:25:21,051127.0.0.1 - - [13/Jun/2020 12:25:21] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:25:21,118127.0.0.1 - - [13/Jun/2020 12:25:21] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:25:21,126127.0.0.1 - - [13/Jun/2020 12:25:21] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:25:21,142127.0.0.1 - - [13/Jun/2020 12:25:21] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:25:21,476127.0.0.1 - - [13/Jun/2020 12:25:21] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:25:21,493127.0.0.1 - - [13/Jun/2020 12:25:21] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:25:28,157127.0.0.1 - - [13/Jun/2020 12:25:28] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:26:54,871127.0.0.1 - - [13/Jun/2020 12:26:54] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:26:54,905127.0.0.1 - - [13/Jun/2020 12:26:54] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:26:54,908127.0.0.1 - - [13/Jun/2020 12:26:54] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:26:54,920127.0.0.1 - - [13/Jun/2020 12:26:54] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:26:55,488127.0.0.1 - - [13/Jun/2020 12:26:55] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:26:55,512127.0.0.1 - - [13/Jun/2020 12:26:55] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:28:14,038127.0.0.1 - - [13/Jun/2020 12:28:14] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:28:38,849Username = harinder, Password = 12345
+2020-06-13 12:29:09,271127.0.0.1 - - [13/Jun/2020 12:29:09] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:29:09,302127.0.0.1 - - [13/Jun/2020 12:29:09] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:29:09,304127.0.0.1 - - [13/Jun/2020 12:29:09] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:29:09,305127.0.0.1 - - [13/Jun/2020 12:29:09] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:29:09,401127.0.0.1 - - [13/Jun/2020 12:29:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:29:09,419127.0.0.1 - - [13/Jun/2020 12:29:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:29:30,795 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:29:30,837 * Restarting with stat
+2020-06-13 12:29:31,128 * Debugger is active!
+2020-06-13 12:29:31,128 * Debugger PIN: 239-795-515
+2020-06-13 12:29:40,267 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:29:40,304 * Restarting with stat
+2020-06-13 12:29:40,625 * Debugger is active!
+2020-06-13 12:29:40,625 * Debugger PIN: 239-795-515
+2020-06-13 12:29:42,501127.0.0.1 - - [13/Jun/2020 12:29:42] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:29:58,080127.0.0.1 - - [13/Jun/2020 12:29:58] "POST /login HTTP/1.1" 500 -
+2020-06-13 12:29:58,114127.0.0.1 - - [13/Jun/2020 12:29:58] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:29:58,123127.0.0.1 - - [13/Jun/2020 12:29:58] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:29:58,125127.0.0.1 - - [13/Jun/2020 12:29:58] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:29:58,206127.0.0.1 - - [13/Jun/2020 12:29:58] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:29:58,223127.0.0.1 - - [13/Jun/2020 12:29:58] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:30:12,147 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:30:12,181 * Restarting with stat
+2020-06-13 12:30:32,242 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-13 12:30:32,243 * Restarting with stat
+2020-06-13 12:30:32,522 * Debugger is active!
+2020-06-13 12:30:32,522 * Debugger PIN: 239-795-515
+2020-06-13 12:30:35,382127.0.0.1 - - [13/Jun/2020 12:30:35] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:30:40,753127.0.0.1 - - [13/Jun/2020 12:30:40] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:35:09,083127.0.0.1 - - [13/Jun/2020 12:35:09] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:35:15,723127.0.0.1 - - [13/Jun/2020 12:35:15] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:35:17,536127.0.0.1 - - [13/Jun/2020 12:35:17] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:35:21,858127.0.0.1 - - [13/Jun/2020 12:35:21] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:36:01,097 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:36:01,131 * Restarting with stat
+2020-06-13 12:36:01,411 * Debugger is active!
+2020-06-13 12:36:01,412 * Debugger PIN: 239-795-515
+2020-06-13 12:36:11,558 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:36:11,599 * Restarting with stat
+2020-06-13 12:36:11,888 * Debugger is active!
+2020-06-13 12:36:11,888 * Debugger PIN: 239-795-515
+2020-06-13 12:36:30,397127.0.0.1 - - [13/Jun/2020 12:36:30] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:36:36,046127.0.0.1 - - [13/Jun/2020 12:36:36] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:36:37,604127.0.0.1 - - [13/Jun/2020 12:36:37] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:40:18,826 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:40:18,868 * Restarting with stat
+2020-06-13 12:40:45,979 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-13 12:40:45,980 * Restarting with stat
+2020-06-13 12:40:46,255 * Debugger is active!
+2020-06-13 12:40:46,256 * Debugger PIN: 239-795-515
+2020-06-13 12:40:49,167127.0.0.1 - - [13/Jun/2020 12:40:49] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:40:55,025127.0.0.1 - - [13/Jun/2020 12:40:55] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:40:57,357127.0.0.1 - - [13/Jun/2020 12:40:57] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:41:12,695 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:41:12,736 * Restarting with stat
+2020-06-13 12:41:13,029 * Debugger is active!
+2020-06-13 12:41:13,029 * Debugger PIN: 239-795-515
+2020-06-13 12:41:19,381127.0.0.1 - - [13/Jun/2020 12:41:19] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:41:20,773127.0.0.1 - - [13/Jun/2020 12:41:20] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:41:46,626 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:41:46,669 * Restarting with stat
+2020-06-13 12:41:46,963 * Debugger is active!
+2020-06-13 12:41:46,963 * Debugger PIN: 239-795-515
+2020-06-13 12:41:49,583127.0.0.1 - - [13/Jun/2020 12:41:49] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:41:55,096127.0.0.1 - - [13/Jun/2020 12:41:55] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:43:39,177 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:43:39,220 * Restarting with stat
+2020-06-13 12:43:39,514 * Debugger is active!
+2020-06-13 12:43:39,515 * Debugger PIN: 239-795-515
+2020-06-13 12:43:45,327127.0.0.1 - - [13/Jun/2020 12:43:45] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:43:50,597127.0.0.1 - - [13/Jun/2020 12:43:50] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:44:36,394 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:44:36,418 * Restarting with stat
+2020-06-13 12:44:36,708 * Debugger is active!
+2020-06-13 12:44:36,709 * Debugger PIN: 239-795-515
+2020-06-13 12:44:43,830 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-13 12:44:43,871 * Restarting with stat
+2020-06-13 12:44:44,184 * Debugger is active!
+2020-06-13 12:44:44,184 * Debugger PIN: 239-795-515
+2020-06-13 12:44:48,499127.0.0.1 - - [13/Jun/2020 12:44:48] "GET /login HTTP/1.1" 200 -
+2020-06-13 12:44:53,800Session Started for Harinder Singh
+2020-06-13 12:44:53,835127.0.0.1 - - [13/Jun/2020 12:44:53] "POST /login HTTP/1.1" 200 -
+2020-06-13 12:48:59,554127.0.0.1 - - [13/Jun/2020 12:48:59] "GET /post HTTP/1.1" 200 -
+2020-06-13 12:49:33,876127.0.0.1 - - [13/Jun/2020 12:49:33] "POST /post HTTP/1.1" 500 -
+2020-06-13 12:49:33,904127.0.0.1 - - [13/Jun/2020 12:49:33] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:49:33,905127.0.0.1 - - [13/Jun/2020 12:49:33] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:49:33,906127.0.0.1 - - [13/Jun/2020 12:49:33] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:49:34,040127.0.0.1 - - [13/Jun/2020 12:49:34] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:49:34,061127.0.0.1 - - [13/Jun/2020 12:49:34] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:51:11,511127.0.0.1 - - [13/Jun/2020 12:51:11] "GET /post HTTP/1.1" 200 -
+2020-06-13 12:51:29,829127.0.0.1 - - [13/Jun/2020 12:51:29] "POST /post HTTP/1.1" 500 -
+2020-06-13 12:51:29,863127.0.0.1 - - [13/Jun/2020 12:51:29] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:51:29,867127.0.0.1 - - [13/Jun/2020 12:51:29] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:51:29,869127.0.0.1 - - [13/Jun/2020 12:51:29] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:51:29,964127.0.0.1 - - [13/Jun/2020 12:51:29] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:51:29,985127.0.0.1 - - [13/Jun/2020 12:51:29] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:51:38,903127.0.0.1 - - [13/Jun/2020 12:51:38] "POST /post HTTP/1.1" 500 -
+2020-06-13 12:51:38,941127.0.0.1 - - [13/Jun/2020 12:51:38] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-13 12:51:38,945127.0.0.1 - - [13/Jun/2020 12:51:38] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-13 12:51:38,947127.0.0.1 - - [13/Jun/2020 12:51:38] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-13 12:51:39,023127.0.0.1 - - [13/Jun/2020 12:51:39] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:51:39,038127.0.0.1 - - [13/Jun/2020 12:51:39] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-13 12:52:39,026127.0.0.1 - - [13/Jun/2020 12:52:39] "GET /blog HTTP/1.1" 404 -
+2020-06-13 12:52:52,935127.0.0.1 - - [13/Jun/2020 12:52:52] "GET /setup HTTP/1.1" 200 -
+2020-06-14 12:34:39,123127.0.0.1 - - [14/Jun/2020 12:34:39] "GET /setup HTTP/1.1" 200 -
+2020-06-14 12:34:39,172127.0.0.1 - - [14/Jun/2020 12:34:39] "GET /static/main.css HTTP/1.1" 304 -
+2020-06-14 12:37:38,037127.0.0.1 - - [14/Jun/2020 12:37:38] "POST /setup HTTP/1.1" 200 -
+2020-06-14 12:38:22,874 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-14 12:38:22,917 * Restarting with stat
+2020-06-14 12:38:23,330 * Debugger is active!
+2020-06-14 12:38:23,331 * Debugger PIN: 239-795-515
+2020-06-14 12:38:24,351 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-14 12:38:24,394 * Restarting with stat
+2020-06-14 12:38:24,673 * Debugger is active!
+2020-06-14 12:38:24,673 * Debugger PIN: 239-795-515
+2020-06-14 12:38:38,100127.0.0.1 - - [14/Jun/2020 12:38:38] "GET /login HTTP/1.1" 200 -
+2020-06-14 12:38:43,821Session Started for Harinder Singh
+2020-06-14 12:38:43,857127.0.0.1 - - [14/Jun/2020 12:38:43] "POST /login HTTP/1.1" 200 -
+2020-06-14 12:38:46,236127.0.0.1 - - [14/Jun/2020 12:38:46] "GET /admin HTTP/1.1" 200 -
+2020-06-14 12:38:52,472127.0.0.1 - - [14/Jun/2020 12:38:52] "GET /create HTTP/1.1" 404 -
+2020-06-14 12:38:56,306127.0.0.1 - - [14/Jun/2020 12:38:56] "GET /post HTTP/1.1" 200 -
+2020-06-14 12:39:02,343127.0.0.1 - - [14/Jun/2020 12:39:02] "GET /admin HTTP/1.1" 200 -
+2020-06-14 12:39:03,998Harinder Singh about to log out!!
+2020-06-14 12:39:04,005127.0.0.1 - - [14/Jun/2020 12:39:04] "GET /logout HTTP/1.1" 302 -
+2020-06-14 12:39:04,014127.0.0.1 - - [14/Jun/2020 12:39:04] "GET /login HTTP/1.1" 200 -
+2020-06-14 12:39:08,813Session Started for Harinder Singh
+2020-06-14 12:39:08,839127.0.0.1 - - [14/Jun/2020 12:39:08] "POST /login HTTP/1.1" 200 -
+2020-06-14 12:39:10,580127.0.0.1 - - [14/Jun/2020 12:39:10] "GET /post HTTP/1.1" 200 -
+2020-06-14 12:46:16,297127.0.0.1 - - [14/Jun/2020 12:46:16] "POST /post HTTP/1.1" 500 -
+2020-06-14 12:46:16,328127.0.0.1 - - [14/Jun/2020 12:46:16] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 12:46:16,330127.0.0.1 - - [14/Jun/2020 12:46:16] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 12:46:16,331127.0.0.1 - - [14/Jun/2020 12:46:16] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 12:46:16,508127.0.0.1 - - [14/Jun/2020 12:46:16] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 12:46:16,539127.0.0.1 - - [14/Jun/2020 12:46:16] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 12:46:21,794127.0.0.1 - - [14/Jun/2020 12:46:21] "POST /post HTTP/1.1" 200 -
+2020-06-14 12:46:35,967127.0.0.1 - - [14/Jun/2020 12:46:35] "GET / HTTP/1.1" 200 -
+2020-06-14 12:46:41,290127.0.0.1 - - [14/Jun/2020 12:46:41] "GET /index/1 HTTP/1.1" 200 -
+2020-06-14 12:46:51,378127.0.0.1 - - [14/Jun/2020 12:46:51] "GET / HTTP/1.1" 200 -
+2020-06-14 12:46:53,367127.0.0.1 - - [14/Jun/2020 12:46:53] "GET /admin HTTP/1.1" 200 -
+2020-06-14 12:46:58,584127.0.0.1 - - [14/Jun/2020 12:46:58] "GET /article/python-numbers HTTP/1.1" 200 -
+2020-06-14 12:47:16,488127.0.0.1 - - [14/Jun/2020 12:47:16] "GET /post HTTP/1.1" 200 -
+2020-06-14 12:55:48,624127.0.0.1 - - [14/Jun/2020 12:55:48] "POST /post HTTP/1.1" 500 -
+2020-06-14 12:55:48,645127.0.0.1 - - [14/Jun/2020 12:55:48] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 12:55:48,647127.0.0.1 - - [14/Jun/2020 12:55:48] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 12:55:48,648127.0.0.1 - - [14/Jun/2020 12:55:48] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 12:55:48,839127.0.0.1 - - [14/Jun/2020 12:55:48] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 12:55:48,870127.0.0.1 - - [14/Jun/2020 12:55:48] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 12:55:52,218127.0.0.1 - - [14/Jun/2020 12:55:52] "POST /post HTTP/1.1" 200 -
+2020-06-14 12:56:02,256127.0.0.1 - - [14/Jun/2020 12:56:02] "GET / HTTP/1.1" 200 -
+2020-06-14 12:56:05,372127.0.0.1 - - [14/Jun/2020 12:56:05] "GET / HTTP/1.1" 200 -
+2020-06-14 12:56:08,123127.0.0.1 - - [14/Jun/2020 12:56:08] "GET /admin HTTP/1.1" 200 -
+2020-06-14 12:56:18,310127.0.0.1 - - [14/Jun/2020 12:56:18] "GET /article/python-numbers HTTP/1.1" 200 -
+2020-06-14 12:56:21,625127.0.0.1 - - [14/Jun/2020 12:56:21] "GET /article/python-casting HTTP/1.1" 200 -
+2020-06-14 12:56:53,376127.0.0.1 - - [14/Jun/2020 12:56:53] "GET / HTTP/1.1" 200 -
+2020-06-14 12:57:29,738127.0.0.1 - - [14/Jun/2020 12:57:29] "GET / HTTP/1.1" 200 -
+2020-06-14 13:07:05,909127.0.0.1 - - [14/Jun/2020 13:07:05] "GET /admin HTTP/1.1" 500 -
+2020-06-14 13:07:05,933127.0.0.1 - - [14/Jun/2020 13:07:05] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 13:07:05,935127.0.0.1 - - [14/Jun/2020 13:07:05] "GET /admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 13:07:05,936127.0.0.1 - - [14/Jun/2020 13:07:05] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 13:07:06,109127.0.0.1 - - [14/Jun/2020 13:07:06] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 13:07:06,141127.0.0.1 - - [14/Jun/2020 13:07:06] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 13:07:10,129127.0.0.1 - - [14/Jun/2020 13:07:10] "GET /admin HTTP/1.1" 200 -
+2020-06-14 13:07:19,245127.0.0.1 - - [14/Jun/2020 13:07:19] "GET /post HTTP/1.1" 200 -
+2020-06-14 13:07:21,644127.0.0.1 - - [14/Jun/2020 13:07:21] "GET /post HTTP/1.1" 200 -
+2020-06-14 13:09:41,419127.0.0.1 - - [14/Jun/2020 13:09:41] "GET /post HTTP/1.1" 200 -
+2020-06-14 13:10:31,202127.0.0.1 - - [14/Jun/2020 13:10:31] "POST /post HTTP/1.1" 200 -
+2020-06-14 13:10:34,559127.0.0.1 - - [14/Jun/2020 13:10:34] "GET /admin HTTP/1.1" 200 -
+2020-06-14 13:10:35,865127.0.0.1 - - [14/Jun/2020 13:10:35] "GET /article/python-strings HTTP/1.1" 200 -
+2020-06-14 13:17:39,125127.0.0.1 - - [14/Jun/2020 13:17:39] "GET /article/python-strings HTTP/1.1" 500 -
+2020-06-14 13:17:39,146127.0.0.1 - - [14/Jun/2020 13:17:39] "GET /article/python-strings?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 13:17:39,148127.0.0.1 - - [14/Jun/2020 13:17:39] "GET /article/python-strings?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 13:17:39,152127.0.0.1 - - [14/Jun/2020 13:17:39] "GET /article/python-strings?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 13:17:39,293127.0.0.1 - - [14/Jun/2020 13:17:39] "GET /article/python-strings?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 13:17:39,323127.0.0.1 - - [14/Jun/2020 13:17:39] "GET /article/python-strings?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 13:17:41,234127.0.0.1 - - [14/Jun/2020 13:17:41] "GET /article/python-strings HTTP/1.1" 200 -
+2020-06-14 13:29:10,140 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-14 13:29:10,140 * Restarting with stat
+2020-06-14 13:29:10,413 * Debugger is active!
+2020-06-14 13:29:10,414 * Debugger PIN: 239-795-515
+2020-06-14 13:29:26,167 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-14 13:29:26,167 * Restarting with stat
+2020-06-14 13:29:26,448 * Debugger is active!
+2020-06-14 13:29:26,448 * Debugger PIN: 239-795-515
+2020-06-14 13:38:19,947127.0.0.1 - - [14/Jun/2020 13:38:19] "GET /article/python-strings HTTP/1.1" 200 -
+2020-06-14 13:45:33,801127.0.0.1 - - [14/Jun/2020 13:45:33] "GET /post HTTP/1.1" 500 -
+2020-06-14 13:45:34,050127.0.0.1 - - [14/Jun/2020 13:45:34] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 13:45:36,230127.0.0.1 - - [14/Jun/2020 13:45:36] "GET /post HTTP/1.1" 200 -
+2020-06-14 13:45:50,590127.0.0.1 - - [14/Jun/2020 13:45:50] "POST /post HTTP/1.1" 200 -
+2020-06-14 13:45:54,549127.0.0.1 - - [14/Jun/2020 13:45:54] "GET /article/python-strings HTTP/1.1" 200 -
+2020-06-14 13:45:58,183127.0.0.1 - - [14/Jun/2020 13:45:58] "GET /admin HTTP/1.1" 200 -
+2020-06-14 13:45:59,461127.0.0.1 - - [14/Jun/2020 13:45:59] "GET /article/dummy HTTP/1.1" 200 -
+2020-06-14 13:46:02,683127.0.0.1 - - [14/Jun/2020 13:46:02] "GET /admin HTTP/1.1" 200 -
+2020-06-14 13:46:06,675Harinder Singh about to log out!!
+2020-06-14 13:46:06,677127.0.0.1 - - [14/Jun/2020 13:46:06] "GET /logout HTTP/1.1" 302 -
+2020-06-14 13:46:06,687127.0.0.1 - - [14/Jun/2020 13:46:06] "GET /login HTTP/1.1" 200 -
+2020-06-14 13:46:07,951127.0.0.1 - - [14/Jun/2020 13:46:07] "GET / HTTP/1.1" 200 -
+2020-06-14 13:50:22,362 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-14 13:50:22,407 * Restarting with stat
+2020-06-14 13:50:22,706 * Debugger is active!
+2020-06-14 13:50:22,706 * Debugger PIN: 239-795-515
+2020-06-14 13:50:24,740 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-14 13:50:24,783 * Restarting with stat
+2020-06-14 13:50:25,068 * Debugger is active!
+2020-06-14 13:50:25,068 * Debugger PIN: 239-795-515
+2020-06-14 13:50:38,032127.0.0.1 - - [14/Jun/2020 13:50:38] "GET / HTTP/1.1" 200 -
+2020-06-14 14:37:15,922 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-14 14:37:15,963 * Restarting with stat
+2020-06-14 14:37:16,246 * Debugger is active!
+2020-06-14 14:37:16,246 * Debugger PIN: 239-795-515
+2020-06-14 14:39:45,949 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/models.py', reloading
+2020-06-14 14:39:45,991 * Restarting with stat
+2020-06-14 14:39:46,275 * Debugger is active!
+2020-06-14 14:39:46,275 * Debugger PIN: 239-795-515
+2020-06-14 14:40:03,582 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-14 14:40:03,628 * Restarting with stat
+2020-06-14 14:40:03,914 * Debugger is active!
+2020-06-14 14:40:03,914 * Debugger PIN: 239-795-515
+2020-06-14 14:40:16,134 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-14 14:40:16,156 * Restarting with stat
+2020-06-14 14:40:16,477 * Debugger is active!
+2020-06-14 14:40:16,478 * Debugger PIN: 239-795-515
+2020-06-14 14:40:27,310127.0.0.1 - - [14/Jun/2020 14:40:27] "GET / HTTP/1.1" 200 -
+2020-06-14 14:41:14,253127.0.0.1 - - [14/Jun/2020 14:41:14] "GET / HTTP/1.1" 200 -
+2020-06-14 14:41:21,514127.0.0.1 - - [14/Jun/2020 14:41:21] "GET / HTTP/1.1" 200 -
+2020-06-14 14:41:22,570127.0.0.1 - - [14/Jun/2020 14:41:22] "GET /article/python-numbers HTTP/1.1" 200 -
+2020-06-14 14:41:25,824127.0.0.1 - - [14/Jun/2020 14:41:25] "GET / HTTP/1.1" 200 -
+2020-06-14 14:41:29,736127.0.0.1 - - [14/Jun/2020 14:41:29] "GET /login HTTP/1.1" 200 -
+2020-06-14 14:41:35,782Session Started for Harinder Singh
+2020-06-14 14:41:35,821127.0.0.1 - - [14/Jun/2020 14:41:35] "POST /login HTTP/1.1" 200 -
+2020-06-14 14:41:39,333127.0.0.1 - - [14/Jun/2020 14:41:39] "GET /admin HTTP/1.1" 200 -
+2020-06-14 14:41:48,193127.0.0.1 - - [14/Jun/2020 14:41:48] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:41:52,056Harinder Singh about to log out!!
+2020-06-14 14:41:52,060127.0.0.1 - - [14/Jun/2020 14:41:52] "GET /logout HTTP/1.1" 302 -
+2020-06-14 14:41:52,070127.0.0.1 - - [14/Jun/2020 14:41:52] "GET /login HTTP/1.1" 200 -
+2020-06-14 14:41:55,313127.0.0.1 - - [14/Jun/2020 14:41:55] "GET /post HTTP/1.1" 302 -
+2020-06-14 14:41:56,050127.0.0.1 - - [14/Jun/2020 14:41:56] "GET /login HTTP/1.1" 200 -
+2020-06-14 14:42:01,490Session Started for Harinder Singh
+2020-06-14 14:42:01,522127.0.0.1 - - [14/Jun/2020 14:42:01] "POST /login HTTP/1.1" 200 -
+2020-06-14 14:42:02,859127.0.0.1 - - [14/Jun/2020 14:42:02] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:42:41,353127.0.0.1 - - [14/Jun/2020 14:42:41] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:43:24,236127.0.0.1 - - [14/Jun/2020 14:43:24] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:43:26,056127.0.0.1 - - [14/Jun/2020 14:43:26] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:43:48,149127.0.0.1 - - [14/Jun/2020 14:43:48] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:43:51,272127.0.0.1 - - [14/Jun/2020 14:43:51] "GET / HTTP/1.1" 200 -
+2020-06-14 14:43:53,591127.0.0.1 - - [14/Jun/2020 14:43:53] "GET /admin HTTP/1.1" 200 -
+2020-06-14 14:44:00,544127.0.0.1 - - [14/Jun/2020 14:44:00] "GET /admin/2 HTTP/1.1" 200 -
+2020-06-14 14:44:02,337127.0.0.1 - - [14/Jun/2020 14:44:02] "GET /admin/1 HTTP/1.1" 200 -
+2020-06-14 14:44:28,896127.0.0.1 - - [14/Jun/2020 14:44:28] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:45:04,792127.0.0.1 - - [14/Jun/2020 14:45:04] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:45:08,656127.0.0.1 - - [14/Jun/2020 14:45:08] "GET / HTTP/1.1" 200 -
+2020-06-14 14:45:11,409127.0.0.1 - - [14/Jun/2020 14:45:11] "GET /index/2 HTTP/1.1" 200 -
+2020-06-14 14:45:46,346127.0.0.1 - - [14/Jun/2020 14:45:46] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:46:14,514127.0.0.1 - - [14/Jun/2020 14:46:14] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:46:19,035127.0.0.1 - - [14/Jun/2020 14:46:19] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:46:21,005127.0.0.1 - - [14/Jun/2020 14:46:21] "GET / HTTP/1.1" 200 -
+2020-06-14 14:46:24,428127.0.0.1 - - [14/Jun/2020 14:46:24] "GET /index/2 HTTP/1.1" 200 -
+2020-06-14 14:46:45,331127.0.0.1 - - [14/Jun/2020 14:46:45] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:47:35,374127.0.0.1 - - [14/Jun/2020 14:47:35] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:52:23,363127.0.0.1 - - [14/Jun/2020 14:52:23] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:52:39,447127.0.0.1 - - [14/Jun/2020 14:52:39] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:52:42,152127.0.0.1 - - [14/Jun/2020 14:52:42] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:53:38,007127.0.0.1 - - [14/Jun/2020 14:53:38] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:53:40,239127.0.0.1 - - [14/Jun/2020 14:53:40] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:53:41,352127.0.0.1 - - [14/Jun/2020 14:53:41] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:54:02,992127.0.0.1 - - [14/Jun/2020 14:54:02] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:54:05,495127.0.0.1 - - [14/Jun/2020 14:54:05] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:54:36,555127.0.0.1 - - [14/Jun/2020 14:54:36] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:54:39,369127.0.0.1 - - [14/Jun/2020 14:54:39] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:54:40,300127.0.0.1 - - [14/Jun/2020 14:54:40] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:54:41,515127.0.0.1 - - [14/Jun/2020 14:54:41] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:55:45,150127.0.0.1 - - [14/Jun/2020 14:55:45] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:55:47,057127.0.0.1 - - [14/Jun/2020 14:55:47] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:55:49,307127.0.0.1 - - [14/Jun/2020 14:55:49] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:56:50,917127.0.0.1 - - [14/Jun/2020 14:56:50] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:56:52,449127.0.0.1 - - [14/Jun/2020 14:56:52] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:56:54,744127.0.0.1 - - [14/Jun/2020 14:56:54] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:56:56,324127.0.0.1 - - [14/Jun/2020 14:56:56] "GET /admin HTTP/1.1" 200 -
+2020-06-14 14:56:59,005127.0.0.1 - - [14/Jun/2020 14:56:59] "GET /admin/3 HTTP/1.1" 200 -
+2020-06-14 14:57:00,516127.0.0.1 - - [14/Jun/2020 14:57:00] "GET /admin/2 HTTP/1.1" 200 -
+2020-06-14 14:57:01,302127.0.0.1 - - [14/Jun/2020 14:57:01] "GET /admin/4 HTTP/1.1" 200 -
+2020-06-14 14:58:32,105127.0.0.1 - - [14/Jun/2020 14:58:32] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:58:47,573127.0.0.1 - - [14/Jun/2020 14:58:47] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:58:52,497127.0.0.1 - - [14/Jun/2020 14:58:52] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:58:53,618127.0.0.1 - - [14/Jun/2020 14:58:53] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:58:55,306127.0.0.1 - - [14/Jun/2020 14:58:55] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:59:13,475127.0.0.1 - - [14/Jun/2020 14:59:13] "POST /post HTTP/1.1" 200 -
+2020-06-14 14:59:15,226127.0.0.1 - - [14/Jun/2020 14:59:15] "GET /post HTTP/1.1" 200 -
+2020-06-14 14:59:16,744127.0.0.1 - - [14/Jun/2020 14:59:16] "GET /post HTTP/1.1" 200 -
+2020-06-14 15:00:00,411127.0.0.1 - - [14/Jun/2020 15:00:00] "POST /post HTTP/1.1" 200 -
+2020-06-14 15:00:03,491127.0.0.1 - - [14/Jun/2020 15:00:03] "POST /post HTTP/1.1" 200 -
+2020-06-14 15:00:04,406127.0.0.1 - - [14/Jun/2020 15:00:04] "GET /post HTTP/1.1" 200 -
+2020-06-14 15:00:05,646127.0.0.1 - - [14/Jun/2020 15:00:05] "GET /post HTTP/1.1" 200 -
+2020-06-14 15:02:22,399127.0.0.1 - - [14/Jun/2020 15:02:22] "GET /post HTTP/1.1" 200 -
+2020-06-14 15:07:30,276127.0.0.1 - - [14/Jun/2020 15:07:30] "POST /post HTTP/1.1" 500 -
+2020-06-14 15:07:30,309127.0.0.1 - - [14/Jun/2020 15:07:30] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 15:07:30,310127.0.0.1 - - [14/Jun/2020 15:07:30] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 15:07:30,311127.0.0.1 - - [14/Jun/2020 15:07:30] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 15:07:30,453127.0.0.1 - - [14/Jun/2020 15:07:30] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 15:07:30,486127.0.0.1 - - [14/Jun/2020 15:07:30] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 15:07:36,549127.0.0.1 - - [14/Jun/2020 15:07:36] "POST /post HTTP/1.1" 200 -
+2020-06-14 15:07:38,436127.0.0.1 - - [14/Jun/2020 15:07:38] "GET /post HTTP/1.1" 200 -
+2020-06-14 15:07:40,508127.0.0.1 - - [14/Jun/2020 15:07:40] "GET /post HTTP/1.1" 200 -
+2020-06-14 15:08:49,499127.0.0.1 - - [14/Jun/2020 15:08:49] "POST /post HTTP/1.1" 500 -
+2020-06-14 15:08:49,523127.0.0.1 - - [14/Jun/2020 15:08:49] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 15:08:49,525127.0.0.1 - - [14/Jun/2020 15:08:49] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 15:08:49,531127.0.0.1 - - [14/Jun/2020 15:08:49] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 15:08:49,682127.0.0.1 - - [14/Jun/2020 15:08:49] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 15:08:49,717127.0.0.1 - - [14/Jun/2020 15:08:49] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 20:56:37,739Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/sqlalchemy/pool/base.py", line 680, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/sqlalchemy/pool/base.py", line 867, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/base.py", line 2302, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 430, in rollback
+    self._read_ok_packet()
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 394, in _read_ok_packet
+    pkt = self._read_packet()
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 657, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 707, in _read_bytes
+    CR.CR_SERVER_LOST, "Lost connection to MySQL server during query")
+OperationalError: (2013, 'Lost connection to MySQL server during query')
+2020-06-14 20:56:38,743127.0.0.1 - - [14/Jun/2020 20:56:38] "GET /post HTTP/1.1" 200 -
+2020-06-14 20:56:41,326127.0.0.1 - - [14/Jun/2020 20:56:41] "GET /admin HTTP/1.1" 200 -
+2020-06-14 20:56:42,863Harinder Singh about to log out!!
+2020-06-14 20:56:42,866127.0.0.1 - - [14/Jun/2020 20:56:42] "GET /logout HTTP/1.1" 302 -
+2020-06-14 20:56:42,875127.0.0.1 - - [14/Jun/2020 20:56:42] "GET /login HTTP/1.1" 200 -
+2020-06-14 20:56:44,709127.0.0.1 - - [14/Jun/2020 20:56:44] "GET / HTTP/1.1" 200 -
+2020-06-14 20:56:46,912127.0.0.1 - - [14/Jun/2020 20:56:46] "GET /index/4 HTTP/1.1" 200 -
+2020-06-14 20:56:53,709127.0.0.1 - - [14/Jun/2020 20:56:53] "GET /post HTTP/1.1" 302 -
+2020-06-14 20:56:53,722127.0.0.1 - - [14/Jun/2020 20:56:53] "GET /login HTTP/1.1" 200 -
+2020-06-14 20:59:06,438127.0.0.1 - - [14/Jun/2020 20:59:06] "GET / HTTP/1.1" 200 -
+2020-06-14 20:59:10,483127.0.0.1 - - [14/Jun/2020 20:59:10] "GET / HTTP/1.1" 200 -
+2020-06-14 20:59:11,929127.0.0.1 - - [14/Jun/2020 20:59:11] "GET / HTTP/1.1" 200 -
+2020-06-14 20:59:16,135127.0.0.1 - - [14/Jun/2020 20:59:16] "GET /login HTTP/1.1" 200 -
+2020-06-14 20:59:23,499Session Started for Harinder Singh
+2020-06-14 20:59:23,528127.0.0.1 - - [14/Jun/2020 20:59:23] "POST /login HTTP/1.1" 200 -
+2020-06-14 20:59:26,441127.0.0.1 - - [14/Jun/2020 20:59:26] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:04:37,048127.0.0.1 - - [14/Jun/2020 21:04:37] "POST /post HTTP/1.1" 500 -
+2020-06-14 21:04:37,069127.0.0.1 - - [14/Jun/2020 21:04:37] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 21:04:37,070127.0.0.1 - - [14/Jun/2020 21:04:37] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 21:04:37,072127.0.0.1 - - [14/Jun/2020 21:04:37] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 21:04:37,229127.0.0.1 - - [14/Jun/2020 21:04:37] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 21:04:37,257127.0.0.1 - - [14/Jun/2020 21:04:37] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 21:04:40,603127.0.0.1 - - [14/Jun/2020 21:04:40] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:05:24,480127.0.0.1 - - [14/Jun/2020 21:05:24] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:05:26,926127.0.0.1 - - [14/Jun/2020 21:05:26] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:06:26,298127.0.0.1 - - [14/Jun/2020 21:06:26] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:06:28,496127.0.0.1 - - [14/Jun/2020 21:06:28] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:08:19,105127.0.0.1 - - [14/Jun/2020 21:08:19] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:08:21,843127.0.0.1 - - [14/Jun/2020 21:08:21] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:08:46,058127.0.0.1 - - [14/Jun/2020 21:08:46] "POST /post HTTP/1.1" 500 -
+2020-06-14 21:08:46,080127.0.0.1 - - [14/Jun/2020 21:08:46] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-14 21:08:46,085127.0.0.1 - - [14/Jun/2020 21:08:46] "GET /post?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-14 21:08:46,086127.0.0.1 - - [14/Jun/2020 21:08:46] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-14 21:08:46,233127.0.0.1 - - [14/Jun/2020 21:08:46] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 21:08:46,268127.0.0.1 - - [14/Jun/2020 21:08:46] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-14 21:33:47,156Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/sqlalchemy/pool/base.py", line 680, in _finalize_fairy
+    fairy._reset(pool)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/sqlalchemy/pool/base.py", line 867, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/base.py", line 2302, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 430, in rollback
+    self._read_ok_packet()
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 394, in _read_ok_packet
+    pkt = self._read_packet()
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 657, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/local/lib/python2.7/site-packages/pymysql/connections.py", line 707, in _read_bytes
+    CR.CR_SERVER_LOST, "Lost connection to MySQL server during query")
+OperationalError: (2013, 'Lost connection to MySQL server during query')
+2020-06-14 21:33:47,796127.0.0.1 - - [14/Jun/2020 21:33:47] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:33:50,705127.0.0.1 - - [14/Jun/2020 21:33:50] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:33:53,814127.0.0.1 - - [14/Jun/2020 21:33:53] "GET / HTTP/1.1" 200 -
+2020-06-14 21:33:55,473127.0.0.1 - - [14/Jun/2020 21:33:55] "GET /index/5 HTTP/1.1" 200 -
+2020-06-14 21:33:56,790127.0.0.1 - - [14/Jun/2020 21:33:56] "GET /article/c-modifier-types HTTP/1.1" 200 -
+2020-06-14 21:35:12,980127.0.0.1 - - [14/Jun/2020 21:35:12] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:35:14,757127.0.0.1 - - [14/Jun/2020 21:35:14] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:35:47,363127.0.0.1 - - [14/Jun/2020 21:35:47] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:36:00,767127.0.0.1 - - [14/Jun/2020 21:36:00] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:36:11,217127.0.0.1 - - [14/Jun/2020 21:36:11] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:36:13,489127.0.0.1 - - [14/Jun/2020 21:36:13] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:36:33,922127.0.0.1 - - [14/Jun/2020 21:36:33] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:36:36,347127.0.0.1 - - [14/Jun/2020 21:36:36] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:37:20,067127.0.0.1 - - [14/Jun/2020 21:37:20] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:37:21,640127.0.0.1 - - [14/Jun/2020 21:37:21] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:38:12,073127.0.0.1 - - [14/Jun/2020 21:38:12] "POST /post HTTP/1.1" 200 -
+2020-06-14 21:38:13,707127.0.0.1 - - [14/Jun/2020 21:38:13] "GET /post HTTP/1.1" 200 -
+2020-06-14 21:38:16,403127.0.0.1 - - [14/Jun/2020 21:38:16] "GET / HTTP/1.1" 200 -
