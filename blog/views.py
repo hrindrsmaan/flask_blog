@@ -98,7 +98,6 @@ def post():
 			publish_date = datetime.utcnow()
 
 
-
 			print('Slug = {0},Author ID = {1}, Category = {2}'.format(slug, author_id, category_id))
 
 			post = Post(title, body, slug, blog_id, author_id, category_id, publish_date)

@@ -1172,3 +1172,41 @@ OperationalError: (2013, 'Lost connection to MySQL server during query')
 2020-06-15 13:11:10,088127.0.0.1 - - [15/Jun/2020 13:11:10] "GET /post HTTP/1.1" 200 -
 2020-06-15 13:11:13,218127.0.0.1 - - [15/Jun/2020 13:11:13] "GET /post HTTP/1.1" 200 -
 2020-06-15 13:13:53,419127.0.0.1 - - [15/Jun/2020 13:13:53] "GET /post HTTP/1.1" 200 -
+2020-06-15 13:21:18,534 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 13:21:18,575 * Restarting with stat
+2020-06-15 13:21:18,862 * Debugger is active!
+2020-06-15 13:21:18,863 * Debugger PIN: 239-795-515
+2020-06-15 13:23:51,896127.0.0.1 - - [15/Jun/2020 13:23:51] "GET / HTTP/1.1" 200 -
+2020-06-15 13:23:55,786Harinder Singh about to log out!!
+2020-06-15 13:23:55,789127.0.0.1 - - [15/Jun/2020 13:23:55] "GET /logout HTTP/1.1" 302 -
+2020-06-15 13:23:55,803127.0.0.1 - - [15/Jun/2020 13:23:55] "GET /login HTTP/1.1" 200 -
+2020-06-15 13:24:04,028Session Started for Harinder Singh
+2020-06-15 13:24:04,051127.0.0.1 - - [15/Jun/2020 13:24:04] "POST /login HTTP/1.1" 200 -
+2020-06-15 13:24:05,375127.0.0.1 - - [15/Jun/2020 13:24:05] "GET /admin HTTP/1.1" 200 -
+2020-06-15 13:24:09,757127.0.0.1 - - [15/Jun/2020 13:24:09] "GET /admin/4 HTTP/1.1" 200 -
+2020-06-15 13:24:11,240Harinder Singh about to log out!!
+2020-06-15 13:24:11,245127.0.0.1 - - [15/Jun/2020 13:24:11] "GET /logout HTTP/1.1" 302 -
+2020-06-15 13:24:11,254127.0.0.1 - - [15/Jun/2020 13:24:11] "GET /login HTTP/1.1" 200 -
+2020-06-15 13:24:12,799127.0.0.1 - - [15/Jun/2020 13:24:12] "GET / HTTP/1.1" 200 -
+2020-06-15 13:24:15,256127.0.0.1 - - [15/Jun/2020 13:24:15] "GET /index/5 HTTP/1.1" 200 -
+2020-06-15 13:24:17,366127.0.0.1 - - [15/Jun/2020 13:24:17] "GET /index/8 HTTP/1.1" 200 -
+2020-06-15 13:24:46,677127.0.0.1 - - [15/Jun/2020 13:24:46] "GET / HTTP/1.1" 200 -
+2020-06-15 13:24:46,723Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-06-15 13:24:46,806127.0.0.1 - - [15/Jun/2020 13:24:46] "GET / HTTP/1.1" 200 -
+2020-06-15 13:24:49,318127.0.0.1 - - [15/Jun/2020 13:24:49] "GET /post HTTP/1.1" 302 -
+2020-06-15 13:24:49,348127.0.0.1 - - [15/Jun/2020 13:24:49] "GET /login HTTP/1.1" 200 -
+2020-06-15 13:24:57,335Session Started for Harinder Singh
+2020-06-15 13:24:57,366127.0.0.1 - - [15/Jun/2020 13:24:57] "POST /login HTTP/1.1" 200 -
+2020-06-15 13:24:58,933127.0.0.1 - - [15/Jun/2020 13:24:58] "GET /post HTTP/1.1" 200 -
+2020-06-15 13:25:12,057127.0.0.1 - - [15/Jun/2020 13:25:12] "POST /post HTTP/1.1" 200 -
+2020-06-15 13:25:13,934127.0.0.1 - - [15/Jun/2020 13:25:13] "GET /post HTTP/1.1" 200 -
