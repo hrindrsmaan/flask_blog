@@ -12,5 +12,6 @@ class PostForm(Form):
 	#body = TextAreaField('Body', [ validators.Required() ])
 	body = StringField('Body', widget=TextArea())
 	category = QuerySelectField('Category', query_factory = categories, allow_blank = True)
-
+	new_category = StringField('New Category')
+	
 

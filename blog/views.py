@@ -68,23 +68,38 @@ def post():
 
 		if form.validate_on_submit():
 
+
+			if form.category.data:
+
+				category = form.category.data
+
+			elif form.new_category.data:
+				
+				print("el if")
+				category = form.new_category.data
+				new_category = Category(category)
+				db.session.add(new_category)
+				db.session.commit()
+
+			else:
+
+				return "Not Category Entered by User !!"
+
 			title = form.title.data
 			body = form.body.data
-			category = form.category.data
-
-			#print("Title = {0}, Body = {1}, Category = {2}".format(title, body, category))
+		
+			print("Category = {0}".format(category))
 
 			slug = slugify(title).encode('utf-8')
 
 			author_id = Author.query.filter_by(name = session['user']).first().id
 			category_id = Category.query.filter_by(name = str(category)).first().id
 			blog_id = Blog.query.first().id
-
 			publish_date = datetime.utcnow()
 
 
 
-			#print('Slug = {0},Author ID = {1}, Category = {2}'.format(slug, author_id, category_id))
+			print('Slug = {0},Author ID = {1}, Category = {2}'.format(slug, author_id, category_id))
 
 			post = Post(title, body, slug, blog_id, author_id, category_id, publish_date)
 			db.session.add(post)
