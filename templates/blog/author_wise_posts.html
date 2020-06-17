@@ -1,9 +1,9 @@
 {% extends "layout.html" %}
 
+{% block content %}
 
-{% block title %} Read Posts {% endblock %}
-
-{% block content %} 
+	
+	<h1> Posts by {{ author }} </h1>
 
 	{% for post in posts.items %}
 
@@ -11,11 +11,7 @@
 
 		<h3> <a href="{{ url_for('article', slug = post.slug) }}"> {{ post.title }} </a> </h3> 
 
-		<strong> Posted by
-
-		 <a href="{{ url_for('author_wise_posts', author = post.author.name) }}"> {{ post.author.name }} </a> 
-
-			in {{ post.category.name }} on 
+		<strong> Posted by {{ post.author.name }} in {{ post.category.name }} on 
 
 			{% if post.publish_date %}
 
@@ -34,10 +30,11 @@
 
 
 	{% for page in posts.iter_pages() %}
-	          
+
+
 		{% if page %}
 
-			<a href="{{ url_for('index', page = page )}}"> {{ page }} </a>
+			<a href="{{ url_for('author_wise_posts', author = author ,page = page)}}"> {{ page }} </a>
 
 		{% else %}
 
@@ -45,7 +42,9 @@
 
 		{% endif %}
 
+
 	{% endfor %}
+	
 	
 
 {% endblock %}

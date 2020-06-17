@@ -223,3 +223,39 @@ def category_wise_blog(category, page=1):
 
 
 
+@app.route('/author_wise_posts/<author>')
+@app.route('/author_wise_posts/<author>/<int:page>')
+def author_wise_posts(author, page = 1):
+
+	categories = Category.query.all()
+
+	if categories:
+
+		author_id = Author.query.filter_by(name = author).first().id
+
+		if author_id:
+
+			posts = Post.query.filter_by(author_id = author_id).paginate(page, per_page = POST_PER_PAGE, error_out = False)
+
+			return render_template('blog/author_wise_posts.html', author = author, posts = posts, categories = categories)
+
+		else:
+
+			return "Something Went Wrong !!"
+
+
+		
+
+	
+
+	
+
+		
+
+
+	
+
+	
+
+
+
