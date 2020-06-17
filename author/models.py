@@ -28,6 +28,8 @@ class Author(db.Model):
 	password = db.Column(db.String(255))
 	is_author = db.Column(db.Boolean)
 
+	author = db.relationship('Post', backref = 'author')
+
 	def __init__(self, name, email, username, password, is_author):
 		self.name = name
 		self.email = email

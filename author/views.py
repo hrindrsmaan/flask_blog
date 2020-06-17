@@ -2,7 +2,7 @@ from flask_blog import app, db
 from author.forms import RegisterForm, SetupForm, LoginForm
 from flask import render_template, request, session, redirect, url_for
 from author.models import Register, Author
-from blog.models import Blog, Post
+from blog.models import Blog, Post, Category
 from functools import wraps
 
 import pdb
@@ -89,6 +89,8 @@ def setup():
 def login():
 	form = LoginForm()
 
+	categories = Category.query.all()
+
 	if request.method == 'POST':
 
 		if form.validate_on_submit():
@@ -109,11 +111,11 @@ def login():
 				session['user'] = result.name
 				logging.info('Session Started for %s' % session['user'])
 
-				return render_template('author/todo.html')
+				return render_template('author/todo.html', categories = categories)
 			else:
 				return 'Login Failed!!'
 
-	return render_template('author/login.html', form = form)
+	return render_template('author/login.html', form = form, categories = categories)
 
 	
 
@@ -148,8 +150,10 @@ def admin(page=1):
 		
 		return redirect(url_for('login'))
 
+	categories = Category.query.all()
+
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
-	return render_template('author/admin.html', posts = posts)
+	return render_template('author/admin.html', posts = posts, categories = categories)
 
 
 @app.route('/logout', methods = ['GET', 'POST'])

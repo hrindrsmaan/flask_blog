@@ -1210,3 +1210,721 @@ IOError: [Errno 32] Broken pipe
 2020-06-15 13:24:58,933127.0.0.1 - - [15/Jun/2020 13:24:58] "GET /post HTTP/1.1" 200 -
 2020-06-15 13:25:12,057127.0.0.1 - - [15/Jun/2020 13:25:12] "POST /post HTTP/1.1" 200 -
 2020-06-15 13:25:13,934127.0.0.1 - - [15/Jun/2020 13:25:13] "GET /post HTTP/1.1" 200 -
+2020-06-15 14:18:36,188 * Debugger is active!
+2020-06-15 14:18:36,188 * Debugger PIN: 239-795-515
+2020-06-15 16:22:03,611127.0.0.1 - - [15/Jun/2020 16:22:03] "GET / HTTP/1.1" 200 -
+2020-06-15 16:22:09,816127.0.0.1 - - [15/Jun/2020 16:22:09] "GET / HTTP/1.1" 200 -
+2020-06-15 16:22:11,133127.0.0.1 - - [15/Jun/2020 16:22:11] "GET /admin HTTP/1.1" 200 -
+2020-06-15 16:22:12,897Harinder Singh about to log out!!
+2020-06-15 16:22:12,901127.0.0.1 - - [15/Jun/2020 16:22:12] "GET /logout HTTP/1.1" 302 -
+2020-06-15 16:22:12,918127.0.0.1 - - [15/Jun/2020 16:22:12] "GET /login HTTP/1.1" 200 -
+2020-06-15 16:22:20,450Session Started for Harinder Singh
+2020-06-15 16:22:20,485127.0.0.1 - - [15/Jun/2020 16:22:20] "POST /login HTTP/1.1" 200 -
+2020-06-15 16:22:23,576127.0.0.1 - - [15/Jun/2020 16:22:23] "GET /post HTTP/1.1" 200 -
+2020-06-15 16:22:26,688127.0.0.1 - - [15/Jun/2020 16:22:26] "GET /login HTTP/1.1" 200 -
+2020-06-15 16:22:28,099Session Started for Harinder Singh
+2020-06-15 16:22:28,124127.0.0.1 - - [15/Jun/2020 16:22:28] "POST /login HTTP/1.1" 200 -
+2020-06-15 16:22:29,270127.0.0.1 - - [15/Jun/2020 16:22:29] "GET /admin HTTP/1.1" 200 -
+2020-06-15 16:23:06,110127.0.0.1 - - [15/Jun/2020 16:23:06] "GET /article/events HTTP/1.1" 200 -
+2020-06-15 16:23:54,341127.0.0.1 - - [15/Jun/2020 16:23:54] "GET /admin HTTP/1.1" 200 -
+2020-06-15 16:30:09,013127.0.0.1 - - [15/Jun/2020 16:30:09] "GET /admin HTTP/1.1" 500 -
+2020-06-15 16:30:09,043127.0.0.1 - - [15/Jun/2020 16:30:09] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 16:30:09,045127.0.0.1 - - [15/Jun/2020 16:30:09] "GET /admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 16:30:09,046127.0.0.1 - - [15/Jun/2020 16:30:09] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 16:30:09,233127.0.0.1 - - [15/Jun/2020 16:30:09] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:30:09,269127.0.0.1 - - [15/Jun/2020 16:30:09] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:30:13,067127.0.0.1 - - [15/Jun/2020 16:30:13] "GET /admin HTTP/1.1" 500 -
+2020-06-15 16:30:13,092127.0.0.1 - - [15/Jun/2020 16:30:13] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 16:30:13,096127.0.0.1 - - [15/Jun/2020 16:30:13] "GET /admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 16:30:13,098127.0.0.1 - - [15/Jun/2020 16:30:13] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 16:30:13,189127.0.0.1 - - [15/Jun/2020 16:30:13] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:31:44,207127.0.0.1 - - [15/Jun/2020 16:31:44] "GET /admin HTTP/1.1" 500 -
+2020-06-15 16:31:44,231127.0.0.1 - - [15/Jun/2020 16:31:44] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 16:31:44,232127.0.0.1 - - [15/Jun/2020 16:31:44] "GET /admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 16:31:44,234127.0.0.1 - - [15/Jun/2020 16:31:44] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 16:31:44,346127.0.0.1 - - [15/Jun/2020 16:31:44] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:32:20,831127.0.0.1 - - [15/Jun/2020 16:32:20] "GET /admin HTTP/1.1" 500 -
+2020-06-15 16:32:20,855127.0.0.1 - - [15/Jun/2020 16:32:20] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 16:32:20,858127.0.0.1 - - [15/Jun/2020 16:32:20] "GET /admin?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 16:32:20,859127.0.0.1 - - [15/Jun/2020 16:32:20] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 16:32:20,951127.0.0.1 - - [15/Jun/2020 16:32:20] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:32:21,022127.0.0.1 - - [15/Jun/2020 16:32:21] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:32:23,190127.0.0.1 - - [15/Jun/2020 16:32:23] "GET /login HTTP/1.1" 500 -
+2020-06-15 16:32:23,225127.0.0.1 - - [15/Jun/2020 16:32:23] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 16:32:23,226127.0.0.1 - - [15/Jun/2020 16:32:23] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 16:32:23,227127.0.0.1 - - [15/Jun/2020 16:32:23] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 16:32:23,401127.0.0.1 - - [15/Jun/2020 16:32:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:32:23,427127.0.0.1 - - [15/Jun/2020 16:32:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:33:23,788127.0.0.1 - - [15/Jun/2020 16:33:23] "GET /login HTTP/1.1" 500 -
+2020-06-15 16:33:23,815127.0.0.1 - - [15/Jun/2020 16:33:23] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 16:33:23,816127.0.0.1 - - [15/Jun/2020 16:33:23] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 16:33:23,817127.0.0.1 - - [15/Jun/2020 16:33:23] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 16:33:23,920127.0.0.1 - - [15/Jun/2020 16:33:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:38:54,577127.0.0.1 - - [15/Jun/2020 16:38:54] "GET /login HTTP/1.1" 500 -
+2020-06-15 16:38:54,597127.0.0.1 - - [15/Jun/2020 16:38:54] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 16:38:54,603127.0.0.1 - - [15/Jun/2020 16:38:54] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 16:38:54,608127.0.0.1 - - [15/Jun/2020 16:38:54] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 16:38:54,676127.0.0.1 - - [15/Jun/2020 16:38:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 16:42:34,774 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 16:42:35,119 * Debugger is active!
+2020-06-15 16:42:35,120 * Debugger PIN: 239-795-515
+2020-06-15 16:42:58,451127.0.0.1 - - [15/Jun/2020 16:42:58] "GET /admin HTTP/1.1" 200 -
+2020-06-15 16:43:05,771127.0.0.1 - - [15/Jun/2020 16:43:05] "GET /admin HTTP/1.1" 200 -
+2020-06-15 16:43:07,398Harinder Singh about to log out!!
+2020-06-15 16:43:07,402127.0.0.1 - - [15/Jun/2020 16:43:07] "GET /logout HTTP/1.1" 302 -
+2020-06-15 16:43:07,416127.0.0.1 - - [15/Jun/2020 16:43:07] "GET /login HTTP/1.1" 200 -
+2020-06-15 16:43:46,194 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 16:43:46,507 * Debugger is active!
+2020-06-15 16:43:46,507 * Debugger PIN: 239-795-515
+2020-06-15 16:43:50,332127.0.0.1 - - [15/Jun/2020 16:43:50] "GET / HTTP/1.1" 200 -
+2020-06-15 16:45:19,010127.0.0.1 - - [15/Jun/2020 16:45:19] "GET / HTTP/1.1" 200 -
+2020-06-15 16:45:36,128127.0.0.1 - - [15/Jun/2020 16:45:36] "GET / HTTP/1.1" 200 -
+2020-06-15 16:47:00,573127.0.0.1 - - [15/Jun/2020 16:47:00] "GET / HTTP/1.1" 200 -
+2020-06-15 16:47:03,962127.0.0.1 - - [15/Jun/2020 16:47:03] "GET / HTTP/1.1" 200 -
+2020-06-15 16:47:10,652127.0.0.1 - - [15/Jun/2020 16:47:10] "GET / HTTP/1.1" 200 -
+2020-06-15 16:47:12,831127.0.0.1 - - [15/Jun/2020 16:47:12] "GET / HTTP/1.1" 200 -
+2020-06-15 16:48:02,108127.0.0.1 - - [15/Jun/2020 16:48:02] "GET / HTTP/1.1" 200 -
+2020-06-15 16:48:48,336127.0.0.1 - - [15/Jun/2020 16:48:48] "GET / HTTP/1.1" 200 -
+2020-06-15 16:49:12,283127.0.0.1 - - [15/Jun/2020 16:49:12] "GET / HTTP/1.1" 200 -
+2020-06-15 16:49:13,509127.0.0.1 - - [15/Jun/2020 16:49:13] "GET / HTTP/1.1" 200 -
+2020-06-15 16:49:36,770127.0.0.1 - - [15/Jun/2020 16:49:36] "GET / HTTP/1.1" 200 -
+2020-06-15 16:49:37,775127.0.0.1 - - [15/Jun/2020 16:49:37] "GET / HTTP/1.1" 200 -
+2020-06-15 16:49:39,064127.0.0.1 - - [15/Jun/2020 16:49:39] "GET / HTTP/1.1" 200 -
+2020-06-15 16:49:40,361127.0.0.1 - - [15/Jun/2020 16:49:40] "GET / HTTP/1.1" 200 -
+2020-06-15 16:49:46,071 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 16:49:46,409 * Debugger is active!
+2020-06-15 16:49:46,409 * Debugger PIN: 239-795-515
+2020-06-15 16:49:50,109127.0.0.1 - - [15/Jun/2020 16:49:50] "GET / HTTP/1.1" 200 -
+2020-06-15 16:53:34,320127.0.0.1 - - [15/Jun/2020 16:53:34] "GET / HTTP/1.1" 200 -
+2020-06-15 16:54:02,725127.0.0.1 - - [15/Jun/2020 16:54:02] "GET / HTTP/1.1" 200 -
+2020-06-15 16:54:40,195127.0.0.1 - - [15/Jun/2020 16:54:40] "GET / HTTP/1.1" 200 -
+2020-06-15 16:55:42,116127.0.0.1 - - [15/Jun/2020 16:55:42] "GET / HTTP/1.1" 200 -
+2020-06-15 17:02:59,706 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:17:21,608 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-15 17:17:21,608 * Restarting with stat
+2020-06-15 17:17:21,892 * Debugger is active!
+2020-06-15 17:17:21,893 * Debugger PIN: 239-795-515
+2020-06-15 17:17:27,940127.0.0.1 - - [15/Jun/2020 17:17:27] "GET / HTTP/1.1" 200 -
+2020-06-15 17:17:30,279127.0.0.1 - - [15/Jun/2020 17:17:30] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:17:30,305127.0.0.1 - - [15/Jun/2020 17:17:30] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:17:30,306127.0.0.1 - - [15/Jun/2020 17:17:30] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:17:30,312127.0.0.1 - - [15/Jun/2020 17:17:30] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:17:30,456127.0.0.1 - - [15/Jun/2020 17:17:30] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:17:30,476127.0.0.1 - - [15/Jun/2020 17:17:30] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:18:48,288 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:18:48,312 * Restarting with stat
+2020-06-15 17:18:48,661 * Debugger is active!
+2020-06-15 17:18:48,661 * Debugger PIN: 239-795-515
+2020-06-15 17:18:55,648127.0.0.1 - - [15/Jun/2020 17:18:55] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:18:55,672127.0.0.1 - - [15/Jun/2020 17:18:55] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:18:55,676127.0.0.1 - - [15/Jun/2020 17:18:55] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:18:55,677127.0.0.1 - - [15/Jun/2020 17:18:55] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:18:55,757127.0.0.1 - - [15/Jun/2020 17:18:55] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:19:06,930 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:19:06,967 * Restarting with stat
+2020-06-15 17:19:07,268 * Debugger is active!
+2020-06-15 17:19:07,268 * Debugger PIN: 239-795-515
+2020-06-15 17:19:14,372 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:19:14,400 * Restarting with stat
+2020-06-15 17:19:14,723 * Debugger is active!
+2020-06-15 17:19:14,723 * Debugger PIN: 239-795-515
+2020-06-15 17:19:18,108127.0.0.1 - - [15/Jun/2020 17:19:18] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:19:18,138127.0.0.1 - - [15/Jun/2020 17:19:18] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:19:18,141127.0.0.1 - - [15/Jun/2020 17:19:18] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:19:18,142127.0.0.1 - - [15/Jun/2020 17:19:18] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:19:18,224127.0.0.1 - - [15/Jun/2020 17:19:18] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:19:49,304 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:19:49,350 * Restarting with stat
+2020-06-15 17:19:49,655 * Debugger is active!
+2020-06-15 17:19:49,656 * Debugger PIN: 239-795-515
+2020-06-15 17:19:54,331127.0.0.1 - - [15/Jun/2020 17:19:54] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-15 17:20:12,752127.0.0.1 - - [15/Jun/2020 17:20:12] "GET /category_wise_blog/Java HTTP/1.1" 404 -
+2020-06-15 17:20:54,720 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:20:54,751 * Restarting with stat
+2020-06-15 17:20:55,044 * Debugger is active!
+2020-06-15 17:20:55,045 * Debugger PIN: 239-795-515
+2020-06-15 17:20:58,845127.0.0.1 - - [15/Jun/2020 17:20:58] "GET / HTTP/1.1" 200 -
+2020-06-15 17:21:00,145127.0.0.1 - - [15/Jun/2020 17:21:00] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:21:24,370127.0.0.1 - - [15/Jun/2020 17:21:24] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:22:07,476127.0.0.1 - - [15/Jun/2020 17:22:07] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:22:09,700127.0.0.1 - - [15/Jun/2020 17:22:09] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:22:12,186127.0.0.1 - - [15/Jun/2020 17:22:12] "GET /category_wise_blog/C%2B%2B HTTP/1.1" 200 -
+2020-06-15 17:24:24,349127.0.0.1 - - [15/Jun/2020 17:24:24] "GET /category_wise_blog/C%2B%2B HTTP/1.1" 500 -
+2020-06-15 17:24:24,384127.0.0.1 - - [15/Jun/2020 17:24:24] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:24:24,386127.0.0.1 - - [15/Jun/2020 17:24:24] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:24:24,387127.0.0.1 - - [15/Jun/2020 17:24:24] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:24:24,493127.0.0.1 - - [15/Jun/2020 17:24:24] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:24:24,524127.0.0.1 - - [15/Jun/2020 17:24:24] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:25:03,732127.0.0.1 - - [15/Jun/2020 17:25:03] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:25:03,757127.0.0.1 - - [15/Jun/2020 17:25:03] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:25:03,758127.0.0.1 - - [15/Jun/2020 17:25:03] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:25:03,760127.0.0.1 - - [15/Jun/2020 17:25:03] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:25:03,862127.0.0.1 - - [15/Jun/2020 17:25:03] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:25:03,885127.0.0.1 - - [15/Jun/2020 17:25:03] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:25:12,723127.0.0.1 - - [15/Jun/2020 17:25:12] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-15 17:25:32,250127.0.0.1 - - [15/Jun/2020 17:25:32] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-15 17:25:49,610127.0.0.1 - - [15/Jun/2020 17:25:49] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-15 17:25:55,220127.0.0.1 - - [15/Jun/2020 17:25:55] "GET / HTTP/1.1" 200 -
+2020-06-15 17:25:56,791127.0.0.1 - - [15/Jun/2020 17:25:56] "GET /category_wise_blog/GO HTTP/1.1" 200 -
+2020-06-15 17:26:05,713127.0.0.1 - - [15/Jun/2020 17:26:05] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:26:21,778127.0.0.1 - - [15/Jun/2020 17:26:21] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:26:59,065 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:26:59,094 * Restarting with stat
+2020-06-15 17:26:59,390 * Debugger is active!
+2020-06-15 17:26:59,391 * Debugger PIN: 239-795-515
+2020-06-15 17:27:03,346127.0.0.1 - - [15/Jun/2020 17:27:03] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-15 17:27:06,984127.0.0.1 - - [15/Jun/2020 17:27:06] "GET /category_wise_blog/Ruby HTTP/1.1" 404 -
+2020-06-15 17:27:55,494127.0.0.1 - - [15/Jun/2020 17:27:55] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-15 17:28:10,529 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:28:10,570 * Restarting with stat
+2020-06-15 17:28:10,867 * Debugger is active!
+2020-06-15 17:28:10,868 * Debugger PIN: 239-795-515
+2020-06-15 17:28:12,949127.0.0.1 - - [15/Jun/2020 17:28:12] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-15 17:28:15,325127.0.0.1 - - [15/Jun/2020 17:28:15] "GET /category_wise_blog/Javascript HTTP/1.1" 404 -
+2020-06-15 17:28:41,338 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:28:41,375 * Restarting with stat
+2020-06-15 17:28:41,668 * Debugger is active!
+2020-06-15 17:28:41,668 * Debugger PIN: 239-795-515
+2020-06-15 17:28:44,807127.0.0.1 - - [15/Jun/2020 17:28:44] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-15 17:28:47,579127.0.0.1 - - [15/Jun/2020 17:28:47] "GET /category_wise_blog/GO HTTP/1.1" 404 -
+2020-06-15 17:29:01,972 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:29:01,995 * Restarting with stat
+2020-06-15 17:29:02,296 * Debugger is active!
+2020-06-15 17:29:02,297 * Debugger PIN: 239-795-515
+2020-06-15 17:29:06,340127.0.0.1 - - [15/Jun/2020 17:29:06] "GET /article/void-keyword HTTP/1.1" 200 -
+2020-06-15 17:29:08,524127.0.0.1 - - [15/Jun/2020 17:29:08] "GET /category_wise_blog/Javascript HTTP/1.1" 500 -
+2020-06-15 17:29:08,593127.0.0.1 - - [15/Jun/2020 17:29:08] "GET /category_wise_blog/Javascript?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:29:08,594127.0.0.1 - - [15/Jun/2020 17:29:08] "GET /category_wise_blog/Javascript?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:29:08,598127.0.0.1 - - [15/Jun/2020 17:29:08] "GET /category_wise_blog/Javascript?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:29:08,702127.0.0.1 - - [15/Jun/2020 17:29:08] "GET /category_wise_blog/Javascript?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:29:08,732127.0.0.1 - - [15/Jun/2020 17:29:08] "GET /category_wise_blog/Javascript?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:29:35,970127.0.0.1 - - [15/Jun/2020 17:29:35] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:29:35,995127.0.0.1 - - [15/Jun/2020 17:29:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:29:36,001127.0.0.1 - - [15/Jun/2020 17:29:36] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:29:36,003127.0.0.1 - - [15/Jun/2020 17:29:36] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:29:36,108127.0.0.1 - - [15/Jun/2020 17:29:36] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:29:36,136127.0.0.1 - - [15/Jun/2020 17:29:36] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:29:45,030 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:29:45,078 * Restarting with stat
+2020-06-15 17:29:45,362 * Debugger is active!
+2020-06-15 17:29:45,363 * Debugger PIN: 239-795-515
+2020-06-15 17:29:51,092127.0.0.1 - - [15/Jun/2020 17:29:51] "GET /index/5 HTTP/1.1" 200 -
+2020-06-15 17:29:52,107127.0.0.1 - - [15/Jun/2020 17:29:52] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:29:52,135127.0.0.1 - - [15/Jun/2020 17:29:52] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:29:52,136127.0.0.1 - - [15/Jun/2020 17:29:52] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:29:52,136127.0.0.1 - - [15/Jun/2020 17:29:52] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:29:52,300127.0.0.1 - - [15/Jun/2020 17:29:52] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:30:16,021127.0.0.1 - - [15/Jun/2020 17:30:16] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:30:16,046127.0.0.1 - - [15/Jun/2020 17:30:16] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:30:16,048127.0.0.1 - - [15/Jun/2020 17:30:16] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:30:16,050127.0.0.1 - - [15/Jun/2020 17:30:16] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:30:16,137127.0.0.1 - - [15/Jun/2020 17:30:16] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:30:35,509127.0.0.1 - - [15/Jun/2020 17:30:35] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:30:35,536127.0.0.1 - - [15/Jun/2020 17:30:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:30:35,540127.0.0.1 - - [15/Jun/2020 17:30:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:30:35,545127.0.0.1 - - [15/Jun/2020 17:30:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:30:35,641127.0.0.1 - - [15/Jun/2020 17:30:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:30:35,719127.0.0.1 - - [15/Jun/2020 17:30:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:30:39,151127.0.0.1 - - [15/Jun/2020 17:30:39] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:30:39,177127.0.0.1 - - [15/Jun/2020 17:30:39] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:30:39,179127.0.0.1 - - [15/Jun/2020 17:30:39] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:30:39,180127.0.0.1 - - [15/Jun/2020 17:30:39] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:30:39,286127.0.0.1 - - [15/Jun/2020 17:30:39] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:31:32,148 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 17:31:32,202 * Restarting with stat
+2020-06-15 17:31:32,496 * Debugger is active!
+2020-06-15 17:31:32,497 * Debugger PIN: 239-795-515
+2020-06-15 17:31:34,918127.0.0.1 - - [15/Jun/2020 17:31:34] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-15 17:31:34,943127.0.0.1 - - [15/Jun/2020 17:31:34] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:31:34,944127.0.0.1 - - [15/Jun/2020 17:31:34] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:31:34,946127.0.0.1 - - [15/Jun/2020 17:31:34] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:31:35,035127.0.0.1 - - [15/Jun/2020 17:31:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:31:35,105127.0.0.1 - - [15/Jun/2020 17:31:35] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:31:37,283127.0.0.1 - - [15/Jun/2020 17:31:37] "GET /category_wise_blog/C%2B%2B HTTP/1.1" 500 -
+2020-06-15 17:31:37,308127.0.0.1 - - [15/Jun/2020 17:31:37] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 17:31:37,310127.0.0.1 - - [15/Jun/2020 17:31:37] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 17:31:37,314127.0.0.1 - - [15/Jun/2020 17:31:37] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 17:31:37,427127.0.0.1 - - [15/Jun/2020 17:31:37] "GET /category_wise_blog/C%2B%2B?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 17:32:14,397127.0.0.1 - - [15/Jun/2020 17:32:14] "GET /category_wise_blog/C%2B%2B HTTP/1.1" 200 -
+2020-06-15 17:32:17,627127.0.0.1 - - [15/Jun/2020 17:32:17] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-15 17:32:23,063127.0.0.1 - - [15/Jun/2020 17:32:23] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:32:31,992127.0.0.1 - - [15/Jun/2020 17:32:31] "GET /category_wise_blog/Lyrics HTTP/1.1" 200 -
+2020-06-15 17:32:33,669127.0.0.1 - - [15/Jun/2020 17:32:33] "GET /article/fake-friends HTTP/1.1" 200 -
+2020-06-15 17:32:37,762127.0.0.1 - - [15/Jun/2020 17:32:37] "GET /category_wise_blog/C%2B%2B HTTP/1.1" 200 -
+2020-06-15 17:32:40,765127.0.0.1 - - [15/Jun/2020 17:32:40] "GET / HTTP/1.1" 200 -
+2020-06-15 17:32:44,563127.0.0.1 - - [15/Jun/2020 17:32:44] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-15 17:32:49,511127.0.0.1 - - [15/Jun/2020 17:32:49] "GET /category_wise_blog/Java HTTP/1.1" 200 -
+2020-06-15 17:32:52,675127.0.0.1 - - [15/Jun/2020 17:32:52] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-15 17:32:55,173127.0.0.1 - - [15/Jun/2020 17:32:55] "GET /category_wise_blog/Java HTTP/1.1" 200 -
+2020-06-15 19:26:58,947127.0.0.1 - - [15/Jun/2020 19:26:58] "GET /index/5 HTTP/1.1" 500 -
+2020-06-15 19:26:58,995127.0.0.1 - - [15/Jun/2020 19:26:58] "GET /index/5?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-15 19:26:59,003127.0.0.1 - - [15/Jun/2020 19:26:59] "GET /index/5?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-15 19:26:59,006127.0.0.1 - - [15/Jun/2020 19:26:59] "GET /index/5?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-15 19:26:59,159127.0.0.1 - - [15/Jun/2020 19:26:59] "GET /index/5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 19:26:59,197127.0.0.1 - - [15/Jun/2020 19:26:59] "GET /index/5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-15 19:27:02,254127.0.0.1 - - [15/Jun/2020 19:27:02] "GET /index/5 HTTP/1.1" 200 -
+2020-06-15 19:27:03,862127.0.0.1 - - [15/Jun/2020 19:27:03] "GET /article/loops HTTP/1.1" 200 -
+2020-06-15 19:28:05,337 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-15 19:28:05,364 * Restarting with stat
+2020-06-15 19:28:05,649 * Debugger is active!
+2020-06-15 19:28:05,650 * Debugger PIN: 239-795-515
+2020-06-16 14:58:46,486 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-16 14:58:46,508 * Restarting with stat
+2020-06-16 14:58:46,801 * Debugger is active!
+2020-06-16 14:58:46,821 * Debugger PIN: 239-795-515
+2020-06-16 14:59:00,606 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-16 14:59:00,606 * Restarting with stat
+2020-06-16 14:59:00,877 * Debugger is active!
+2020-06-16 14:59:00,878 * Debugger PIN: 239-795-515
+2020-06-16 14:59:10,713127.0.0.1 - - [16/Jun/2020 14:59:10] "GET / HTTP/1.1" 200 -
+2020-06-16 14:59:10,919127.0.0.1 - - [16/Jun/2020 14:59:10] "GET /static/main.css HTTP/1.1" 304 -
+2020-06-16 14:59:11,100127.0.0.1 - - [16/Jun/2020 14:59:11] "GET /favicon.ico HTTP/1.1" 404 -
+2020-06-16 15:56:16,731127.0.0.1 - - [16/Jun/2020 15:56:16] "GET /category_wise_blog/Python HTTP/1.1" 500 -
+2020-06-16 15:56:16,848127.0.0.1 - - [16/Jun/2020 15:56:16] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 15:56:16,850127.0.0.1 - - [16/Jun/2020 15:56:16] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 15:56:16,852127.0.0.1 - - [16/Jun/2020 15:56:16] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 15:56:17,138127.0.0.1 - - [16/Jun/2020 15:56:17] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 15:56:17,160127.0.0.1 - - [16/Jun/2020 15:56:17] "GET /category_wise_blog/Python?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 15:56:21,375127.0.0.1 - - [16/Jun/2020 15:56:21] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 15:59:06,836 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 15:59:06,881 * Restarting with stat
+2020-06-16 15:59:07,188 * Debugger is active!
+2020-06-16 15:59:07,188 * Debugger PIN: 239-795-515
+2020-06-16 15:59:35,051127.0.0.1 - - [16/Jun/2020 15:59:35] "GET / HTTP/1.1" 200 -
+2020-06-16 15:59:42,726127.0.0.1 - - [16/Jun/2020 15:59:42] "GET /login HTTP/1.1" 200 -
+2020-06-16 15:59:57,024Session Started for Harinder Singh
+2020-06-16 15:59:57,097127.0.0.1 - - [16/Jun/2020 15:59:57] "POST /login HTTP/1.1" 200 -
+2020-06-16 16:00:02,176127.0.0.1 - - [16/Jun/2020 16:00:02] "GET /post HTTP/1.1" 200 -
+2020-06-16 16:00:18,061127.0.0.1 - - [16/Jun/2020 16:00:18] "GET /login HTTP/1.1" 200 -
+2020-06-16 16:00:22,934127.0.0.1 - - [16/Jun/2020 16:00:22] "GET /admin HTTP/1.1" 200 -
+2020-06-16 16:00:34,293127.0.0.1 - - [16/Jun/2020 16:00:34] "GET /admin/4 HTTP/1.1" 200 -
+2020-06-16 16:00:35,801127.0.0.1 - - [16/Jun/2020 16:00:35] "GET /article/operators HTTP/1.1" 200 -
+2020-06-16 16:00:38,576127.0.0.1 - - [16/Jun/2020 16:00:38] "GET /edit/41 HTTP/1.1" 200 -
+2020-06-16 16:00:44,670127.0.0.1 - - [16/Jun/2020 16:00:44] "POST /update/41 HTTP/1.1" 302 -
+2020-06-16 16:00:44,791127.0.0.1 - - [16/Jun/2020 16:00:44] "GET /article/operators HTTP/1.1" 200 -
+2020-06-16 16:00:48,106127.0.0.1 - - [16/Jun/2020 16:00:48] "GET / HTTP/1.1" 200 -
+2020-06-16 16:04:29,908127.0.0.1 - - [16/Jun/2020 16:04:29] "GET / HTTP/1.1" 200 -
+2020-06-16 16:04:31,884Harinder Singh about to log out!!
+2020-06-16 16:04:31,887127.0.0.1 - - [16/Jun/2020 16:04:31] "GET /logout HTTP/1.1" 302 -
+2020-06-16 16:04:31,896127.0.0.1 - - [16/Jun/2020 16:04:31] "GET /login HTTP/1.1" 200 -
+2020-06-16 16:04:37,699127.0.0.1 - - [16/Jun/2020 16:04:37] "GET / HTTP/1.1" 200 -
+2020-06-16 16:06:05,052127.0.0.1 - - [16/Jun/2020 16:06:05] "GET / HTTP/1.1" 200 -
+2020-06-16 16:06:20,966127.0.0.1 - - [16/Jun/2020 16:06:20] "GET / HTTP/1.1" 200 -
+2020-06-16 16:06:37,582127.0.0.1 - - [16/Jun/2020 16:06:37] "GET / HTTP/1.1" 200 -
+2020-06-16 16:06:47,011127.0.0.1 - - [16/Jun/2020 16:06:47] "GET /login HTTP/1.1" 200 -
+2020-06-16 16:06:51,681127.0.0.1 - - [16/Jun/2020 16:06:51] "GET / HTTP/1.1" 200 -
+2020-06-16 16:09:32,449127.0.0.1 - - [16/Jun/2020 16:09:32] "GET / HTTP/1.1" 200 -
+2020-06-16 16:09:34,728127.0.0.1 - - [16/Jun/2020 16:09:34] "GET /article/void-keyword HTTP/1.1" 200 -
+2020-06-16 16:09:40,042127.0.0.1 - - [16/Jun/2020 16:09:40] "GET /article/void-keyword HTTP/1.1" 200 -
+2020-06-16 18:00:28,458127.0.0.1 - - [16/Jun/2020 18:00:28] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:01:10,598 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-16 18:01:10,635 * Restarting with stat
+2020-06-16 18:01:10,921 * Debugger is active!
+2020-06-16 18:01:10,922 * Debugger PIN: 239-795-515
+2020-06-16 18:01:35,287 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-16 18:01:35,313 * Restarting with stat
+2020-06-16 18:01:35,618 * Debugger is active!
+2020-06-16 18:01:35,618 * Debugger PIN: 239-795-515
+2020-06-16 18:01:38,906127.0.0.1 - - [16/Jun/2020 18:01:38] "GET /login HTTP/1.1" 500 -
+2020-06-16 18:01:38,935127.0.0.1 - - [16/Jun/2020 18:01:38] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:01:38,938127.0.0.1 - - [16/Jun/2020 18:01:38] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:01:38,940127.0.0.1 - - [16/Jun/2020 18:01:38] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:01:39,078127.0.0.1 - - [16/Jun/2020 18:01:39] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:01:39,097127.0.0.1 - - [16/Jun/2020 18:01:39] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:01:55,965 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-16 18:01:56,001 * Restarting with stat
+2020-06-16 18:01:56,287 * Debugger is active!
+2020-06-16 18:01:56,288 * Debugger PIN: 239-795-515
+2020-06-16 18:01:59,743127.0.0.1 - - [16/Jun/2020 18:01:59] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:02:09,081Session Started for Harinder Singh
+2020-06-16 18:02:09,146127.0.0.1 - - [16/Jun/2020 18:02:09] "POST /login HTTP/1.1" 200 -
+2020-06-16 18:02:14,078127.0.0.1 - - [16/Jun/2020 18:02:14] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:02:17,171127.0.0.1 - - [16/Jun/2020 18:02:17] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:02:19,105Harinder Singh about to log out!!
+2020-06-16 18:02:19,110127.0.0.1 - - [16/Jun/2020 18:02:19] "GET /logout HTTP/1.1" 302 -
+2020-06-16 18:02:19,121127.0.0.1 - - [16/Jun/2020 18:02:19] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:02:50,303 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-16 18:02:50,331 * Restarting with stat
+2020-06-16 18:02:50,616 * Debugger is active!
+2020-06-16 18:02:50,617 * Debugger PIN: 239-795-515
+2020-06-16 18:02:52,381127.0.0.1 - - [16/Jun/2020 18:02:52] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:02:53,246127.0.0.1 - - [16/Jun/2020 18:02:53] "GET / HTTP/1.1" 200 -
+2020-06-16 18:02:54,777127.0.0.1 - - [16/Jun/2020 18:02:54] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:02:56,738127.0.0.1 - - [16/Jun/2020 18:02:56] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:02:58,012127.0.0.1 - - [16/Jun/2020 18:02:58] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:03:09,002 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-16 18:03:09,042 * Restarting with stat
+2020-06-16 18:03:09,344 * Debugger is active!
+2020-06-16 18:03:09,344 * Debugger PIN: 239-795-515
+2020-06-16 18:03:12,951127.0.0.1 - - [16/Jun/2020 18:03:12] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:03:16,556127.0.0.1 - - [16/Jun/2020 18:03:16] "GET / HTTP/1.1" 200 -
+2020-06-16 18:04:21,010127.0.0.1 - - [16/Jun/2020 18:04:21] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:04:30,636Session Started for Harinder Singh
+2020-06-16 18:04:30,672127.0.0.1 - - [16/Jun/2020 18:04:30] "POST /login HTTP/1.1" 200 -
+2020-06-16 18:04:33,667127.0.0.1 - - [16/Jun/2020 18:04:33] "GET /post HTTP/1.1" 200 -
+2020-06-16 18:05:58,166127.0.0.1 - - [16/Jun/2020 18:05:58] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:06:06,266127.0.0.1 - - [16/Jun/2020 18:06:06] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:11:35,232 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:11:35,266 * Restarting with stat
+2020-06-16 18:11:35,553 * Debugger is active!
+2020-06-16 18:11:35,554 * Debugger PIN: 239-795-515
+2020-06-16 18:11:36,567 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-16 18:11:36,592 * Restarting with stat
+2020-06-16 18:11:36,887 * Debugger is active!
+2020-06-16 18:11:36,887 * Debugger PIN: 239-795-515
+2020-06-16 18:11:40,315127.0.0.1 - - [16/Jun/2020 18:11:40] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:11:42,392127.0.0.1 - - [16/Jun/2020 18:11:42] "GET /post HTTP/1.1" 200 -
+2020-06-16 18:11:45,047127.0.0.1 - - [16/Jun/2020 18:11:45] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:12:06,614127.0.0.1 - - [16/Jun/2020 18:12:06] "GET / HTTP/1.1" 200 -
+2020-06-16 18:12:17,830Harinder Singh about to log out!!
+2020-06-16 18:12:17,831127.0.0.1 - - [16/Jun/2020 18:12:17] "GET /logout HTTP/1.1" 302 -
+2020-06-16 18:12:17,901127.0.0.1 - - [16/Jun/2020 18:12:17] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:12:20,808127.0.0.1 - - [16/Jun/2020 18:12:20] "GET / HTTP/1.1" 200 -
+2020-06-16 18:20:26,319127.0.0.1 - - [16/Jun/2020 18:20:26] "GET / HTTP/1.1" 500 -
+2020-06-16 18:20:26,347127.0.0.1 - - [16/Jun/2020 18:20:26] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:20:26,354127.0.0.1 - - [16/Jun/2020 18:20:26] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:20:26,355127.0.0.1 - - [16/Jun/2020 18:20:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:20:26,504127.0.0.1 - - [16/Jun/2020 18:20:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:20:26,538127.0.0.1 - - [16/Jun/2020 18:20:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:20:28,828127.0.0.1 - - [16/Jun/2020 18:20:28] "GET / HTTP/1.1" 200 -
+2020-06-16 18:20:32,406127.0.0.1 - - [16/Jun/2020 18:20:32] "GET /category_wise_blog/Ruby HTTP/1.1" 200 -
+2020-06-16 18:22:04,487 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:22:04,533 * Restarting with stat
+2020-06-16 18:22:59,005 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-16 18:22:59,006 * Restarting with stat
+2020-06-16 18:22:59,284 * Debugger is active!
+2020-06-16 18:22:59,285 * Debugger PIN: 239-795-515
+2020-06-16 18:23:02,810127.0.0.1 - - [16/Jun/2020 18:23:02] "GET /category_wise_blog/Ruby HTTP/1.1" 200 -
+2020-06-16 18:23:08,161127.0.0.1 - - [16/Jun/2020 18:23:08] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:23:09,972127.0.0.1 - - [16/Jun/2020 18:23:09] "GET /category_wise_blog/GO HTTP/1.1" 200 -
+2020-06-16 18:23:11,445127.0.0.1 - - [16/Jun/2020 18:23:11] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-16 18:23:13,249127.0.0.1 - - [16/Jun/2020 18:23:13] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:24:15,921127.0.0.1 - - [16/Jun/2020 18:24:15] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:24:52,407127.0.0.1 - - [16/Jun/2020 18:24:52] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:24:57,178127.0.0.1 - - [16/Jun/2020 18:24:57] "GET /category_wise_blog/Java HTTP/1.1" 200 -
+2020-06-16 18:24:59,285127.0.0.1 - - [16/Jun/2020 18:24:59] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-16 18:25:02,683127.0.0.1 - - [16/Jun/2020 18:25:02] "GET /category_wise_blog/Flask HTTP/1.1" 200 -
+2020-06-16 18:25:05,845127.0.0.1 - - [16/Jun/2020 18:25:05] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:25:07,990127.0.0.1 - - [16/Jun/2020 18:25:07] "GET /category_wise_blog/Lyrics HTTP/1.1" 200 -
+2020-06-16 18:25:10,220127.0.0.1 - - [16/Jun/2020 18:25:10] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:25:12,991127.0.0.1 - - [16/Jun/2020 18:25:12] "GET /category_wise_blog/Java HTTP/1.1" 200 -
+2020-06-16 18:25:15,023127.0.0.1 - - [16/Jun/2020 18:25:15] "GET /category_wise_blog/Ruby HTTP/1.1" 200 -
+2020-06-16 18:25:25,263127.0.0.1 - - [16/Jun/2020 18:25:25] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:25:33,407127.0.0.1 - - [16/Jun/2020 18:25:33] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:25:40,328Session Started for Harinder Singh
+2020-06-16 18:25:40,364127.0.0.1 - - [16/Jun/2020 18:25:40] "POST /login HTTP/1.1" 200 -
+2020-06-16 18:26:20,524Session Started for Harinder Singh
+2020-06-16 18:26:20,572127.0.0.1 - - [16/Jun/2020 18:26:20] "POST /login HTTP/1.1" 200 -
+2020-06-16 18:26:38,202Session Started for Harinder Singh
+2020-06-16 18:26:38,256127.0.0.1 - - [16/Jun/2020 18:26:38] "POST /login HTTP/1.1" 200 -
+2020-06-16 18:26:39,529127.0.0.1 - - [16/Jun/2020 18:26:39] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:26:41,844Harinder Singh about to log out!!
+2020-06-16 18:26:41,849127.0.0.1 - - [16/Jun/2020 18:26:41] "GET /logout HTTP/1.1" 302 -
+2020-06-16 18:26:41,908127.0.0.1 - - [16/Jun/2020 18:26:41] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:26:43,662127.0.0.1 - - [16/Jun/2020 18:26:43] "GET / HTTP/1.1" 200 -
+2020-06-16 18:26:45,346127.0.0.1 - - [16/Jun/2020 18:26:45] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:26:52,501Session Started for Harinder Singh
+2020-06-16 18:26:52,534127.0.0.1 - - [16/Jun/2020 18:26:52] "POST /login HTTP/1.1" 200 -
+2020-06-16 18:26:57,512127.0.0.1 - - [16/Jun/2020 18:26:57] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:26:59,638127.0.0.1 - - [16/Jun/2020 18:26:59] "GET /article/data-types HTTP/1.1" 200 -
+2020-06-16 18:27:25,772127.0.0.1 - - [16/Jun/2020 18:27:25] "GET /post HTTP/1.1" 200 -
+2020-06-16 18:27:53,268 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:27:53,308 * Restarting with stat
+2020-06-16 18:27:53,595 * Debugger is active!
+2020-06-16 18:27:53,596 * Debugger PIN: 239-795-515
+2020-06-16 18:27:56,525127.0.0.1 - - [16/Jun/2020 18:27:56] "GET /post HTTP/1.1" 200 -
+2020-06-16 18:27:59,446127.0.0.1 - - [16/Jun/2020 18:27:59] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:28:26,084 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:28:26,125 * Restarting with stat
+2020-06-16 18:28:26,439 * Debugger is active!
+2020-06-16 18:28:26,440 * Debugger PIN: 239-795-515
+2020-06-16 18:28:28,770127.0.0.1 - - [16/Jun/2020 18:28:28] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:28:31,548127.0.0.1 - - [16/Jun/2020 18:28:31] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:28:34,661127.0.0.1 - - [16/Jun/2020 18:28:34] "GET /post HTTP/1.1" 200 -
+2020-06-16 18:28:35,783127.0.0.1 - - [16/Jun/2020 18:28:35] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:29:16,256 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:29:16,303 * Restarting with stat
+2020-06-16 18:29:16,598 * Debugger is active!
+2020-06-16 18:29:16,598 * Debugger PIN: 239-795-515
+2020-06-16 18:29:51,043 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:29:51,082 * Restarting with stat
+2020-06-16 18:29:51,369 * Debugger is active!
+2020-06-16 18:29:51,369 * Debugger PIN: 239-795-515
+2020-06-16 18:29:54,996127.0.0.1 - - [16/Jun/2020 18:29:54] "GET / HTTP/1.1" 200 -
+2020-06-16 18:29:57,016127.0.0.1 - - [16/Jun/2020 18:29:57] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:30:00,037127.0.0.1 - - [16/Jun/2020 18:30:00] "GET /post HTTP/1.1" 200 -
+2020-06-16 18:30:02,408127.0.0.1 - - [16/Jun/2020 18:30:02] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:30:03,471127.0.0.1 - - [16/Jun/2020 18:30:03] "GET /edit/23 HTTP/1.1" 200 -
+2020-06-16 18:30:06,494127.0.0.1 - - [16/Jun/2020 18:30:06] "GET /delete/23 HTTP/1.1" 500 -
+2020-06-16 18:30:06,530127.0.0.1 - - [16/Jun/2020 18:30:06] "GET /delete/23?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:30:06,531127.0.0.1 - - [16/Jun/2020 18:30:06] "GET /delete/23?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:30:06,534127.0.0.1 - - [16/Jun/2020 18:30:06] "GET /delete/23?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:30:06,676127.0.0.1 - - [16/Jun/2020 18:30:06] "GET /delete/23?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:30:06,693127.0.0.1 - - [16/Jun/2020 18:30:06] "GET /delete/23?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:30:23,893 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:30:23,932 * Restarting with stat
+2020-06-16 18:30:24,226 * Debugger is active!
+2020-06-16 18:30:24,226 * Debugger PIN: 239-795-515
+2020-06-16 18:30:27,109127.0.0.1 - - [16/Jun/2020 18:30:27] "GET /delete/23 HTTP/1.1" 500 -
+2020-06-16 18:30:27,140127.0.0.1 - - [16/Jun/2020 18:30:27] "GET /delete/23?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:30:27,145127.0.0.1 - - [16/Jun/2020 18:30:27] "GET /delete/23?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:30:27,147127.0.0.1 - - [16/Jun/2020 18:30:27] "GET /delete/23?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:30:27,240127.0.0.1 - - [16/Jun/2020 18:30:27] "GET /delete/23?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:30:50,665 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:30:50,707 * Restarting with stat
+2020-06-16 18:30:50,999 * Debugger is active!
+2020-06-16 18:30:50,999 * Debugger PIN: 239-795-515
+2020-06-16 18:31:10,292 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:31:10,333 * Restarting with stat
+2020-06-16 18:31:10,618 * Debugger is active!
+2020-06-16 18:31:10,618 * Debugger PIN: 239-795-515
+2020-06-16 18:31:13,669 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:31:13,713 * Restarting with stat
+2020-06-16 18:31:14,005 * Debugger is active!
+2020-06-16 18:31:14,005 * Debugger PIN: 239-795-515
+2020-06-16 18:31:20,133127.0.0.1 - - [16/Jun/2020 18:31:20] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:31:21,977127.0.0.1 - - [16/Jun/2020 18:31:21] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:31:42,542 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/views.py', reloading
+2020-06-16 18:31:42,579 * Restarting with stat
+2020-06-16 18:31:42,910 * Debugger is active!
+2020-06-16 18:31:42,910 * Debugger PIN: 239-795-515
+2020-06-16 18:31:47,688127.0.0.1 - - [16/Jun/2020 18:31:47] "GET /admin HTTP/1.1" 200 -
+2020-06-16 18:31:50,101127.0.0.1 - - [16/Jun/2020 18:31:50] "GET / HTTP/1.1" 200 -
+2020-06-16 18:38:21,449127.0.0.1 - - [16/Jun/2020 18:38:21] "GET / HTTP/1.1" 500 -
+2020-06-16 18:38:21,483127.0.0.1 - - [16/Jun/2020 18:38:21] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:38:21,485127.0.0.1 - - [16/Jun/2020 18:38:21] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:38:21,486127.0.0.1 - - [16/Jun/2020 18:38:21] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:38:21,629127.0.0.1 - - [16/Jun/2020 18:38:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:38:21,666127.0.0.1 - - [16/Jun/2020 18:38:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:38:23,903127.0.0.1 - - [16/Jun/2020 18:38:23] "GET / HTTP/1.1" 200 -
+2020-06-16 18:38:25,922Harinder Singh about to log out!!
+2020-06-16 18:38:25,926127.0.0.1 - - [16/Jun/2020 18:38:25] "GET /logout HTTP/1.1" 302 -
+2020-06-16 18:38:26,005127.0.0.1 - - [16/Jun/2020 18:38:26] "GET /login HTTP/1.1" 200 -
+2020-06-16 18:38:27,912127.0.0.1 - - [16/Jun/2020 18:38:27] "GET / HTTP/1.1" 200 -
+2020-06-16 18:38:31,312127.0.0.1 - - [16/Jun/2020 18:38:31] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:42:34,558127.0.0.1 - - [16/Jun/2020 18:42:34] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:42:36,189127.0.0.1 - - [16/Jun/2020 18:42:36] "GET /category_wise_blog/Python?page=1 HTTP/1.1" 200 -
+2020-06-16 18:43:00,392 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:43:00,419 * Restarting with stat
+2020-06-16 18:43:00,721 * Debugger is active!
+2020-06-16 18:43:00,722 * Debugger PIN: 239-795-515
+2020-06-16 18:43:03,384127.0.0.1 - - [16/Jun/2020 18:43:03] "GET /category_wise_blog/Python?page=1 HTTP/1.1" 404 -
+2020-06-16 18:43:09,812127.0.0.1 - - [16/Jun/2020 18:43:09] "GET /category_wise_blog/C%2B%2B?page=1 HTTP/1.1" 404 -
+2020-06-16 18:43:57,585 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:43:57,628 * Restarting with stat
+2020-06-16 18:43:57,905 * Debugger is active!
+2020-06-16 18:43:57,906 * Debugger PIN: 239-795-515
+2020-06-16 18:44:19,128 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:44:19,172 * Restarting with stat
+2020-06-16 18:44:19,454 * Debugger is active!
+2020-06-16 18:44:19,455 * Debugger PIN: 239-795-515
+2020-06-16 18:44:58,883127.0.0.1 - - [16/Jun/2020 18:44:58] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-16 18:45:02,139127.0.0.1 - - [16/Jun/2020 18:45:02] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-16 18:45:15,854127.0.0.1 - - [16/Jun/2020 18:45:15] "GET /category_wise_blog/Python HTTP/1.1" 404 -
+2020-06-16 18:45:38,687 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:45:38,728 * Restarting with stat
+2020-06-16 18:45:39,062 * Debugger is active!
+2020-06-16 18:45:39,062 * Debugger PIN: 239-795-515
+2020-06-16 18:45:43,282127.0.0.1 - - [16/Jun/2020 18:45:43] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:45:48,042127.0.0.1 - - [16/Jun/2020 18:45:48] "GET /category_wise_blog/C/1 HTTP/1.1" 500 -
+2020-06-16 18:45:48,074127.0.0.1 - - [16/Jun/2020 18:45:48] "GET /category_wise_blog/C/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:45:48,075127.0.0.1 - - [16/Jun/2020 18:45:48] "GET /category_wise_blog/C/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:45:48,077127.0.0.1 - - [16/Jun/2020 18:45:48] "GET /category_wise_blog/C/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:45:48,236127.0.0.1 - - [16/Jun/2020 18:45:48] "GET /category_wise_blog/C/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:45:48,254127.0.0.1 - - [16/Jun/2020 18:45:48] "GET /category_wise_blog/C/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:45:52,344127.0.0.1 - - [16/Jun/2020 18:45:52] "GET /category_wise_blog/Java/1 HTTP/1.1" 500 -
+2020-06-16 18:45:52,381127.0.0.1 - - [16/Jun/2020 18:45:52] "GET /category_wise_blog/Java/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:45:52,390127.0.0.1 - - [16/Jun/2020 18:45:52] "GET /category_wise_blog/Java/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:45:52,392127.0.0.1 - - [16/Jun/2020 18:45:52] "GET /category_wise_blog/Java/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:45:52,497127.0.0.1 - - [16/Jun/2020 18:45:52] "GET /category_wise_blog/Java/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:45:52,521127.0.0.1 - - [16/Jun/2020 18:45:52] "GET /category_wise_blog/Java/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:46:10,992127.0.0.1 - - [16/Jun/2020 18:46:10] "GET /category_wise_blog/Ruby/1 HTTP/1.1" 500 -
+2020-06-16 18:46:11,028127.0.0.1 - - [16/Jun/2020 18:46:11] "GET /category_wise_blog/Ruby/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:46:11,031127.0.0.1 - - [16/Jun/2020 18:46:11] "GET /category_wise_blog/Ruby/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:46:11,032127.0.0.1 - - [16/Jun/2020 18:46:11] "GET /category_wise_blog/Ruby/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:46:11,132127.0.0.1 - - [16/Jun/2020 18:46:11] "GET /category_wise_blog/Ruby/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:46:11,157127.0.0.1 - - [16/Jun/2020 18:46:11] "GET /category_wise_blog/Ruby/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:46:24,966 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:46:25,013 * Restarting with stat
+2020-06-16 18:46:25,308 * Debugger is active!
+2020-06-16 18:46:25,309 * Debugger PIN: 239-795-515
+2020-06-16 18:46:59,859 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:46:59,887 * Restarting with stat
+2020-06-16 18:47:00,191 * Debugger is active!
+2020-06-16 18:47:00,191 * Debugger PIN: 239-795-515
+2020-06-16 18:47:04,018127.0.0.1 - - [16/Jun/2020 18:47:04] "GET /category_wise_blog/Python/1 HTTP/1.1" 500 -
+2020-06-16 18:47:04,053127.0.0.1 - - [16/Jun/2020 18:47:04] "GET /category_wise_blog/Python/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:47:04,057127.0.0.1 - - [16/Jun/2020 18:47:04] "GET /category_wise_blog/Python/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:47:04,059127.0.0.1 - - [16/Jun/2020 18:47:04] "GET /category_wise_blog/Python/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:47:04,159127.0.0.1 - - [16/Jun/2020 18:47:04] "GET /category_wise_blog/Python/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:47:04,188127.0.0.1 - - [16/Jun/2020 18:47:04] "GET /category_wise_blog/Python/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:47:49,968 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:47:50,012 * Restarting with stat
+2020-06-16 18:47:50,324 * Debugger is active!
+2020-06-16 18:47:50,325 * Debugger PIN: 239-795-515
+2020-06-16 18:47:59,478 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-06-16 18:47:59,510 * Restarting with stat
+2020-06-16 18:47:59,827 * Debugger is active!
+2020-06-16 18:47:59,828 * Debugger PIN: 239-795-515
+2020-06-16 18:48:05,027127.0.0.1 - - [16/Jun/2020 18:48:05] "GET /category_wise_blog/Python/1 HTTP/1.1" 200 -
+2020-06-16 18:48:07,019127.0.0.1 - - [16/Jun/2020 18:48:07] "GET /category_wise_blog/GO HTTP/1.1" 200 -
+2020-06-16 18:48:09,630127.0.0.1 - - [16/Jun/2020 18:48:09] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-16 18:48:12,006127.0.0.1 - - [16/Jun/2020 18:48:12] "GET /category_wise_blog/Flask HTTP/1.1" 200 -
+2020-06-16 18:48:14,069127.0.0.1 - - [16/Jun/2020 18:48:14] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:48:15,713127.0.0.1 - - [16/Jun/2020 18:48:15] "GET /category_wise_blog/Python/2 HTTP/1.1" 200 -
+2020-06-16 18:48:18,028127.0.0.1 - - [16/Jun/2020 18:48:18] "GET /category_wise_blog/Python/3 HTTP/1.1" 200 -
+2020-06-16 18:48:30,708127.0.0.1 - - [16/Jun/2020 18:48:30] "GET / HTTP/1.1" 200 -
+2020-06-16 18:49:40,187127.0.0.1 - - [16/Jun/2020 18:49:40] "GET / HTTP/1.1" 200 -
+2020-06-16 18:49:47,306127.0.0.1 - - [16/Jun/2020 18:49:47] "GET /category_wise_blog/C HTTP/1.1" 200 -
+2020-06-16 18:50:27,532127.0.0.1 - - [16/Jun/2020 18:50:27] "GET / HTTP/1.1" 200 -
+2020-06-16 18:50:37,673127.0.0.1 - - [16/Jun/2020 18:50:37] "GET / HTTP/1.1" 200 -
+2020-06-16 18:52:20,597127.0.0.1 - - [16/Jun/2020 18:52:20] "GET / HTTP/1.1" 500 -
+2020-06-16 18:52:20,635127.0.0.1 - - [16/Jun/2020 18:52:20] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:52:20,637127.0.0.1 - - [16/Jun/2020 18:52:20] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:52:20,639127.0.0.1 - - [16/Jun/2020 18:52:20] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:52:20,748127.0.0.1 - - [16/Jun/2020 18:52:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:52:20,781127.0.0.1 - - [16/Jun/2020 18:52:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:52:38,266127.0.0.1 - - [16/Jun/2020 18:52:38] "GET / HTTP/1.1" 500 -
+2020-06-16 18:52:38,295127.0.0.1 - - [16/Jun/2020 18:52:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-16 18:52:38,297127.0.0.1 - - [16/Jun/2020 18:52:38] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-16 18:52:38,299127.0.0.1 - - [16/Jun/2020 18:52:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-16 18:52:38,404127.0.0.1 - - [16/Jun/2020 18:52:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-16 18:52:48,757127.0.0.1 - - [16/Jun/2020 18:52:48] "GET / HTTP/1.1" 200 -
+2020-06-16 18:52:51,605127.0.0.1 - - [16/Jun/2020 18:52:51] "GET / HTTP/1.1" 200 -
+2020-06-16 18:53:59,714127.0.0.1 - - [16/Jun/2020 18:53:59] "GET / HTTP/1.1" 200 -
+2020-06-16 18:54:02,331127.0.0.1 - - [16/Jun/2020 18:54:02] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-16 18:54:03,827127.0.0.1 - - [16/Jun/2020 18:54:03] "GET /category_wise_blog/Ruby HTTP/1.1" 200 -
+2020-06-16 18:54:06,311127.0.0.1 - - [16/Jun/2020 18:54:06] "GET /category_wise_blog/Lyrics HTTP/1.1" 200 -
+2020-06-16 18:54:08,583127.0.0.1 - - [16/Jun/2020 18:54:08] "GET /article/fake-friends HTTP/1.1" 200 -
+2020-06-16 18:54:15,873127.0.0.1 - - [16/Jun/2020 18:54:15] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-16 18:54:19,584127.0.0.1 - - [16/Jun/2020 18:54:19] "GET /article/events HTTP/1.1" 200 -
+2020-06-16 18:54:22,829127.0.0.1 - - [16/Jun/2020 18:54:22] "GET /login HTTP/1.1" 200 -
+2020-06-17 01:15:14,063127.0.0.1 - - [17/Jun/2020 01:15:14] "GET / HTTP/1.1" 200 -
+2020-06-17 01:15:16,708127.0.0.1 - - [17/Jun/2020 01:15:16] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 01:15:18,393127.0.0.1 - - [17/Jun/2020 01:15:18] "GET /category_wise_blog/Flask HTTP/1.1" 200 -
+2020-06-17 01:15:20,592127.0.0.1 - - [17/Jun/2020 01:15:20] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-17 01:15:22,587127.0.0.1 - - [17/Jun/2020 01:15:22] "GET /category_wise_blog/Lyrics HTTP/1.1" 200 -
+2020-06-17 01:15:24,485127.0.0.1 - - [17/Jun/2020 01:15:24] "GET /article/fake-friends HTTP/1.1" 200 -
+2020-06-17 01:15:26,876127.0.0.1 - - [17/Jun/2020 01:15:26] "GET / HTTP/1.1" 200 -
+2020-06-17 01:44:44,249127.0.0.1 - - [17/Jun/2020 01:44:44] "GET /category_wise_blog/GO HTTP/1.1" 500 -
+2020-06-17 01:44:44,287127.0.0.1 - - [17/Jun/2020 01:44:44] "GET /category_wise_blog/GO?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-17 01:44:44,290127.0.0.1 - - [17/Jun/2020 01:44:44] "GET /category_wise_blog/GO?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-17 01:44:44,292127.0.0.1 - - [17/Jun/2020 01:44:44] "GET /category_wise_blog/GO?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-17 01:44:44,447127.0.0.1 - - [17/Jun/2020 01:44:44] "GET /category_wise_blog/GO?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-17 01:44:44,496127.0.0.1 - - [17/Jun/2020 01:44:44] "GET /category_wise_blog/GO?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-17 01:44:47,797127.0.0.1 - - [17/Jun/2020 01:44:47] "GET /category_wise_blog/GO HTTP/1.1" 200 -
+2020-06-17 01:44:50,632127.0.0.1 - - [17/Jun/2020 01:44:50] "GET /category_wise_blog/GO/2 HTTP/1.1" 200 -
+2020-06-17 01:44:51,791127.0.0.1 - - [17/Jun/2020 01:44:51] "GET /login HTTP/1.1" 200 -
+2020-06-17 01:44:52,987127.0.0.1 - - [17/Jun/2020 01:44:52] "GET / HTTP/1.1" 200 -
+2020-06-17 01:44:54,753127.0.0.1 - - [17/Jun/2020 01:44:54] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 01:44:55,551127.0.0.1 - - [17/Jun/2020 01:44:55] "GET /category_wise_blog/Ruby HTTP/1.1" 200 -
+2020-06-17 02:20:29,731 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/models.py', reloading
+2020-06-17 02:20:29,766 * Restarting with stat
+2020-06-17 02:20:53,616 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-06-17 02:20:53,617 * Restarting with stat
+2020-06-17 02:20:53,895 * Debugger is active!
+2020-06-17 02:20:53,896 * Debugger PIN: 239-795-515
+2020-06-17 02:20:58,077127.0.0.1 - - [17/Jun/2020 02:20:58] "GET / HTTP/1.1" 200 -
+2020-06-17 02:21:00,436127.0.0.1 - - [17/Jun/2020 02:21:00] "GET / HTTP/1.1" 200 -
+2020-06-17 02:21:50,535127.0.0.1 - - [17/Jun/2020 02:21:50] "GET / HTTP/1.1" 200 -
+2020-06-17 02:21:56,443127.0.0.1 - - [17/Jun/2020 02:21:56] "GET /index/3 HTTP/1.1" 200 -
+2020-06-17 02:21:58,940127.0.0.1 - - [17/Jun/2020 02:21:58] "GET /index/9 HTTP/1.1" 200 -
+2020-06-17 02:22:01,400127.0.0.1 - - [17/Jun/2020 02:22:01] "GET /index/8 HTTP/1.1" 200 -
+2020-06-17 02:22:02,816127.0.0.1 - - [17/Jun/2020 02:22:02] "GET / HTTP/1.1" 200 -
+2020-06-17 02:22:06,168127.0.0.1 - - [17/Jun/2020 02:22:06] "GET /index/2 HTTP/1.1" 200 -
+2020-06-17 02:22:12,715127.0.0.1 - - [17/Jun/2020 02:22:12] "GET /index/9 HTTP/1.1" 200 -
+2020-06-17 02:22:14,532127.0.0.1 - - [17/Jun/2020 02:22:14] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-17 02:22:19,268127.0.0.1 - - [17/Jun/2020 02:22:19] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:24:18,124 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/models.py', reloading
+2020-06-17 02:24:18,172 * Restarting with stat
+2020-06-17 02:24:18,450 * Debugger is active!
+2020-06-17 02:24:18,451 * Debugger PIN: 239-795-515
+2020-06-17 02:32:21,651127.0.0.1 - - [17/Jun/2020 02:32:21] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:32:26,574127.0.0.1 - - [17/Jun/2020 02:32:26] "GET /category_wise_blog/C HTTP/1.1" 200 -
+2020-06-17 02:32:30,290127.0.0.1 - - [17/Jun/2020 02:32:30] "GET /category_wise_blog/GO HTTP/1.1" 200 -
+2020-06-17 02:32:39,012127.0.0.1 - - [17/Jun/2020 02:32:39] "GET / HTTP/1.1" 500 -
+2020-06-17 02:32:39,041127.0.0.1 - - [17/Jun/2020 02:32:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-06-17 02:32:39,042127.0.0.1 - - [17/Jun/2020 02:32:39] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-06-17 02:32:39,043127.0.0.1 - - [17/Jun/2020 02:32:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-06-17 02:32:39,206127.0.0.1 - - [17/Jun/2020 02:32:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-17 02:32:39,242127.0.0.1 - - [17/Jun/2020 02:32:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-06-17 02:33:06,065 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/author/models.py', reloading
+2020-06-17 02:33:06,116 * Restarting with stat
+2020-06-17 02:33:06,409 * Debugger is active!
+2020-06-17 02:33:06,409 * Debugger PIN: 239-795-515
+2020-06-17 02:33:10,686127.0.0.1 - - [17/Jun/2020 02:33:10] "GET / HTTP/1.1" 200 -
+2020-06-17 02:33:13,427127.0.0.1 - - [17/Jun/2020 02:33:13] "GET / HTTP/1.1" 200 -
+2020-06-17 02:33:13,501Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-06-17 02:33:13,653127.0.0.1 - - [17/Jun/2020 02:33:13] "GET / HTTP/1.1" 200 -
+2020-06-17 02:33:23,428127.0.0.1 - - [17/Jun/2020 02:33:23] "GET /login HTTP/1.1" 200 -
+2020-06-17 02:33:37,396127.0.0.1 - - [17/Jun/2020 02:33:37] "GET /setup HTTP/1.1" 200 -
+2020-06-17 02:34:16,755127.0.0.1 - - [17/Jun/2020 02:34:16] "POST /setup HTTP/1.1" 200 -
+2020-06-17 02:34:22,616127.0.0.1 - - [17/Jun/2020 02:34:22] "GET /setup HTTP/1.1" 200 -
+2020-06-17 02:34:24,386127.0.0.1 - - [17/Jun/2020 02:34:24] "GET /login HTTP/1.1" 200 -
+2020-06-17 02:34:37,255Session Started for Gurpreet Bains
+2020-06-17 02:34:37,286127.0.0.1 - - [17/Jun/2020 02:34:37] "POST /login HTTP/1.1" 200 -
+2020-06-17 02:34:42,609127.0.0.1 - - [17/Jun/2020 02:34:42] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:35:41,230127.0.0.1 - - [17/Jun/2020 02:35:41] "POST /post HTTP/1.1" 200 -
+2020-06-17 02:35:44,238127.0.0.1 - - [17/Jun/2020 02:35:44] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:35:47,262127.0.0.1 - - [17/Jun/2020 02:35:47] "GET /category_wise_blog/Travel HTTP/1.1" 200 -
+2020-06-17 02:35:49,146127.0.0.1 - - [17/Jun/2020 02:35:49] "GET /article/5-destinations-to-visit-this-holiday-season HTTP/1.1" 200 -
+2020-06-17 02:35:55,271127.0.0.1 - - [17/Jun/2020 02:35:55] "GET / HTTP/1.1" 200 -
+2020-06-17 02:36:04,763127.0.0.1 - - [17/Jun/2020 02:36:04] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:36:38,022127.0.0.1 - - [17/Jun/2020 02:36:38] "POST /post HTTP/1.1" 200 -
+2020-06-17 02:36:39,852127.0.0.1 - - [17/Jun/2020 02:36:39] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:37:44,543127.0.0.1 - - [17/Jun/2020 02:37:44] "POST /post HTTP/1.1" 200 -
+2020-06-17 02:37:46,583127.0.0.1 - - [17/Jun/2020 02:37:46] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:37:48,097127.0.0.1 - - [17/Jun/2020 02:37:48] "GET / HTTP/1.1" 200 -
+2020-06-17 02:37:53,070127.0.0.1 - - [17/Jun/2020 02:37:53] "GET /category_wise_blog/Travel HTTP/1.1" 200 -
+2020-06-17 02:38:33,619127.0.0.1 - - [17/Jun/2020 02:38:33] "GET / HTTP/1.1" 200 -
+2020-06-17 02:38:37,815127.0.0.1 - - [17/Jun/2020 02:38:37] "GET /index/9 HTTP/1.1" 200 -
+2020-06-17 02:38:43,808127.0.0.1 - - [17/Jun/2020 02:38:43] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:39:28,606127.0.0.1 - - [17/Jun/2020 02:39:28] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:39:31,253127.0.0.1 - - [17/Jun/2020 02:39:31] "GET /category_wise_blog/C HTTP/1.1" 200 -
+2020-06-17 02:39:33,576127.0.0.1 - - [17/Jun/2020 02:39:33] "GET /category_wise_blog/Travel HTTP/1.1" 200 -
+2020-06-17 02:39:37,467127.0.0.1 - - [17/Jun/2020 02:39:37] "GET /category_wise_blog/Flask HTTP/1.1" 200 -
+2020-06-17 02:39:39,530127.0.0.1 - - [17/Jun/2020 02:39:39] "GET /category_wise_blog/Travel HTTP/1.1" 200 -
+2020-06-17 02:39:43,274127.0.0.1 - - [17/Jun/2020 02:39:43] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:39:44,687Gurpreet Bains about to log out!!
+2020-06-17 02:39:44,692127.0.0.1 - - [17/Jun/2020 02:39:44] "GET /logout HTTP/1.1" 302 -
+2020-06-17 02:39:44,755127.0.0.1 - - [17/Jun/2020 02:39:44] "GET /login HTTP/1.1" 200 -
+2020-06-17 02:39:50,159127.0.0.1 - - [17/Jun/2020 02:39:50] "GET /setup HTTP/1.1" 200 -
+2020-06-17 02:39:51,888127.0.0.1 - - [17/Jun/2020 02:39:51] "GET /login HTTP/1.1" 200 -
+2020-06-17 02:39:57,570127.0.0.1 - - [17/Jun/2020 02:39:57] "GET /setup HTTP/1.1" 200 -
+2020-06-17 02:43:56,683127.0.0.1 - - [17/Jun/2020 02:43:56] "POST /setup HTTP/1.1" 200 -
+2020-06-17 02:43:59,795127.0.0.1 - - [17/Jun/2020 02:43:59] "GET /setup HTTP/1.1" 200 -
+2020-06-17 02:44:01,167127.0.0.1 - - [17/Jun/2020 02:44:01] "GET /login HTTP/1.1" 200 -
+2020-06-17 02:44:07,144Session Started for Vikas Kundu
+2020-06-17 02:44:07,171127.0.0.1 - - [17/Jun/2020 02:44:07] "POST /login HTTP/1.1" 200 -
+2020-06-17 02:44:08,821127.0.0.1 - - [17/Jun/2020 02:44:08] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:44:32,903127.0.0.1 - - [17/Jun/2020 02:44:32] "POST /post HTTP/1.1" 200 -
+2020-06-17 02:44:35,059127.0.0.1 - - [17/Jun/2020 02:44:35] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:45:02,643127.0.0.1 - - [17/Jun/2020 02:45:02] "POST /post HTTP/1.1" 200 -
+2020-06-17 02:45:04,717127.0.0.1 - - [17/Jun/2020 02:45:04] "GET /post HTTP/1.1" 200 -
+2020-06-17 02:45:08,094127.0.0.1 - - [17/Jun/2020 02:45:08] "GET /category_wise_blog/Music HTTP/1.1" 200 -
+2020-06-17 02:45:13,047127.0.0.1 - - [17/Jun/2020 02:45:13] "GET / HTTP/1.1" 200 -
+2020-06-17 02:45:16,724127.0.0.1 - - [17/Jun/2020 02:45:16] "GET / HTTP/1.1" 200 -
+2020-06-17 02:45:22,091Vikas Kundu about to log out!!
+2020-06-17 02:45:22,093127.0.0.1 - - [17/Jun/2020 02:45:22] "GET /logout HTTP/1.1" 302 -
+2020-06-17 02:45:22,145127.0.0.1 - - [17/Jun/2020 02:45:22] "GET /login HTTP/1.1" 200 -
+2020-06-17 02:45:23,880127.0.0.1 - - [17/Jun/2020 02:45:23] "GET / HTTP/1.1" 200 -
+2020-06-17 02:45:28,831127.0.0.1 - - [17/Jun/2020 02:45:28] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:45:40,014127.0.0.1 - - [17/Jun/2020 02:45:40] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:45:40,969127.0.0.1 - - [17/Jun/2020 02:45:40] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:45:42,511127.0.0.1 - - [17/Jun/2020 02:45:42] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-06-17 02:45:43,566127.0.0.1 - - [17/Jun/2020 02:45:43] "GET /category_wise_blog/C HTTP/1.1" 200 -
+2020-06-17 02:45:45,391127.0.0.1 - - [17/Jun/2020 02:45:45] "GET /category_wise_blog/C%2B%2B HTTP/1.1" 200 -
+2020-06-17 02:45:47,855127.0.0.1 - - [17/Jun/2020 02:45:47] "GET /category_wise_blog/Travel HTTP/1.1" 200 -
+2020-06-17 02:45:50,459127.0.0.1 - - [17/Jun/2020 02:45:50] "GET /category_wise_blog/Music HTTP/1.1" 200 -
+2020-06-17 02:45:52,660127.0.0.1 - - [17/Jun/2020 02:45:52] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-06-17 02:45:55,370127.0.0.1 - - [17/Jun/2020 02:45:55] "GET / HTTP/1.1" 200 -

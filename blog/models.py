@@ -19,6 +19,8 @@ class Category(db.Model):
 	id = db.Column(db.Integer, primary_key = True)
 	name = db.Column(db.String(255))
 
+	category = db.relationship('Post', backref = 'category')
+
 	def __init__(self, name):
 		self.name = name
 

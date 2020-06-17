@@ -1,9 +1,9 @@
 {% extends "layout.html" %}
 
 
-{% block title %} Read Posts {% endblock %}
-
-{% block content %} 
+{% block content %}
+	
+	<h1> {{ category }} </h1><hr>
 
 	{% for post in posts.items %}
 
@@ -30,10 +30,11 @@
 
 
 	{% for page in posts.iter_pages() %}
-	          
+
+
 		{% if page %}
 
-			<a href="{{ url_for('index', page = page )}}"> {{ page }} </a>
+			<a href="{{ url_for('category_wise_blog', category = category ,page = page)}}"> {{ page }} </a>
 
 		{% else %}
 
@@ -41,7 +42,8 @@
 
 		{% endif %}
 
+
 	{% endfor %}
-	
+
 
 {% endblock %}

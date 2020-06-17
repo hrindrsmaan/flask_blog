@@ -18,6 +18,8 @@ def  index(page=1):
 
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
 
+	categories = Category.query.all()
+
 	#print("Total No. of pages: {0}".format(posts.pages))
 	#print("Posts per page = %d" % posts.page)
 
@@ -31,9 +33,9 @@ def  index(page=1):
 	# 	else:
 	# 		print('...')
 
-	print("Post = {0}".format(posts))
+	print("Category = {0}".format(categories))
 
-	return render_template('blog/index.html', posts = posts)
+	return render_template('blog/index.html', posts = posts, categories = categories)
 
 
 @app.route('/home', methods = ['GET', 'POST'])
@@ -50,7 +52,9 @@ def article(slug):
 	author = Author.query.filter_by(id = post.author_id).first()
 	category = Category.query.filter_by(id = post.category_id).first()
 
-	return render_template('blog/single_post.html', post = post, author = author.name, category = category.name)
+	categories = Category.query.all()
+
+	return render_template('blog/single_post.html', post = post, author = author.name, category = category.name, categories =categories)
 
 
 
@@ -63,6 +67,8 @@ def post():
 		return redirect(url_for('login'))
 
 	form = PostForm()
+
+	categories = Category.query.all()
 
 	if request.method == 'POST':
 
@@ -107,7 +113,7 @@ def post():
 
 			return 'Post Added'
 
-	return render_template('author/post.html', form = form)
+	return render_template('author/post.html', form = form, categories = categories)
 
 
 @app.route('/edit/<int:post_id>', methods = ['GET', 'POST'])
@@ -117,6 +123,7 @@ def edit(post_id):
 		
 		return redirect(url_for('login'))
 
+	categories = Category.query.all()
 	
 	post_obj = Post.query.filter_by(id = post_id).first_or_404()
 
@@ -124,7 +131,7 @@ def edit(post_id):
 
 	form = PostForm(obj = post_obj)
 
-	return render_template('author/post.html', form = form, action = 'update', post = post_obj)
+	return render_template('author/post.html', form = form, action = 'update', post = post_obj, categories = categories)
 
 
 @app.route('/update/<int:post_id>', methods = ['GET', 'POST'])
@@ -134,8 +141,12 @@ def update(post_id):
 		
 		return redirect(url_for('login'))
 
+
+
 	form = PostForm()
 	post = Post.query.filter_by(id = post_id).first()
+
+	categories = Category.query.all()
 
 	if request.method == 'POST':
 
@@ -159,7 +170,7 @@ def update(post_id):
 
 			db.session.commit()
 
-	return redirect(url_for('article', slug = post.slug))
+	return redirect(url_for('article', slug = post.slug), categories = categories)
 
 
 def login_req(f):
@@ -192,6 +203,23 @@ def delete(post_id):
 	return redirect(url_for('index'))
 
 
+@app.route('/category_wise_blog/<category>')
+@app.route('/category_wise_blog/<category>/<int:page>')
+def category_wise_blog(category, page=1):
+
+	category = Category.query.filter_by(name = category).first()
+
+	if category:
+
+		#posts = Post.query.filter_by(category_id = category.id).paginate()
+		posts = Post.query.filter_by(category_id = category.id).paginate(page, POST_PER_PAGE, False)
+
+		#print("Posts = {0}".format(posts))
+
+		categories = Category.query.all()
+
+
+	return render_template('blog/category_wise_blog.html', posts = posts,  category = category, categories = categories)
 
 
 
