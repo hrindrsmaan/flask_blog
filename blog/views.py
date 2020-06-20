@@ -1,5 +1,5 @@
 from flask_blog import app, db
-from flask import render_template, request, session, redirect, url_for
+from flask import render_template, request, session, redirect, url_for, jsonify
 from slugify import slugify
 from blog.forms import PostForm
 from slugify import slugify
@@ -17,32 +17,9 @@ POST_PER_PAGE = 5
 def  index(page=1):
 
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
-
 	categories = Category.query.all()
 
-	#print("Total No. of pages: {0}".format(posts.pages))
-	#print("Posts per page = %d" % posts.page)
-
-	# for item in posts.items:
-	# 	print('Post Title = {0}'.format(item.title))
-
-
-	# for page in posts.iter_pages():
-	# 	if page:
-	# 		print(page)
-	# 	else:
-	# 		print('...')
-
-	print("Category = {0}".format(categories))
-
 	return render_template('blog/index.html', posts = posts, categories = categories)
-
-
-@app.route('/home', methods = ['GET', 'POST'])
-def home():
-
-	posts = Post.query.all()
-	return render_template('layout.html', posts = posts)
 
 
 @app.route('/article/<slug>', methods = ['GET', 'POST'])
@@ -55,8 +32,6 @@ def article(slug):
 	categories = Category.query.all()
 
 	return render_template('blog/single_post.html', post = post, author = author.name, category = category.name, categories =categories)
-
-
 
 
 @app.route('/post', methods = ['GET', 'POST'])
@@ -81,7 +56,6 @@ def post():
 
 			elif form.new_category.data:
 				
-				print("el if")
 				category = form.new_category.data
 				new_category = Category(category)
 				db.session.add(new_category)
@@ -170,7 +144,7 @@ def update(post_id):
 
 			db.session.commit()
 
-	return redirect(url_for('article', slug = post.slug), categories = categories)
+	return redirect(url_for('article', slug = post.slug))
 
 
 def login_req(f):
@@ -184,7 +158,6 @@ def login_req(f):
 		return f(*args, **args)
 
 	return wrapper_func
-
 
 
 @app.route('/delete/<int:post_id>', methods = ['GET', 'POST'])
@@ -222,7 +195,6 @@ def category_wise_blog(category, page=1):
 	return render_template('blog/category_wise_blog.html', posts = posts,  category = category, categories = categories)
 
 
-
 @app.route('/author_wise_posts/<author>')
 @app.route('/author_wise_posts/<author>/<int:page>')
 def author_wise_posts(author, page = 1):
@@ -244,7 +216,10 @@ def author_wise_posts(author, page = 1):
 			return "Something Went Wrong !!"
 
 
-		
+
+
+
+
 
 	
 

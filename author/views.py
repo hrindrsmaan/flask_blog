@@ -1,6 +1,6 @@
 from flask_blog import app, db
 from author.forms import RegisterForm, SetupForm, LoginForm
-from flask import render_template, request, session, redirect, url_for
+from flask import render_template, request, session, redirect, url_for, flash
 from author.models import Register, Author
 from blog.models import Blog, Post, Category
 from functools import wraps
@@ -13,6 +13,15 @@ logging.basicConfig(filename = 'author_views.log', level = logging.INFO, format 
 
 POST_PER_PAGE = 5
 
+
+@app.route('/home', methods = ['GET', 'POST'])
+def home():
+
+	if request.method == 'POST':
+
+		return 'POST'
+
+	return "Blog Created !!"
 
 @app.route('/register', methods = ['GET', 'POST'])
 def register():
@@ -67,18 +76,21 @@ def setup():
 			password = form.password.data
 			is_author = True
 
-			print("Blog = %s, Author = %s, Email = %s, Username = %s, Password = %s " % (blog_name, author_name, email, username, password))
-
 			author = Author(author_name, email, username, password, is_author)
 			db.session.add(author)
 			db.session.flush()
 
-			print("Admin ID: %d" % author.id)
 
 			if author.id:
 				blog = Blog(blog_name, author.id)
 				db.session.add(blog)
 				db.session.commit()
+
+				return redirect(url_for('login'))
+
+			else:
+				db.session.rollback()
+				return 'Form set up Failed'
 
 			return 'Form Set Up Done!!'
 
@@ -110,6 +122,7 @@ def login():
 			if result:
 				session['user'] = result.name
 				logging.info('Session Started for %s' % session['user'])
+
 
 				return render_template('author/todo.html', categories = categories)
 			else:
