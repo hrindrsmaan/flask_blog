@@ -1,67 +1,73 @@
 {% extends "layout.html" %}
 
+{% import "bootstrap/wtf.html" as wtf %}
+
 {% block title %} Post {% endblock %}
 
 {% block content %} 
 
 
+	<div class="row">
+		
+		<div class="col-6">
+
+			{% if action == 'update' %}
+
+				<H3>Edit Post</H3>
+
+			{% else %}
+			
+				<H3>Create Post</H3>
+
+			{% endif %}
+
+
+			{% if action == 'update' %}
+
+				<form method="post" action="{{ url_for('update',post_id = post.id ) }}">
+
+			{% else %}
+
+				<form method="post" action="{{ url_for('post') }}" >
+
+			{% endif %}
+
+
+			  {{ form.hidden_tag() }}
+
+			  	<form method="post" action="{{ url_for('login')}}">
+
+					  {{ form.hidden_tag() }}
+
+					  {{ wtf.form_field(form.title)}}
+					  {{ wtf.form_field(form.body) }}
+					  {{ wtf.form_field(form.category)}}
+					  {{ wtf.form_field(form.new_category)}}
+
+					  <br>
+
+					 {% if action == 'update' %}
+
+					  	<input class="btn btn-primary" type="submit" value="Update">
+
+					  {% else %}
+
+					  	<input class="btn btn-primary" type="submit" value="Publish">
+
+					  {% endif %}
+
+
+				</form> 
+
+				
+		</div>
+
+
+	</div>
+
+
+
 	
-	{% if action == 'update' %}
-
-		<H3>Edit Post</H3>
-
-	{% else %}
 	
-		<H3>Create Post</H3>
-
-	{% endif %}
-
-
-	{% if action == 'update' %}
-
-		<form method="post" action="{{ url_for('update',post_id = post.id ) }}">
-
-	{% else %}
-
-		<form method="post" action="{{ url_for('post') }}" >
-
-	{% endif %}
-
-
-	  {{ form.hidden_tag() }}
-
-	  <dl>
-
-	      <dt>{{ form.title.label }}:
-	      <dd>{{ form.title }}
-
-	      <dt>{{ form.body.label }}:
-	      <dd>{{ form.body(cols="55", rows="10") }}
-
-	      <dt>{{ form.category.label }}
-	      <dd>{{ form.category }}
-
-
-	      <dt>{{ form.new_category.label }}
-	      <dd>{{ form.new_category }}
-
-	   </dl>
-
-	   <br>
-
-	   <p>
-
-	  {% if action == 'update' %}
-
-	  	<input type="submit" value="Update">
-
-	  {% else %}
-
-	  	<input type="submit" value="Publish">
-
-	  {% endif %}
-
-	   
-	</form> 
 
 {% endblock %}

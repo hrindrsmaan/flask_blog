@@ -20,9 +20,9 @@
 
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
 
-        <div class="container">
+        <div class="container-fluid">
 
-          <a class="navbar-brand mr-4" href="/">Flask Blog</a>
+          <a class="navbar-brand mr-4" href="/"> Flask Blog </a>
 
           {% if session['user'] %}
 
@@ -39,7 +39,16 @@
 
           {% else %}
 
-             <a class="navbar-brand mr-3" href="{{ url_for('login') }}">Admin</a>
+           <form class="form-inline my-2 my-lg-0">
+
+              <a class="navbar-brand mr-3" href="{{ url_for('login') }}">Login</a>
+              <a class="navbar-brand mr-3" href="{{ url_for('setup') }}">SignUp</a>
+               
+
+            </form>
+
+           
+
 
           {% endif %}
 
@@ -49,11 +58,12 @@
 
     </header>
 
-    <main role="main" class="container">
+
+    <main role="main" class="container pt-3 ">
 
       <div class="row">
 
-        <div class="col-md-8">
+        <div class="col-md-10">
 
           {% block content %}
 
@@ -63,42 +73,45 @@
         </div>
 
 
+        {% if session['user'] %}
 
 
-        <div class="col-md-4">
-
-          <div class="content-section">
-
-            <h4> Categories </h4>
-
-            <p class='text-muted'>
-
-              <ul class="list-group">
 
 
-                {% for category in categories %}
+          <div class="col-md-2">
 
-                    <li class="list-group-item list-group-item-light">
-                      
-                      <a href="{{ url_for('category_wise_blog', category = category.name)}}"> {{ category.name }} </a>
+              <div class="">
+                <br>
+                <h3> Categories </h3> <p>
+
+                <p class='text-muted'>
+
+                    {% for category in categories %}
+ 
+                          <a href="{{ url_for('category_wise_blog', category = category.name)}}"> {{ category.name }} </a> <p>
+
+                    {% endfor %}
+
+                </p>
+
+              </div>
+
+            </div>
+
+          
+
+        {% else %}
 
 
-                    </li>
-
-                {% endfor %}
-
-
-              </ul>
-
-            </p>
-
-          </div>
-
-        </div>
+        {% endif %}
 
       </div>
 
     </main>
+
+
+
+
 
 
    

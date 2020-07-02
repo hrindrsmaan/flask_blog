@@ -70,8 +70,8 @@ def post():
 		
 			print("Category = {0}".format(category))
 
-			slug = slugify(title).encode('utf-8')
-
+			#slug = slugify(title).encode('utf-8')
+                        slug = slugify(title)
 			author_id = Author.query.filter_by(name = session['user']).first().id
 			category_id = Category.query.filter_by(name = str(category)).first().id
 			blog_id = Blog.query.first().id
