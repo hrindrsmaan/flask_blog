@@ -1,27 +1,38 @@
 {% extends "layout.html" %}
 
+{% import "bootstrap/wtf.html" as wtf %}
+ 
 {% block title %} Login {% endblock %}
 
 {% block content %} 
 	
 	
+ <div class="row">
 
-	<h2> User Login</h2>
+ 	<div class="col-5">
 
-	<form method="post" action="{{ url_for('login')}}">
+ 		<br>
+ 		<h2> User Login</h2><br>
 
-	  {{ form.hidden_tag() }}
+		<form method="post" action="{{ url_for('login')}}">
 
-	  {{ form.username.label }}:<br>
-	  {{ form.username }}
-	  
-	  <br><br>
+		  {{ form.hidden_tag() }}
 
-	  {{ form.password.label }}:<br>
-	  {{ form.password }} <br><br>
+		  {{ wtf.form_field(form.username)}}
+		  {{ wtf.form_field(form.password)}}
 
-	  <input type="submit" value="Submit">
+		  <br>
 
-	</form> 
+		  <input class="btn btn-primary" type="submit" value="Login">
+
+		</form> 
+ 		
+
+ 	</div>
+ 	
+
+
+ </div>
+	
 
 {% endblock %}

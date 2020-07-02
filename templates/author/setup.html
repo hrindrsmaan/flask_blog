@@ -1,42 +1,39 @@
 {% extends "layout.html" %}
 
+{% import "bootstrap/wtf.html" as wtf %}
+
 {% block title %} Setting Up {% endblock %}
+
+
 
 {% block content %} 
 
+	<div class="row">
 
-	<h2> Set Up</h2>
+ 	<div class="col-6">
 
-	<form method="post" action="{{ url_for('setup')}}">
+ 		<h2> Blog Setup </h2><br>
 
-	  {{ form.hidden_tag() }}
+		<form method="post" action="{{ url_for('setup')}}">
 
-	  {{ form.blog_name.label }}:<br>
-	  {{ form.blog_name }}
-	  
-	  <br><br><hr><br>
+		  {{ form.hidden_tag() }}
 
-	  {{ form.author_name.label }}:<br>
-	  {{ form.author_name }}
-	  
-	  <br><br>
+		  {{ wtf.form_field(form.blog_name) }}
+		  {{ wtf.form_field(form.author_name) }}
+		  {{ wtf.form_field(form.email) }}
+		  {{ wtf.form_field(form.username) }}
+		  {{ wtf.form_field(form.password) }}
+		  {{ wtf.form_field(form.username) }}
 
-	  {{ form.email.label }}:<br>
-	  {{ form.email }}<br><br>
+		  <br>
+		  <input class="btn btn-primary" type="submit" value="Set Up">
 
-	  {{ form.username.label }}:<br>
-	  {{ form.username }}<br><br>
+		</form> 
+ 		
 
-	  {{ form.password.label }}:<br>
-	  {{ form.password }}<br><br>
-
-	  {{ form.confirm.label }}:<br>
-	  {{ form.confirm }}<br><br>
-
-
-	  <input type="submit" value="Submit">
-
-	</form> 
+ 	</div>
+ 	
+ </div>
 
 
 

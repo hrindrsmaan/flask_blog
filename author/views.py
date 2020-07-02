@@ -17,11 +17,7 @@ POST_PER_PAGE = 5
 @app.route('/home', methods = ['GET', 'POST'])
 def home():
 
-	if request.method == 'POST':
-
-		return 'POST'
-
-	return "Blog Created !!"
+	return render_template("base_layout.html")
 
 @app.route('/register', methods = ['GET', 'POST'])
 def register():
