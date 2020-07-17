@@ -6,17 +6,18 @@
 {% block content %} 
 
 
-	{% for post in posts.items %}
+	<!-- {% for post in posts.items %}
 
 		{% if post.is_live %}
 
-		<h3 class="titleHeading" > <a href="{{ url_for('article', slug = post.slug) }}"> {{ post.title }} </a> </h3> 
+		<h3 class="" > <a href="{{ url_for('article', slug = post.slug) }}"> 
+		{{ post.title }} </a> </h3> 
 
-		<strong> Posted by
+		<strong class=""> Posted by
 
-		 <a href="{{ url_for('author_wise_posts', author = post.author.name) }}"> {{ post.author.name }} </a> 
+		<a href="{{ url_for('author_wise_posts', author = post.author.name) }}"> {{ post.author.name }} </a> 
 
-			in {{ post.category.name }} on 
+			in  {{ post.category.name }} on 
 
 			{% if post.publish_date %}
 
@@ -31,22 +32,89 @@
 
 		{% endif %}
 
-	{% endfor %}
+	{% endfor %} -->
+
+	 {% for post in posts.items %}
+
+	 	{% if post.is_live %}
+
+	 		<article class="media content-section">
+
+	          <div class="media-body">
+
+	            <div class="article-metadata">
+
+	              Posted by 
+	              <a class="mr-2" href="{{ url_for('author_wise_posts', author = post.author.name) }}">{{ post.author.name }}</a>
+	              in  {{ post.category.name }} on
+
+	              <small class="text-muted">{{ post.publish_date }}</small>
+
+	            </div>
+
+	            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+
+	            <p class="article-content"> {{ post.body }} </p>
+
+	          </div>
+
+	        </article>
+
+	 	{% endif  %}
+
+        
+
+    {% endfor %}
 
 
-	{% for page in posts.iter_pages() %}
-	          
-		{% if page %}
+	
+	<!-- Pagination -->
+	<nav aria-label="Page navigation example">
 
-			<a href="{{ url_for('index', page = page )}}"> {{ page }} </a>
+	  <ul class="pagination">
 
-		{% else %}
 
-			...
+	  	{% if posts.has_prev %}
 
-		{% endif %}
+	  		<a class="page-link" href="{{ url_for('index', page = posts.prev_num )}}" aria-label="Previous">
 
-	{% endfor %}
+		        <span aria-hidden="true">&laquo;</span>
+		        <span class="sr-only">Previous</span>
+
+	     	</a>
+
+	  	{% endif %}
+	    
+
+	    {% for page in posts.iter_pages() %}
+		          
+			{% if page %}
+
+				<!-- <a href="{{ url_for('index', page = page )}}"> {{ page }} </a> -->
+
+				 <li class="page-item"><a class="page-link" href="{{ url_for('index', page = page )}}"> {{ page }} </a> </li>
+
+			{% else %}
+
+				...
+
+			{% endif %}
+
+		{% endfor %}
+
+		{% if posts.has_next %}
+
+	  		<a class="page-link" href="{{ url_for('index', page = posts.next_num )}}" aria-label="Next">
+
+		        <span aria-hidden="true">&raquo;</span>
+		        <span class="sr-only">Next</span>
+
+	     	</a>
+
+	  	{% endif %}
+
+	  </ul>
+	</nav>
 	
 
 {% endblock %}

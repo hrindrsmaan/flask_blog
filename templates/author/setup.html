@@ -12,7 +12,7 @@
 
  	<div class="col-6">
 
- 		<h2> Blog Setup </h2><br>
+ 		<h2  class="text-uppercase text-black font-weight-bold"> Blog Setup </h2><br>
 
 		<form method="post" action="{{ url_for('setup')}}">
 
@@ -23,7 +23,7 @@
 		  {{ wtf.form_field(form.email) }}
 		  {{ wtf.form_field(form.username) }}
 		  {{ wtf.form_field(form.password) }}
-		  {{ wtf.form_field(form.username) }}
+		  {{ wtf.form_field(form.confirm) }}
 
 		  <br>
 		  <input class="btn btn-primary" type="submit" value="Set Up">

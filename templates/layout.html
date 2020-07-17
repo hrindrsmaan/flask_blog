@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
-   <title> {% block title %} Flask Blog  {% endblock %} </title>
+    <title> {% block title %} Flask Blog  {% endblock %} </title>
 
 </head>
 
@@ -18,7 +18,7 @@
 
     <header class="site-header">
 
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
         <div class="container-fluid">
 
@@ -29,12 +29,11 @@
             <form class="form-inline my-2 my-lg-0">
 
              
-               <a class="navbar-brand mr-3" href="{{ url_for('admin') }}"> {{ session['user']}} </a>
+               <a class="navbar-brand mr-3 "  href="{{ url_for('admin') }}"> {{ session['user']}} </a>
 
                <a class="navbar-brand mr-3" href="{{ url_for('post') }}">Create</a>
 
                <a class="navbar-brand mr-3" href="{{ url_for('logout') }}">Logout</a>
-
             </form>
 
           {% else %}
@@ -43,20 +42,81 @@
 
               <a class="navbar-brand mr-3" href="{{ url_for('login') }}">Login</a>
               <a class="navbar-brand mr-3" href="{{ url_for('setup') }}">SignUp</a>
-               
-
-            </form>
-
-           
-
+           </form>
 
           {% endif %}
 
         </div>
 
-      </nav>
-
+      </nav> -->
     </header>
+
+     <nav class="navbar navbar-expand-sm  navbar-dark bg-dark " >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown dmenu">
+           
+           
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          
+          
+          </ul>
+
+          <div class="social-part">
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+              {% if session['user'] %}
+
+                 <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('admin')}}"> {{ session['user'] }} </a>
+                  </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('post')}}">New Post</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('logout')}}">Logout</a>
+                </li>
+
+
+              {% else %}
+
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('login')}}">Login</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('setup')}}">Sign Up</a>
+                </li>
+
+              {% endif %}
+
+              
+           
+           </ul>
+
+          </div>
+
+        </div>
+    </nav>
+
+
 
 
     <main role="main" class="container pt-3 ">

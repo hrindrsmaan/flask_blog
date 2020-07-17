@@ -31,5 +31,5 @@ class SetupForm(Form):
 class LoginForm(Form):
 	username = StringField("Username", [ validators.Required(), 
 										 validators.Length(min = 3, max = 10) ])
-	password = StringField("Password", [ validators.Required()])
+	password = PasswordField("Password", [ validators.Required()])
 	

@@ -14,10 +14,30 @@ logging.basicConfig(filename = 'author_views.log', level = logging.INFO, format 
 POST_PER_PAGE = 5
 
 
+
+def login_required(f):
+
+	#print(' In login_required() ')
+
+	@wraps(f)
+	def decorated_function(*args, **kwargs):
+
+		print('In wrapper_func() ')
+
+		#print("User is %s" % session['user'])
+
+		if session.get('user') is None:
+
+			return redirect(url_for('login', next = request.url))
+
+		return f(*args, **kwargs)
+
+	return decorated_function
+
 @app.route('/home', methods = ['GET', 'POST'])
 def home():
 
-	return render_template("base_layout.html")
+	return render_template("home.html")
 
 @app.route('/register', methods = ['GET', 'POST'])
 def register():
@@ -93,6 +113,27 @@ def setup():
 	return render_template('author/setup.html', form = form)
 
 
+@app.route('/todo')
+def todo():
+
+	try:
+
+		if session.get('user') is None:
+		
+			return redirect(url_for('login'))
+
+		categories = Category.query.all()
+		return render_template('author/todo.html', categories = categories)
+
+	except Exception:
+
+		return "Exception Error !!"
+
+
+	return "Show Some Exception here "
+
+
+
 @app.route('/login', methods = ['GET', 'POST'])
 def login():
 	form = LoginForm()
@@ -120,33 +161,12 @@ def login():
 				logging.info('Session Started for %s' % session['user'])
 
 
-				return render_template('author/todo.html', categories = categories)
+				return redirect(url_for('todo'))
 			else:
 				return 'Login Failed!!'
 
 	return render_template('author/login.html', form = form, categories = categories)
 
-	
-
-
-def login_required(f):
-
-	#print(' In login_required() ')
-
-	@wraps(f)
-	def decorated_function(*args, **kwargs):
-
-		print('In wrapper_func() ')
-
-		#print("User is %s" % session['user'])
-
-		if session.get('user') is None:
-
-			return redirect(url_for('login', next = request.url))
-
-		return f(*args, **kwargs)
-
-	return decorated_function
 
 
 @login_required
