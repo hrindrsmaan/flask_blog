@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %} Contact Us {% endblock %}
+
+
+{% block content %}
+
+	<div class="row">
+		
+		<div class="col-6">
+
+				<br>
+				<H3>Contact Form</H3><p>
+
+			    {{ form.hidden_tag() }}
+
+			  	<form method="post" action="{{ url_for('contact_us')}}">
+
+					  {{ form.hidden_tag() }}
+
+					  {{ wtf.form_field(form.name)}}
+					  {{ wtf.form_field(form.email) }}
+					  {{ wtf.form_field(form.subject)}}
+					  {{ wtf.form_field(form.message)}}
+
+					  <br>
+
+					  <input class="btn btn-primary" type="submit" value="Send">
+					 <br>
+
+				</form> 
+
+				
+		</div>
+
+
+	</div>
+
+{% endblock %}
+

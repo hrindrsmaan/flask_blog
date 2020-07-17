@@ -1,10 +1,10 @@
 from flask_blog import app, db
 from flask import render_template, request, session, redirect, url_for, jsonify
 from slugify import slugify
-from blog.forms import PostForm
+from blog.forms import PostForm, ContactUsForm
 from slugify import slugify
 from datetime import datetime
-from blog.models import Category, Blog, Post
+from blog.models import Category, Blog, Post, ContactUs
 from author.models import Author
 from datetime import datetime
 
@@ -214,6 +214,37 @@ def author_wise_posts(author, page = 1):
 		else:
 
 			return "Something Went Wrong !!"
+
+
+
+@app.route('/contact_us', methods = ['GET', 'POST'])
+def contact_us():
+
+	form = ContactUsForm()
+	categories = Category.query.all()
+
+	if form.validate_on_submit():
+
+		name = form.name.data
+		email= form.email.data
+		subject = form.subject.data
+		message = form.message.data
+
+		contact = ContactUs(name, email, subject, message)
+
+		try:
+
+			db.session.add(contact)
+			db.session.commit()
+
+		except Exception as ex:
+
+			db.session.rollback()
+
+		return 'Thanks for contacting us!!'
+
+
+	return render_template('contact_us.html', form = form, categories = categories )
 
 
 

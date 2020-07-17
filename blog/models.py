@@ -53,3 +53,24 @@ class Post(db.Model):
 
 	def __repr__(self):
 		return "<Post %r>" % self.title
+
+
+class ContactUs(db.Model):
+
+	id = db.Column(db.Integer, primary_key = True)
+	name = db.Column(db.String(255))
+	email = db.Column(db.String(255))
+	subject = db.Column(db.String(255))
+	message = db.Column(db.String(1000))
+
+	def __init__(self, name, email, subject, message):
+
+		self.name = name
+		self.email = email
+		self.subject = subject
+		self.message = message
+
+	def __repr__(self):
+		return "<Contact %r>" % self.name
+
+
