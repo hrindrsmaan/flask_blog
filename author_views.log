@@ -1031,3 +1031,170 @@ IOError: [Errno 32] Broken pipe
 2020-07-17 16:08:09,664127.0.0.1 - - [17/Jul/2020 16:08:09] "GET /login HTTP/1.1" 200 -
 2020-07-17 16:08:12,546127.0.0.1 - - [17/Jul/2020 16:08:12] "GET / HTTP/1.1" 200 -
 2020-07-17 16:08:18,582127.0.0.1 - - [17/Jul/2020 16:08:18] "GET /index/4 HTTP/1.1" 200 -
+2020-07-17 16:10:10,482 * Debugger is active!
+2020-07-17 16:10:10,482 * Debugger PIN: 239-795-515
+2020-07-17 16:10:47,086127.0.0.1 - - [17/Jul/2020 16:10:47] "GET /index/4 HTTP/1.1" 200 -
+2020-07-17 16:10:48,959127.0.0.1 - - [17/Jul/2020 16:10:48] "GET / HTTP/1.1" 200 -
+2020-07-17 16:10:57,370127.0.0.1 - - [17/Jul/2020 16:10:57] "GET /login HTTP/1.1" 200 -
+2020-07-17 16:11:01,274127.0.0.1 - - [17/Jul/2020 16:11:01] "GET /contact_us HTTP/1.1" 200 -
+2020-07-17 16:11:04,310127.0.0.1 - - [17/Jul/2020 16:11:04] "GET / HTTP/1.1" 200 -
+2020-07-17 16:11:08,373127.0.0.1 - - [17/Jul/2020 16:11:08] "GET /index/4 HTTP/1.1" 200 -
+2020-07-17 16:11:10,092127.0.0.1 - - [17/Jul/2020 16:11:10] "GET /login HTTP/1.1" 200 -
+2020-07-17 16:11:14,917Session Started for Harinder Singh
+2020-07-17 16:11:15,222127.0.0.1 - - [17/Jul/2020 16:11:15] "POST /login HTTP/1.1" 302 -
+2020-07-17 16:11:15,328127.0.0.1 - - [17/Jul/2020 16:11:15] "GET /todo HTTP/1.1" 200 -
+2020-07-17 16:11:21,671127.0.0.1 - - [17/Jul/2020 16:11:21] "GET /admin HTTP/1.1" 200 -
+2020-07-17 16:11:24,371127.0.0.1 - - [17/Jul/2020 16:11:24] "GET /edit/47 HTTP/1.1" 200 -
+2020-07-17 16:11:30,492127.0.0.1 - - [17/Jul/2020 16:11:30] "POST /update/47 HTTP/1.1" 302 -
+2020-07-17 16:11:30,674127.0.0.1 - - [17/Jul/2020 16:11:30] "GET /article/5-destinations-to-visit-this-holiday-season HTTP/1.1" 200 -
+2020-07-17 16:11:37,425127.0.0.1 - - [17/Jul/2020 16:11:37] "GET / HTTP/1.1" 200 -
+2020-07-17 16:11:42,382127.0.0.1 - - [17/Jul/2020 16:11:42] "GET /category_wise_blog/Javascript HTTP/1.1" 200 -
+2020-07-17 16:11:54,002127.0.0.1 - - [17/Jul/2020 16:11:54] "GET /category_wise_blog/Ruby HTTP/1.1" 200 -
+2020-07-17 16:11:59,738127.0.0.1 - - [17/Jul/2020 16:11:59] "GET /category_wise_blog/GO HTTP/1.1" 200 -
+2020-07-17 16:12:01,650127.0.0.1 - - [17/Jul/2020 16:12:01] "GET /category_wise_blog/Python HTTP/1.1" 200 -
+2020-07-17 16:12:05,620127.0.0.1 - - [17/Jul/2020 16:12:05] "GET /category_wise_blog/Python/2 HTTP/1.1" 200 -
+2020-07-17 16:12:16,773127.0.0.1 - - [17/Jul/2020 16:12:16] "GET / HTTP/1.1" 200 -
+2020-07-17 16:12:22,250Harinder Singh about to log out!!
+2020-07-17 16:12:22,255127.0.0.1 - - [17/Jul/2020 16:12:22] "GET /logout HTTP/1.1" 302 -
+2020-07-17 16:12:22,349127.0.0.1 - - [17/Jul/2020 16:12:22] "GET /login HTTP/1.1" 200 -
+2020-07-17 16:12:26,160127.0.0.1 - - [17/Jul/2020 16:12:26] "GET / HTTP/1.1" 200 -
+2020-07-17 16:12:36,817127.0.0.1 - - [17/Jul/2020 16:12:36] "GET /index/2 HTTP/1.1" 200 -
+2020-07-17 16:12:43,374127.0.0.1 - - [17/Jul/2020 16:12:43] "GET /index/5 HTTP/1.1" 200 -
+2020-07-17 16:12:46,216127.0.0.1 - - [17/Jul/2020 16:12:46] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-17 16:12:52,691127.0.0.1 - - [17/Jul/2020 16:12:52] "GET /author_wise_posts/Harinder%20Singh/1 HTTP/1.1" 200 -
+2020-07-17 16:12:56,149127.0.0.1 - - [17/Jul/2020 16:12:56] "GET /author_wise_posts/Harinder%20Singh/2 HTTP/1.1" 200 -
+2020-07-17 16:12:59,827127.0.0.1 - - [17/Jul/2020 16:12:59] "GET /author_wise_posts/Harinder%20Singh/1 HTTP/1.1" 200 -
+2020-07-17 16:13:09,379127.0.0.1 - - [17/Jul/2020 16:13:09] "GET /setup HTTP/1.1" 200 -
+2020-07-17 16:13:13,711127.0.0.1 - - [17/Jul/2020 16:13:13] "GET / HTTP/1.1" 200 -
+2020-07-17 16:13:14,377127.0.0.1 - - [17/Jul/2020 16:13:14] "GET /contact_us HTTP/1.1" 200 -
+2020-07-17 16:13:19,066127.0.0.1 - - [17/Jul/2020 16:13:19] "GET / HTTP/1.1" 200 -
+2020-07-17 16:14:30,329127.0.0.1 - - [17/Jul/2020 16:14:30] "GET / HTTP/1.1" 200 -
+2020-07-17 16:14:34,977127.0.0.1 - - [17/Jul/2020 16:14:34] "GET /contact_us HTTP/1.1" 200 -
+2020-07-17 16:14:38,481127.0.0.1 - - [17/Jul/2020 16:14:38] "GET / HTTP/1.1" 200 -
+2020-07-17 16:14:41,163127.0.0.1 - - [17/Jul/2020 16:14:41] "GET /index/3 HTTP/1.1" 200 -
+2020-07-17 16:15:16,049127.0.0.1 - - [17/Jul/2020 16:15:16] "GET /login HTTP/1.1" 200 -
+2020-07-17 16:15:18,188127.0.0.1 - - [17/Jul/2020 16:15:18] "GET /setup HTTP/1.1" 200 -
+2020-07-17 16:15:28,925127.0.0.1 - - [17/Jul/2020 16:15:28] "GET / HTTP/1.1" 200 -
+2020-07-17 16:15:34,856127.0.0.1 - - [17/Jul/2020 16:15:34] "GET /index/2 HTTP/1.1" 200 -
+2020-07-17 16:15:43,306127.0.0.1 - - [17/Jul/2020 16:15:43] "GET / HTTP/1.1" 200 -
+2020-07-17 16:15:48,805127.0.0.1 - - [17/Jul/2020 16:15:48] "GET /index/3 HTTP/1.1" 200 -
+2020-07-17 16:16:26,056127.0.0.1 - - [17/Jul/2020 16:16:26] "GET / HTTP/1.1" 200 -
+2020-07-17 16:16:28,858127.0.0.1 - - [17/Jul/2020 16:16:28] "GET /index/4 HTTP/1.1" 200 -
+2020-07-17 21:56:27,734 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-07-17 21:56:27,734 * Restarting with stat
+2020-07-17 21:56:28,002 * Debugger is active!
+2020-07-17 21:56:28,003 * Debugger PIN: 239-795-515
+2020-07-17 21:56:38,836127.0.0.1 - - [17/Jul/2020 21:56:38] "GET / HTTP/1.1" 200 -
+2020-07-17 21:56:39,243127.0.0.1 - - [17/Jul/2020 21:56:39] "GET /favicon.ico HTTP/1.1" 404 -
+2020-07-17 21:56:50,201127.0.0.1 - - [17/Jul/2020 21:56:50] "GET /index/2 HTTP/1.1" 200 -
+2020-07-17 21:56:54,802127.0.0.1 - - [17/Jul/2020 21:56:54] "GET /index/3 HTTP/1.1" 200 -
+2020-07-17 21:56:59,992127.0.0.1 - - [17/Jul/2020 21:56:59] "GET /index/4 HTTP/1.1" 200 -
+2020-07-17 21:57:02,903127.0.0.1 - - [17/Jul/2020 21:57:02] "GET /login HTTP/1.1" 200 -
+2020-07-17 21:57:09,945Session Started for Harinder Singh
+2020-07-17 21:57:10,199127.0.0.1 - - [17/Jul/2020 21:57:10] "POST /login HTTP/1.1" 302 -
+2020-07-17 21:57:10,295127.0.0.1 - - [17/Jul/2020 21:57:10] "GET /todo HTTP/1.1" 200 -
+2020-07-17 21:57:15,230127.0.0.1 - - [17/Jul/2020 21:57:15] "GET /admin HTTP/1.1" 200 -
+2020-07-17 21:57:20,531127.0.0.1 - - [17/Jul/2020 21:57:20] "GET /post HTTP/1.1" 200 -
+2020-07-17 21:57:34,548127.0.0.1 - - [17/Jul/2020 21:57:34] "GET /category_wise_blog/Travel HTTP/1.1" 200 -
+2020-07-19 15:38:35,750 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-07-19 15:38:35,766 * Restarting with stat
+2020-07-19 15:38:36,065 * Debugger is active!
+2020-07-19 15:38:36,093 * Debugger PIN: 239-795-515
+2020-07-19 15:38:53,646 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-07-19 15:38:53,646 * Restarting with stat
+2020-07-19 15:38:53,924 * Debugger is active!
+2020-07-19 15:38:53,924 * Debugger PIN: 239-795-515
+2020-07-19 15:39:16,718127.0.0.1 - - [19/Jul/2020 15:39:16] "GET / HTTP/1.1" 200 -
+2020-07-19 15:39:16,993127.0.0.1 - - [19/Jul/2020 15:39:16] "GET /static/main.css HTTP/1.1" 200 -
+2020-07-19 15:39:17,546127.0.0.1 - - [19/Jul/2020 15:39:17] "GET /favicon.ico HTTP/1.1" 404 -
+2020-07-19 15:39:20,815Harinder Singh about to log out!!
+2020-07-19 15:39:20,820127.0.0.1 - - [19/Jul/2020 15:39:20] "GET /logout HTTP/1.1" 302 -
+2020-07-19 15:39:21,014127.0.0.1 - - [19/Jul/2020 15:39:21] "GET /login HTTP/1.1" 200 -
+2020-07-19 15:39:23,049127.0.0.1 - - [19/Jul/2020 15:39:23] "GET / HTTP/1.1" 200 -
+2020-07-19 15:39:35,924127.0.0.1 - - [19/Jul/2020 15:39:35] "GET /index/4 HTTP/1.1" 200 -
+2020-07-19 15:39:41,135127.0.0.1 - - [19/Jul/2020 15:39:41] "GET /login HTTP/1.1" 200 -
+2020-07-19 15:39:43,135127.0.0.1 - - [19/Jul/2020 15:39:43] "GET /setup HTTP/1.1" 200 -
+2020-07-19 17:00:13,490127.0.0.1 - - [19/Jul/2020 17:00:13] "GET /contact_us HTTP/1.1" 500 -
+2020-07-19 17:00:13,530127.0.0.1 - - [19/Jul/2020 17:00:13] "GET /contact_us?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-19 17:00:13,533127.0.0.1 - - [19/Jul/2020 17:00:13] "GET /contact_us?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-19 17:00:13,535127.0.0.1 - - [19/Jul/2020 17:00:13] "GET /contact_us?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-19 17:00:13,716127.0.0.1 - - [19/Jul/2020 17:00:13] "GET /contact_us?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 17:00:13,752127.0.0.1 - - [19/Jul/2020 17:00:13] "GET /contact_us?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 17:00:19,265127.0.0.1 - - [19/Jul/2020 17:00:19] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 17:00:28,375127.0.0.1 - - [19/Jul/2020 17:00:28] "GET / HTTP/1.1" 200 -
+2020-07-19 17:00:33,031127.0.0.1 - - [19/Jul/2020 17:00:33] "GET /index/10 HTTP/1.1" 200 -
+2020-07-19 17:01:34,070127.0.0.1 - - [19/Jul/2020 17:01:34] "GET /index/10 HTTP/1.1" 200 -
+2020-07-19 17:07:34,090127.0.0.1 - - [19/Jul/2020 17:07:34] "GET /index/10 HTTP/1.1" 500 -
+2020-07-19 17:07:34,113127.0.0.1 - - [19/Jul/2020 17:07:34] "GET /index/10?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-19 17:07:34,117127.0.0.1 - - [19/Jul/2020 17:07:34] "GET /index/10?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-19 17:07:34,119127.0.0.1 - - [19/Jul/2020 17:07:34] "GET /index/10?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-19 17:07:34,269127.0.0.1 - - [19/Jul/2020 17:07:34] "GET /index/10?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 17:07:34,308127.0.0.1 - - [19/Jul/2020 17:07:34] "GET /index/10?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 17:07:38,969127.0.0.1 - - [19/Jul/2020 17:07:38] "GET /index/10 HTTP/1.1" 200 -
+2020-07-19 17:08:51,493127.0.0.1 - - [19/Jul/2020 17:08:51] "GET /index/10 HTTP/1.1" 200 -
+2020-07-19 17:08:51,529Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-07-19 17:08:51,664127.0.0.1 - - [19/Jul/2020 17:08:51] "GET / HTTP/1.1" 200 -
+2020-07-19 17:08:51,670Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-07-19 17:08:51,805127.0.0.1 - - [19/Jul/2020 17:08:51] "GET / HTTP/1.1" 200 -
+2020-07-19 17:08:51,814Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-07-19 17:08:51,954127.0.0.1 - - [19/Jul/2020 17:08:51] "GET / HTTP/1.1" 200 -
+2020-07-19 17:08:51,960Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-07-19 17:08:52,098127.0.0.1 - - [19/Jul/2020 17:08:52] "GET / HTTP/1.1" 200 -
+2020-07-19 17:08:52,105Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-07-19 17:08:55,448127.0.0.1 - - [19/Jul/2020 17:08:55] "GET / HTTP/1.1" 200 -
+2020-07-19 17:09:50,559127.0.0.1 - - [19/Jul/2020 17:09:50] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 17:11:03,409127.0.0.1 - - [19/Jul/2020 17:11:03] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 17:12:09,986127.0.0.1 - - [19/Jul/2020 17:12:09] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 17:12:49,124127.0.0.1 - - [19/Jul/2020 17:12:49] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 17:13:07,936127.0.0.1 - - [19/Jul/2020 17:13:07] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 17:13:18,550127.0.0.1 - - [19/Jul/2020 17:13:18] "GET /contact_us HTTP/1.1" 200 -

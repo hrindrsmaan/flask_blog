@@ -164,10 +164,6 @@ class UserTest(unittest.TestCase):
     	assert "Read Posts" in str(rv.data)
 
 
-
-
-
-
 if __name__ == '__main__':
 	unittest.main()
 
