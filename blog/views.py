@@ -216,7 +216,6 @@ def author_wise_posts(author, page = 1):
 			return "Something Went Wrong !!"
 
 
-
 @app.route('/contact_us', methods = ['GET', 'POST'])
 def contact_us():
 
@@ -247,6 +246,12 @@ def contact_us():
 	return render_template('contact_us.html', form = form, categories = categories )
 
 
+@app.route('/about', methods = ['GET', 'POST'])
+def about():
+
+	categories = Category.query.all()
+
+	return render_template('about.html', categories = categories)
 
 
 

@@ -113,6 +113,11 @@ class UserTest(unittest.TestCase):
     	return self.app.post('/update')
 
 
+    def about(self):
+
+        return self.app.post('/about')
+
+
 	def test_create_blog(self):
 
 	    	rv = self.create_blog()
@@ -163,6 +168,11 @@ class UserTest(unittest.TestCase):
     	rv = self.index()
     	assert "Read Posts" in str(rv.data)
 
+
+    def test_about(self):
+
+        rv = self.about()
+        assert "Harinder Singh" in str(rv.data)
 
 if __name__ == '__main__':
 	unittest.main()
