@@ -223,7 +223,7 @@ def author_wise_posts(author, page = 1):
 def contact_us():
 
 	form = ContactUsForm()
-	categories = Category.query.all()
+	
 
 	if form.validate_on_submit():
 
@@ -246,15 +246,13 @@ def contact_us():
 		return 'Thanks for contacting us!!'
 
 
-	return render_template('contact_us.html', form = form, categories = categories )
+	return render_template('contact_us.html', form = form)
 
 
 @app.route('/about', methods = ['GET', 'POST'])
 def about():
 
-	categories = Category.query.all()
-
-	return render_template('about.html', categories = categories)
+	return render_template('about.html')
 
 
 

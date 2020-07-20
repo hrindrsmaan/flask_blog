@@ -1625,3 +1625,8 @@ OperationalError: (_mysql_exceptions.OperationalError) (2013, 'Lost connection t
 2020-07-20 11:39:38,812 * Debugger PIN: 239-795-515
 2020-07-20 11:39:49,672127.0.0.1 - - [20/Jul/2020 11:39:49] "GET / HTTP/1.1" 200 -
 2020-07-20 11:39:55,194127.0.0.1 - - [20/Jul/2020 11:39:55] "GET /index/4 HTTP/1.1" 200 -
+2020-07-20 12:04:53,995 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-07-20 12:04:53,996 * Restarting with stat
+2020-07-20 12:04:54,316 * Debugger is active!
+2020-07-20 12:04:54,316 * Debugger PIN: 239-795-515
+2020-07-20 12:04:59,678127.0.0.1 - - [20/Jul/2020 12:04:59] "GET / HTTP/1.1" 200 -
