@@ -1272,3 +1272,67 @@ IOError: [Errno 32] Broken pipe
 2020-07-19 17:50:56,590Harinder Singh about to log out!!
 2020-07-19 17:50:56,594127.0.0.1 - - [19/Jul/2020 17:50:56] "GET /logout HTTP/1.1" 302 -
 2020-07-19 17:50:56,691127.0.0.1 - - [19/Jul/2020 17:50:56] "GET /login HTTP/1.1" 200 -
+2020-07-19 17:52:53,527 * Debugger is active!
+2020-07-19 17:52:53,528 * Debugger PIN: 239-795-515
+2020-07-19 17:53:18,508127.0.0.1 - - [19/Jul/2020 17:53:18] "GET / HTTP/1.1" 200 -
+2020-07-19 17:53:19,894127.0.0.1 - - [19/Jul/2020 17:53:19] "GET /about HTTP/1.1" 200 -
+2020-07-19 17:54:11,095127.0.0.1 - - [19/Jul/2020 17:54:11] "GET /about HTTP/1.1" 200 -
+2020-07-19 17:54:12,995127.0.0.1 - - [19/Jul/2020 17:54:12] "GET / HTTP/1.1" 200 -
+2020-07-19 17:54:13,571127.0.0.1 - - [19/Jul/2020 17:54:13] "GET /about HTTP/1.1" 200 -
+2020-07-19 17:54:34,080127.0.0.1 - - [19/Jul/2020 17:54:34] "GET / HTTP/1.1" 200 -
+2020-07-19 18:49:49,695127.0.0.1 - - [19/Jul/2020 18:49:49] "GET / HTTP/1.1" 500 -
+2020-07-19 18:49:49,726127.0.0.1 - - [19/Jul/2020 18:49:49] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-19 18:49:49,731127.0.0.1 - - [19/Jul/2020 18:49:49] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-19 18:49:49,733127.0.0.1 - - [19/Jul/2020 18:49:49] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-19 18:49:49,946127.0.0.1 - - [19/Jul/2020 18:49:49] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 18:49:49,981127.0.0.1 - - [19/Jul/2020 18:49:49] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 18:49:54,699127.0.0.1 - - [19/Jul/2020 18:49:54] "GET / HTTP/1.1" 200 -
+2020-07-19 18:50:13,052127.0.0.1 - - [19/Jul/2020 18:50:13] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 18:50:15,776127.0.0.1 - - [19/Jul/2020 18:50:15] "GET /about HTTP/1.1" 200 -
+2020-07-19 18:50:16,853127.0.0.1 - - [19/Jul/2020 18:50:16] "GET / HTTP/1.1" 200 -
+2020-07-19 18:50:17,621127.0.0.1 - - [19/Jul/2020 18:50:17] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 18:52:23,986 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-07-19 18:52:24,323 * Debugger is active!
+2020-07-19 18:52:24,324 * Debugger PIN: 239-795-515
+2020-07-19 18:56:19,401127.0.0.1 - - [19/Jul/2020 18:56:19] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 18:56:56,559127.0.0.1 - - [19/Jul/2020 18:56:56] "POST /contact_us HTTP/1.1" 200 -
+2020-07-19 19:01:49,442127.0.0.1 - - [19/Jul/2020 19:01:49] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 19:01:51,461127.0.0.1 - - [19/Jul/2020 19:01:51] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 22:00:30,921127.0.0.1 - - [19/Jul/2020 22:00:30] "GET /contact_us HTTP/1.1" 200 -
+2020-07-19 22:00:37,025127.0.0.1 - - [19/Jul/2020 22:00:37] "GET /about HTTP/1.1" 200 -
+2020-07-19 22:00:42,120127.0.0.1 - - [19/Jul/2020 22:00:42] "GET / HTTP/1.1" 200 -
+2020-07-19 22:15:28,204127.0.0.1 - - [19/Jul/2020 22:15:28] "GET / HTTP/1.1" 500 -
+2020-07-19 22:15:28,242127.0.0.1 - - [19/Jul/2020 22:15:28] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-19 22:15:28,245127.0.0.1 - - [19/Jul/2020 22:15:28] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-19 22:15:28,246127.0.0.1 - - [19/Jul/2020 22:15:28] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-19 22:15:28,388127.0.0.1 - - [19/Jul/2020 22:15:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 22:15:28,430127.0.0.1 - - [19/Jul/2020 22:15:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 22:15:33,286127.0.0.1 - - [19/Jul/2020 22:15:33] "GET / HTTP/1.1" 200 -
+2020-07-19 22:38:49,476127.0.0.1 - - [19/Jul/2020 22:38:49] "GET /about HTTP/1.1" 500 -
+2020-07-19 22:38:49,517127.0.0.1 - - [19/Jul/2020 22:38:49] "GET /about?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-19 22:38:49,524127.0.0.1 - - [19/Jul/2020 22:38:49] "GET /about?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-19 22:38:49,525127.0.0.1 - - [19/Jul/2020 22:38:49] "GET /about?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-19 22:38:49,705127.0.0.1 - - [19/Jul/2020 22:38:49] "GET /about?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 22:38:49,757127.0.0.1 - - [19/Jul/2020 22:38:49] "GET /about?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 22:38:53,396127.0.0.1 - - [19/Jul/2020 22:38:53] "GET /about HTTP/1.1" 200 -
+2020-07-19 22:45:06,409Session Started for Harinder
+2020-07-19 22:45:13,670Session Started for Harinder
+2020-07-19 22:45:27,752Session Started for Harinder
+2020-07-19 22:45:27,758Harinder about to log out!!
+2020-07-19 22:45:54,746127.0.0.1 - - [19/Jul/2020 22:45:54] "GET /admin HTTP/1.1" 302 -
+2020-07-19 22:45:54,789127.0.0.1 - - [19/Jul/2020 22:45:54] "GET /login HTTP/1.1" 500 -
+2020-07-19 22:45:54,819127.0.0.1 - - [19/Jul/2020 22:45:54] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-19 22:45:54,823127.0.0.1 - - [19/Jul/2020 22:45:54] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-19 22:45:54,825127.0.0.1 - - [19/Jul/2020 22:45:54] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-19 22:45:54,974127.0.0.1 - - [19/Jul/2020 22:45:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 22:45:55,004127.0.0.1 - - [19/Jul/2020 22:45:55] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-19 22:45:58,679127.0.0.1 - - [19/Jul/2020 22:45:58] "GET /login HTTP/1.1" 200 -
+2020-07-19 22:46:03,142127.0.0.1 - - [19/Jul/2020 22:46:03] "GET /admin HTTP/1.1" 302 -
+2020-07-19 22:46:03,248127.0.0.1 - - [19/Jul/2020 22:46:03] "GET /login HTTP/1.1" 200 -
+2020-07-19 22:47:37,485Session Started for Harinder
+2020-07-19 22:47:44,835Session Started for Harinder
+2020-07-19 22:47:59,374Session Started for Harinder
+2020-07-19 22:47:59,386Harinder about to log out!!
+2020-07-19 22:48:40,145Session Started for Harinder
+2020-07-19 22:48:54,134Session Started for Harinder
+2020-07-19 22:48:54,145Harinder about to log out!!

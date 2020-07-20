@@ -16,6 +16,7 @@ from flask_blog.blog.views import *
 class UserTest(unittest.TestCase):
 
     def setUp(self):
+        print('setUp()')
         self.db_uri = 'mysql+pymysql://%s:%s@%s/' % ('harinder', '12345', 'localhost')
         app.config['TESTING'] = True
         app.config['WTF_CSRF_ENABLED'] = False
@@ -30,6 +31,7 @@ class UserTest(unittest.TestCase):
         self.app = app.test_client()
 
     def tearDown(self):
+        print('tearDown()')
         db.session.remove()
         engine = sqlalchemy.create_engine(self.db_uri)
         conn = engine.connect()
@@ -57,9 +59,6 @@ class UserTest(unittest.TestCase):
 
         	)
 
-   
-   	
-
 
     def login(self, username, password):
 
@@ -79,11 +78,6 @@ class UserTest(unittest.TestCase):
     def logout(self):
 
     	return self.app.get('/logout', follow_redirects = True)
-
-
-    def admin(self):
-
-    	return self.app.get('/admin', follow_redirects = True)
 
 
     def index(self):
@@ -116,6 +110,19 @@ class UserTest(unittest.TestCase):
     def about(self):
 
         return self.app.post('/about')
+
+
+    def contact_us(self):
+
+        return self.app.post('/contact_us', data = dict(
+
+                name = 'Harinder Singh',
+                email = 'hrinder@gmail.com',
+                subject = 'Test Subject',
+                message = 'Test Message',
+                ),
+
+             follow_redirects = True)
 
 
 	def test_create_blog(self):
@@ -152,16 +159,6 @@ class UserTest(unittest.TestCase):
     	assert "User Login" in str(rv.data) 
 
 
-    def test_admin(self):
-
-    	self.create_blog()
-    	self.login('harinder', '12345')
-
-    	rv = self.admin()
-
-    	assert "Create" in str(rv.data)
-
-
     def test_index(self):
 
     	self.create_blog()
@@ -173,6 +170,15 @@ class UserTest(unittest.TestCase):
 
         rv = self.about()
         assert "Harinder Singh" in str(rv.data)
+
+
+    def test_contact_us(self):
+
+        rv = self.contact_us()
+        print(str(rv.data))
+        assert "Thanks" in str(rv.data)
+
+
 
 if __name__ == '__main__':
 	unittest.main()
