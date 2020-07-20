@@ -138,7 +138,7 @@ def todo():
 def login():
 	form = LoginForm()
 
-	categories = Category.query.all()
+	#categories = Category.query.all()
 
 	if request.method == 'POST':
 
@@ -165,7 +165,7 @@ def login():
 			else:
 				return 'Login Failed!!'
 
-	return render_template('author/login.html', form = form, categories = categories)
+	return render_template('author/login.html', form = form)
 
 
 
