@@ -17,9 +17,9 @@ POST_PER_PAGE = 5
 def  index(page=1):
 
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
-	categories = Category.query.all()
+	#categories = Category.query.all()
 
-	return render_template('blog/index.html', posts = posts, categories = categories)
+	return render_template('blog/index.html', posts = posts)
 
 
 @app.route('/article/<slug>', methods = ['GET', 'POST'])
