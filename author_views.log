@@ -1630,3 +1630,16 @@ OperationalError: (_mysql_exceptions.OperationalError) (2013, 'Lost connection t
 2020-07-20 12:04:54,316 * Debugger is active!
 2020-07-20 12:04:54,316 * Debugger PIN: 239-795-515
 2020-07-20 12:04:59,678127.0.0.1 - - [20/Jul/2020 12:04:59] "GET / HTTP/1.1" 200 -
+2020-07-20 12:13:41,902 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-07-20 12:13:41,902 * Restarting with stat
+2020-07-20 12:13:42,221 * Debugger is active!
+2020-07-20 12:13:42,221 * Debugger PIN: 239-795-515
+2020-07-20 12:13:50,244127.0.0.1 - - [20/Jul/2020 12:13:50] "GET / HTTP/1.1" 200 -
+2020-07-20 12:13:57,994127.0.0.1 - - [20/Jul/2020 12:13:57] "GET /contact_us HTTP/1.1" 200 -
+2020-07-20 12:14:30,562127.0.0.1 - - [20/Jul/2020 12:14:30] "POST /contact_us HTTP/1.1" 200 -
+2020-07-20 12:15:09,583127.0.0.1 - - [20/Jul/2020 12:15:09] "GET / HTTP/1.1" 200 -
+2020-07-20 12:15:12,004127.0.0.1 - - [20/Jul/2020 12:15:12] "GET / HTTP/1.1" 200 -
+2020-07-20 12:15:36,290 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/manage.py', reloading
+2020-07-20 12:15:36,332 * Restarting with stat
+2020-07-20 12:15:36,670 * Debugger is active!
+2020-07-20 12:15:36,670 * Debugger PIN: 239-795-515

@@ -17,9 +17,9 @@ POST_PER_PAGE = 5
 def  index(page=1):
 
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
-	#categories = Category.query.all()
+	categories = Category.query.all()
 
-	return render_template('blog/index.html', posts = posts)
+	return render_template('blog/index.html', posts = posts, categories = categories)
 
 
 @app.route('/article/<slug>', methods = ['GET', 'POST'])
@@ -223,7 +223,7 @@ def author_wise_posts(author, page = 1):
 def contact_us():
 
 	form = ContactUsForm()
-	
+	categories = Category.query.all()
 
 	if form.validate_on_submit():
 
@@ -246,13 +246,15 @@ def contact_us():
 		return 'Thanks for contacting us!!'
 
 
-	return render_template('contact_us.html', form = form)
+	return render_template('contact_us.html', form = form, categories = categories )
 
 
 @app.route('/about', methods = ['GET', 'POST'])
 def about():
 
-	return render_template('about.html')
+	categories = Category.query.all()
+
+	return render_template('about.html', categories = categories)
 
 
 

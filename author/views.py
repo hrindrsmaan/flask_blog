@@ -138,7 +138,7 @@ def todo():
 def login():
 	form = LoginForm()
 
-	#categories = Category.query.all()
+	categories = Category.query.all()
 
 	if request.method == 'POST':
 
@@ -165,7 +165,7 @@ def login():
 			else:
 				return 'Login Failed!!'
 
-	return render_template('author/login.html', form = form)
+	return render_template('author/login.html', form = form, categories = categories)
 
 
 
@@ -179,10 +179,10 @@ def admin(page=1):
 		
 		return redirect(url_for('login'))
 
-	# categories = Category.query.all()
+	categories = Category.query.all()
 
 	posts = Post.query.order_by(Post.publish_date.desc()).paginate(page, POST_PER_PAGE, False)
-	return render_template('author/admin.html', posts = posts)
+	return render_template('author/admin.html', posts = posts, categories = categories)
 
 
 @app.route('/logout', methods = ['GET', 'POST'])
