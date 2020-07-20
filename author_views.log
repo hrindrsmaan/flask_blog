@@ -1336,3 +1336,9 @@ IOError: [Errno 32] Broken pipe
 2020-07-19 22:48:40,145Session Started for Harinder
 2020-07-19 22:48:54,134Session Started for Harinder
 2020-07-19 22:48:54,145Harinder about to log out!!
+2020-07-19 23:59:30,239 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-07-19 23:59:30,585 * Debugger is active!
+2020-07-19 23:59:30,585 * Debugger PIN: 239-795-515
+2020-07-20 00:00:38,676 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/__init__.py', reloading
+2020-07-20 00:00:39,004 * Debugger is active!
+2020-07-20 00:00:39,005 * Debugger PIN: 239-795-515
