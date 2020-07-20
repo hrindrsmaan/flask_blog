@@ -17,3 +17,6 @@ slugify==0.0.1
 SQLAlchemy==1.3.12
 Werkzeug==0.16.0
 WTForms==2.2.1
+awesome-slugify
+flask-bootstrap
+python-slugify

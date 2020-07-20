@@ -53,6 +53,7 @@ def post():
 			if form.category.data:
 
 				category = form.category.data
+				
 
 			elif form.new_category.data:
 
@@ -65,27 +66,29 @@ def post():
 
 				return "Not Category Entered by User !!"
 
-	title = form.title.data
-	body = form.body.data
 
-	print("Category = {0}".format(category))
+			title = form.title.data
+			body = form.body.data
 
-	#slug = slugify(title).encode('utf-8')
-	slug = slugify(title)
-	author_id = Author.query.filter_by(name = session['user']).first().id
-	category_id = Category.query.filter_by(name = str(category)).first().id
-	blog_id = Blog.query.first().id
-	publish_date = datetime.utcnow()
+			#print("Category = {0}".format(category))
 
-
-	print('Slug = {0},Author ID = {1}, Category = {2}'.format(slug, author_id, category_id))
-
-	post = Post(title, body, slug, blog_id, author_id, category_id, publish_date)
-	db.session.add(post)
-	db.session.commit()
+			#slug = slugify(title).encode('utf-8')
+			slug = title
+			author_id = Author.query.filter_by(name = session['user']).first().id
+			category_id = Category.query.filter_by(name = str(category)).first().id
+			blog_id = Blog.query.first().id
+			publish_date = datetime.utcnow()
 
 
-	return 'Post Added'
+			#print('Slug = {0},Author ID = {1}, Category = {2}'.format(slug, author_id, category_id))
+
+			post = Post(title, body, slug, blog_id, author_id, category_id, publish_date)
+			db.session.add(post)
+			db.session.commit()
+
+
+
+			return 'Post Added'
 
 	return render_template('author/post.html', form = form, categories = categories)
 
