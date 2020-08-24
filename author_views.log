@@ -1836,3 +1836,65 @@ OperationalError: (_mysql_exceptions.OperationalError) (2013, 'Lost connection t
 2020-08-18 12:29:31,822127.0.0.1 - - [18/Aug/2020 12:29:31] "GET / HTTP/1.1" 200 -
 2020-08-18 12:29:32,001127.0.0.1 - - [18/Aug/2020 12:29:32] "GET /static/main.css HTTP/1.1" 200 -
 2020-08-18 12:29:52,001127.0.0.1 - - [18/Aug/2020 12:29:52] "GET / HTTP/1.1" 200 -
+2020-08-24 14:36:42,641 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-08-24 14:36:42,641 * Restarting with stat
+2020-08-24 14:36:42,968 * Debugger is active!
+2020-08-24 14:36:42,968 * Debugger PIN: 239-795-515
+2020-08-24 14:36:51,510127.0.0.1 - - [24/Aug/2020 14:36:51] "GET / HTTP/1.1" 200 -
+2020-08-24 14:36:54,134127.0.0.1 - - [24/Aug/2020 14:36:54] "GET / HTTP/1.1" 200 -
+2020-08-24 14:36:54,258127.0.0.1 - - [24/Aug/2020 14:36:54] "GET /static/main.css HTTP/1.1" 200 -
+2020-08-24 14:36:58,042127.0.0.1 - - [24/Aug/2020 14:36:58] "GET /myfolio HTTP/1.1" 404 -
+2020-08-24 14:37:01,657127.0.0.1 - - [24/Aug/2020 14:37:01] "GET /mididrums HTTP/1.1" 500 -
+2020-08-24 14:37:01,739127.0.0.1 - - [24/Aug/2020 14:37:01] "GET /mididrums?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-08-24 14:37:01,742127.0.0.1 - - [24/Aug/2020 14:37:01] "GET /mididrums?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-08-24 14:37:01,743127.0.0.1 - - [24/Aug/2020 14:37:01] "GET /mididrums?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-08-24 14:37:01,891127.0.0.1 - - [24/Aug/2020 14:37:01] "GET /mididrums?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-08-24 14:37:01,902127.0.0.1 - - [24/Aug/2020 14:37:01] "GET /mididrums?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-08-24 14:37:25,830 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-08-24 14:37:25,878 * Restarting with stat
+2020-08-24 14:37:26,217 * Debugger is active!
+2020-08-24 14:37:26,218 * Debugger PIN: 239-795-515
+2020-08-24 14:37:28,794127.0.0.1 - - [24/Aug/2020 14:37:28] "GET /mididrums HTTP/1.1" 500 -
+2020-08-24 14:37:28,822127.0.0.1 - - [24/Aug/2020 14:37:28] "GET /mididrums?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-08-24 14:37:28,825127.0.0.1 - - [24/Aug/2020 14:37:28] "GET /mididrums?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-08-24 14:37:28,826127.0.0.1 - - [24/Aug/2020 14:37:28] "GET /mididrums?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-08-24 14:37:28,906127.0.0.1 - - [24/Aug/2020 14:37:28] "GET /mididrums?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-08-24 14:37:39,674127.0.0.1 - - [24/Aug/2020 14:37:39] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:40:45,401127.0.0.1 - - [24/Aug/2020 14:40:45] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:42:41,137127.0.0.1 - - [24/Aug/2020 14:42:41] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:43:19,093127.0.0.1 - - [24/Aug/2020 14:43:19] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:43:37,450127.0.0.1 - - [24/Aug/2020 14:43:37] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:44:00,942127.0.0.1 - - [24/Aug/2020 14:44:00] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:44:22,101127.0.0.1 - - [24/Aug/2020 14:44:22] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:44:32,674127.0.0.1 - - [24/Aug/2020 14:44:32] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:44:48,245127.0.0.1 - - [24/Aug/2020 14:44:48] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:45:02,661127.0.0.1 - - [24/Aug/2020 14:45:02] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:45:10,656127.0.0.1 - - [24/Aug/2020 14:45:10] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:45:17,045127.0.0.1 - - [24/Aug/2020 14:45:17] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:45:32,872127.0.0.1 - - [24/Aug/2020 14:45:32] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:46:23,220127.0.0.1 - - [24/Aug/2020 14:46:23] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:46:41,398127.0.0.1 - - [24/Aug/2020 14:46:41] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:46:58,362127.0.0.1 - - [24/Aug/2020 14:46:58] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:47:17,269127.0.0.1 - - [24/Aug/2020 14:47:17] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:47:26,518127.0.0.1 - - [24/Aug/2020 14:47:26] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:47:37,158127.0.0.1 - - [24/Aug/2020 14:47:37] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:49:07,678127.0.0.1 - - [24/Aug/2020 14:49:07] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:49:07,737Error on request:
+Traceback (most recent call last):
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 295, in execute
+    write(data)
+  File "/home/harinder/Documents/flask_projects/flask_blog/blog_env/lib/python2.7/site-packages/werkzeug/serving.py", line 258, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+2020-08-24 14:49:07,742127.0.0.1 - - [24/Aug/2020 14:49:07] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:50:49,383127.0.0.1 - - [24/Aug/2020 14:50:49] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:51:06,917 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-08-24 14:51:06,958 * Restarting with stat
+2020-08-24 14:51:07,306 * Debugger is active!
+2020-08-24 14:51:07,306 * Debugger PIN: 239-795-515
+2020-08-24 14:51:14,650127.0.0.1 - - [24/Aug/2020 14:51:14] "GET /myfolio HTTP/1.1" 404 -
+2020-08-24 14:51:17,898127.0.0.1 - - [24/Aug/2020 14:51:17] "GET /mididrums HTTP/1.1" 200 -
