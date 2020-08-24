@@ -59,7 +59,7 @@
               {% if session['user'] %}
 
                  <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('admin')}}"> {{ session['user'] }} </a>
+                    <a class="nav-link" href="{{ url_for('author_wise_posts', author = session['user'])}}"> {{ session['user'] }} </a>
                   </li>
 
                 <li class="nav-item">
@@ -120,11 +120,7 @@
 
                 <p class='text-muted'>
 
-                    {% for category in categories %}
- 
-                          <a href="{{ url_for('category_wise_blog', category = category.name)}}"> {{ category.name }} </a> <p>
-
-                    {% endfor %}
+                   
 
                 </p>
 
@@ -186,7 +182,7 @@
 
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © www.flasknotes.com 2020</small></div>
+            <div class="container"><small>Copyright © www.producerflps.com 2020</small></div>
         </div>
 
    

@@ -6,34 +6,6 @@
 {% block content %} 
 
 
-	<!-- {% for post in posts.items %}
-
-		{% if post.is_live %}
-
-		<h3 class="" > <a href="{{ url_for('article', slug = post.slug) }}"> 
-		{{ post.title }} </a> </h3> 
-
-		<strong class=""> Posted by
-
-		<a href="{{ url_for('author_wise_posts', author = post.author.name) }}"> {{ post.author.name }} </a> 
-
-			in  {{ post.category.name }} on 
-
-			{% if post.publish_date %}
-
-				{{ post.publish_date }} 
-
-			{% endif %}
-
-
-		</strong> 
-
-		<hr>
-
-		{% endif %}
-
-	{% endfor %} -->
-
 	 {% for post in posts.items %}
 
 	 	{% if post.is_live %}

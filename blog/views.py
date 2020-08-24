@@ -87,8 +87,7 @@ def post():
 			db.session.commit()
 
 
-
-			return 'Post Added'
+			return render_template('blog/post_helper.html', post = post, categories = categories)
 
 	return render_template('author/post.html', form = form, categories = categories)
 
@@ -104,8 +103,6 @@ def edit(post_id):
 	
 	post_obj = Post.query.filter_by(id = post_id).first_or_404()
 
-	print("POST ID: %d" % post_obj.id)
-
 	form = PostForm(obj = post_obj)
 
 	return render_template('author/post.html', form = form, action = 'update', post = post_obj, categories = categories)
@@ -117,8 +114,6 @@ def update(post_id):
 	if session.get('user') is None:
 		
 		return redirect(url_for('login'))
-
-
 
 	form = PostForm()
 	post = Post.query.filter_by(id = post_id).first()

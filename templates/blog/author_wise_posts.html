@@ -2,40 +2,58 @@
 
 {% block content %}
 
-	
 	<h1> Posts by {{ author }} </h1>
 
-
-	{% for post in posts.items %}
-
-	 	{% if post.is_live %}
-
-	 		<article class="media content-section">
-
-	          <div class="media-body">
-
-	            <div class="article-metadata">
-
-	              Posted by 
-	              <a class="mr-2" href="{{ url_for('author_wise_posts', author = post.author.name) }}">{{ post.author.name }}</a>
-	              in  {{ post.category.name }} on
-
-	              <small class="text-muted">{{ post.publish_date }}</small>
-
-	            </div>
-
-	            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
-
-	            <p class="article-content"> {{ post.body }} </p>
-
-	          </div>
-
-	        </article>
-
-	 	{% endif  %}
+	{% if posts.items %}
 
 
-    {% endfor %}
+		{% for post in posts.items %}
+
+		 	{% if post.is_live %}
+
+		 		<article class="media content-section">
+
+		          <div class="media-body">
+
+		            <div class="article-metadata">
+
+		              Posted by 
+		              <a class="mr-2" href="{{ url_for('author_wise_posts', author = post.author.name) }}">{{ post.author.name }}</a>
+		              in  {{ post.category.name }} on
+
+		              <small class="text-muted">{{ post.publish_date }}</small>
+
+		            </div>
+
+		            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+
+		            {% if session['user'] %}
+
+		            	<p> <a href="{{ url_for('edit', post_id = post.id) }}"> EDIT </a> 
+
+						<a href="{{ url_for('delete', post_id = post.id) }}"> DELETE </a> </p>
+
+		            {% endif %}
+
+
+		            <p class="article-content"> {{ post.body }} </p>
+
+		          </div>
+
+		        </article>
+
+		 	{% endif  %}
+
+	    {% endfor %}
+
+
+	{% else %}
+
+		<p> You haven't posted anything yet. Click here 
+		<a class="mr-2" href="{{ url_for('post') }}"> Click here</a>
+		to create your first post </p>
+
+    {% endif %}
 
 
 
@@ -60,8 +78,7 @@
 	    {% for page in posts.iter_pages() %}
 		          
 			{% if page %}
-
-				<!-- <a href="{{ url_for('index', page = page )}}"> {{ page }} </a> -->
+			
 
 				 <li class="page-item"><a class="page-link" href="{{ url_for('author_wise_posts', author = author ,page = page)}}"> {{ page }} </a> </li>
 

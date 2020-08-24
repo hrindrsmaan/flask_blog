@@ -1649,3 +1649,190 @@ OperationalError: (_mysql_exceptions.OperationalError) (2013, 'Lost connection t
 2020-07-20 12:44:28,929 * Debugger PIN: 239-795-515
 2020-07-20 12:44:36,335127.0.0.1 - - [20/Jul/2020 12:44:36] "GET / HTTP/1.1" 200 -
 2020-07-20 12:45:04,025127.0.0.1 - - [20/Jul/2020 12:45:04] "GET / HTTP/1.1" 200 -
+2020-07-21 15:22:01,342 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-07-21 15:22:01,342 * Restarting with stat
+2020-07-21 15:22:01,664 * Debugger is active!
+2020-07-21 15:22:01,664 * Debugger PIN: 239-795-515
+2020-07-21 15:22:18,528127.0.0.1 - - [21/Jul/2020 15:22:18] "GET / HTTP/1.1" 200 -
+2020-07-21 15:22:18,612127.0.0.1 - - [21/Jul/2020 15:22:18] "GET /static/main.css HTTP/1.1" 200 -
+2020-07-21 15:22:22,656127.0.0.1 - - [21/Jul/2020 15:22:22] "GET /login HTTP/1.1" 200 -
+2020-07-21 15:23:52,751Session Started for Raman Shah
+2020-07-21 15:23:52,989127.0.0.1 - - [21/Jul/2020 15:23:52] "POST /login HTTP/1.1" 302 -
+2020-07-21 15:23:53,077127.0.0.1 - - [21/Jul/2020 15:23:53] "GET /todo HTTP/1.1" 200 -
+2020-07-21 15:24:18,189127.0.0.1 - - [21/Jul/2020 15:24:18] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:31:01,196127.0.0.1 - - [21/Jul/2020 15:31:01] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 500 -
+2020-07-21 15:31:01,219127.0.0.1 - - [21/Jul/2020 15:31:01] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-21 15:31:01,221127.0.0.1 - - [21/Jul/2020 15:31:01] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-21 15:31:01,228127.0.0.1 - - [21/Jul/2020 15:31:01] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-21 15:31:01,404127.0.0.1 - - [21/Jul/2020 15:31:01] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:31:01,449127.0.0.1 - - [21/Jul/2020 15:31:01] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:31:08,605127.0.0.1 - - [21/Jul/2020 15:31:08] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:31:19,266127.0.0.1 - - [21/Jul/2020 15:31:19] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:31:24,915Raman Shah about to log out!!
+2020-07-21 15:31:24,919127.0.0.1 - - [21/Jul/2020 15:31:24] "GET /logout HTTP/1.1" 302 -
+2020-07-21 15:31:25,193127.0.0.1 - - [21/Jul/2020 15:31:25] "GET /login HTTP/1.1" 200 -
+2020-07-21 15:31:30,100Session Started for Harinder Singh
+2020-07-21 15:31:30,366127.0.0.1 - - [21/Jul/2020 15:31:30] "POST /login HTTP/1.1" 302 -
+2020-07-21 15:31:30,449127.0.0.1 - - [21/Jul/2020 15:31:30] "GET /todo HTTP/1.1" 200 -
+2020-07-21 15:31:32,214127.0.0.1 - - [21/Jul/2020 15:31:32] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 15:32:26,209127.0.0.1 - - [21/Jul/2020 15:32:26] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 500 -
+2020-07-21 15:32:26,239127.0.0.1 - - [21/Jul/2020 15:32:26] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-21 15:32:26,242127.0.0.1 - - [21/Jul/2020 15:32:26] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-21 15:32:26,248127.0.0.1 - - [21/Jul/2020 15:32:26] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-21 15:32:26,365127.0.0.1 - - [21/Jul/2020 15:32:26] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:32:26,391127.0.0.1 - - [21/Jul/2020 15:32:26] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:34:03,559127.0.0.1 - - [21/Jul/2020 15:34:03] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 15:35:26,199127.0.0.1 - - [21/Jul/2020 15:35:26] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 15:35:28,999127.0.0.1 - - [21/Jul/2020 15:35:28] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 15:35:32,570127.0.0.1 - - [21/Jul/2020 15:35:32] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 15:36:34,458127.0.0.1 - - [21/Jul/2020 15:36:34] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 15:36:40,964Harinder Singh about to log out!!
+2020-07-21 15:36:40,968127.0.0.1 - - [21/Jul/2020 15:36:40] "GET /logout HTTP/1.1" 302 -
+2020-07-21 15:36:41,055127.0.0.1 - - [21/Jul/2020 15:36:41] "GET /login HTTP/1.1" 200 -
+2020-07-21 15:36:50,327Session Started for Karanbir
+2020-07-21 15:36:50,639127.0.0.1 - - [21/Jul/2020 15:36:50] "POST /login HTTP/1.1" 302 -
+2020-07-21 15:36:50,727127.0.0.1 - - [21/Jul/2020 15:36:50] "GET /todo HTTP/1.1" 200 -
+2020-07-21 15:37:01,865127.0.0.1 - - [21/Jul/2020 15:37:01] "GET /author_wise_posts/Karanbir HTTP/1.1" 200 -
+2020-07-21 15:37:05,337127.0.0.1 - - [21/Jul/2020 15:37:05] "GET /author_wise_posts/Karanbir/1 HTTP/1.1" 200 -
+2020-07-21 15:37:11,145Karanbir about to log out!!
+2020-07-21 15:37:11,146127.0.0.1 - - [21/Jul/2020 15:37:11] "GET /logout HTTP/1.1" 302 -
+2020-07-21 15:37:11,222127.0.0.1 - - [21/Jul/2020 15:37:11] "GET /login HTTP/1.1" 200 -
+2020-07-21 15:37:21,329Session Started for Raman Shah
+2020-07-21 15:37:21,682127.0.0.1 - - [21/Jul/2020 15:37:21] "POST /login HTTP/1.1" 302 -
+2020-07-21 15:37:21,762127.0.0.1 - - [21/Jul/2020 15:37:21] "GET /todo HTTP/1.1" 200 -
+2020-07-21 15:37:25,971127.0.0.1 - - [21/Jul/2020 15:37:25] "GET /admin HTTP/1.1" 200 -
+2020-07-21 15:37:34,528127.0.0.1 - - [21/Jul/2020 15:37:34] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:37:37,953127.0.0.1 - - [21/Jul/2020 15:37:37] "GET /post HTTP/1.1" 200 -
+2020-07-21 15:39:14,173127.0.0.1 - - [21/Jul/2020 15:39:14] "POST /post HTTP/1.1" 200 -
+2020-07-21 15:39:19,908127.0.0.1 - - [21/Jul/2020 15:39:19] "POST /post HTTP/1.1" 200 -
+2020-07-21 15:39:21,379127.0.0.1 - - [21/Jul/2020 15:39:21] "GET /post HTTP/1.1" 200 -
+2020-07-21 15:39:23,797127.0.0.1 - - [21/Jul/2020 15:39:23] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:39:31,107127.0.0.1 - - [21/Jul/2020 15:39:31] "GET /delete/62 HTTP/1.1" 302 -
+2020-07-21 15:39:31,320127.0.0.1 - - [21/Jul/2020 15:39:31] "GET / HTTP/1.1" 200 -
+2020-07-21 15:39:34,481127.0.0.1 - - [21/Jul/2020 15:39:34] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:39:45,999127.0.0.1 - - [21/Jul/2020 15:39:45] "GET /post HTTP/1.1" 200 -
+2020-07-21 15:43:12,294127.0.0.1 - - [21/Jul/2020 15:43:12] "POST /post HTTP/1.1" 200 -
+2020-07-21 15:43:16,971127.0.0.1 - - [21/Jul/2020 15:43:16] "GET /home HTTP/1.1" 200 -
+2020-07-21 15:43:20,798127.0.0.1 - - [21/Jul/2020 15:43:20] "GET / HTTP/1.1" 200 -
+2020-07-21 15:43:24,180127.0.0.1 - - [21/Jul/2020 15:43:24] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:44:08,491127.0.0.1 - - [21/Jul/2020 15:44:08] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:50:11,238127.0.0.1 - - [21/Jul/2020 15:50:11] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 500 -
+2020-07-21 15:50:11,275127.0.0.1 - - [21/Jul/2020 15:50:11] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-21 15:50:11,278127.0.0.1 - - [21/Jul/2020 15:50:11] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-21 15:50:11,280127.0.0.1 - - [21/Jul/2020 15:50:11] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-21 15:50:11,419127.0.0.1 - - [21/Jul/2020 15:50:11] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:50:11,466127.0.0.1 - - [21/Jul/2020 15:50:11] "GET /author_wise_posts/Raman%20Shah?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:50:15,952127.0.0.1 - - [21/Jul/2020 15:50:15] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:50:20,619127.0.0.1 - - [21/Jul/2020 15:50:20] "GET /post HTTP/1.1" 200 -
+2020-07-21 15:52:07,630127.0.0.1 - - [21/Jul/2020 15:52:07] "POST /post HTTP/1.1" 200 -
+2020-07-21 15:58:08,405127.0.0.1 - - [21/Jul/2020 15:58:08] "GET /login HTTP/1.1" 500 -
+2020-07-21 15:58:09,249127.0.0.1 - - [21/Jul/2020 15:58:09] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-21 15:58:09,252127.0.0.1 - - [21/Jul/2020 15:58:09] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-21 15:58:09,256127.0.0.1 - - [21/Jul/2020 15:58:09] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-21 15:58:09,398127.0.0.1 - - [21/Jul/2020 15:58:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:58:09,438127.0.0.1 - - [21/Jul/2020 15:58:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 15:58:13,336127.0.0.1 - - [21/Jul/2020 15:58:13] "GET /login HTTP/1.1" 200 -
+2020-07-21 15:58:16,225127.0.0.1 - - [21/Jul/2020 15:58:16] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 15:58:38,529127.0.0.1 - - [21/Jul/2020 15:58:38] "GET /post HTTP/1.1" 200 -
+2020-07-21 15:59:37,635127.0.0.1 - - [21/Jul/2020 15:59:37] "POST /post HTTP/1.1" 200 -
+2020-07-21 15:59:50,427 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-07-21 15:59:50,464 * Restarting with stat
+2020-07-21 15:59:50,780 * Debugger is active!
+2020-07-21 15:59:50,780 * Debugger PIN: 239-795-515
+2020-07-21 16:00:00,925 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-07-21 16:00:00,972 * Restarting with stat
+2020-07-21 16:00:01,292 * Debugger is active!
+2020-07-21 16:00:01,292 * Debugger PIN: 239-795-515
+2020-07-21 16:00:17,745127.0.0.1 - - [21/Jul/2020 16:00:17] "GET /login HTTP/1.1" 200 -
+2020-07-21 16:00:19,450127.0.0.1 - - [21/Jul/2020 16:00:19] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:06:28,995127.0.0.1 - - [21/Jul/2020 16:06:28] "GET / HTTP/1.1" 500 -
+2020-07-21 16:06:29,033127.0.0.1 - - [21/Jul/2020 16:06:29] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-21 16:06:29,035127.0.0.1 - - [21/Jul/2020 16:06:29] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-21 16:06:29,041127.0.0.1 - - [21/Jul/2020 16:06:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-21 16:06:29,154127.0.0.1 - - [21/Jul/2020 16:06:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 16:06:29,231127.0.0.1 - - [21/Jul/2020 16:06:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 16:06:33,247127.0.0.1 - - [21/Jul/2020 16:06:33] "GET / HTTP/1.1" 200 -
+2020-07-21 16:06:36,265127.0.0.1 - - [21/Jul/2020 16:06:36] "GET / HTTP/1.1" 200 -
+2020-07-21 16:06:43,709127.0.0.1 - - [21/Jul/2020 16:06:43] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:06:50,970127.0.0.1 - - [21/Jul/2020 16:06:50] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:06:52,707127.0.0.1 - - [21/Jul/2020 16:06:52] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:07:51,561127.0.0.1 - - [21/Jul/2020 16:07:51] "POST /post HTTP/1.1" 200 -
+2020-07-21 16:10:37,405127.0.0.1 - - [21/Jul/2020 16:10:37] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:11:53,299 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-07-21 16:11:53,350 * Restarting with stat
+2020-07-21 16:11:53,714 * Debugger is active!
+2020-07-21 16:11:53,715 * Debugger PIN: 239-795-515
+2020-07-21 16:11:58,244127.0.0.1 - - [21/Jul/2020 16:11:58] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:11:59,650127.0.0.1 - - [21/Jul/2020 16:11:59] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:12:05,045127.0.0.1 - - [21/Jul/2020 16:12:05] "GET /post_helper HTTP/1.1" 404 -
+2020-07-21 16:12:08,383127.0.0.1 - - [21/Jul/2020 16:12:08] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:13:25,784127.0.0.1 - - [21/Jul/2020 16:13:25] "POST /post HTTP/1.1" 200 -
+2020-07-21 16:14:07,439127.0.0.1 - - [21/Jul/2020 16:14:07] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:14:12,045127.0.0.1 - - [21/Jul/2020 16:14:12] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:14:18,138127.0.0.1 - - [21/Jul/2020 16:14:18] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:17:38,572127.0.0.1 - - [21/Jul/2020 16:17:38] "POST /post HTTP/1.1" 200 -
+2020-07-21 16:17:43,428127.0.0.1 - - [21/Jul/2020 16:17:43] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:18:51,538127.0.0.1 - - [21/Jul/2020 16:18:51] "GET /author_wise_posts/Raman%20Shah HTTP/1.1" 200 -
+2020-07-21 16:18:53,630127.0.0.1 - - [21/Jul/2020 16:18:53] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:18:55,107Raman Shah about to log out!!
+2020-07-21 16:18:55,109127.0.0.1 - - [21/Jul/2020 16:18:55] "GET /logout HTTP/1.1" 302 -
+2020-07-21 16:18:55,716127.0.0.1 - - [21/Jul/2020 16:18:55] "GET /login HTTP/1.1" 200 -
+2020-07-21 16:19:10,396Session Started for Karanbir
+2020-07-21 16:19:10,702127.0.0.1 - - [21/Jul/2020 16:19:10] "POST /login HTTP/1.1" 302 -
+2020-07-21 16:19:10,791127.0.0.1 - - [21/Jul/2020 16:19:10] "GET /todo HTTP/1.1" 200 -
+2020-07-21 16:19:15,631127.0.0.1 - - [21/Jul/2020 16:19:15] "GET /author_wise_posts/Karanbir HTTP/1.1" 200 -
+2020-07-21 16:19:18,311127.0.0.1 - - [21/Jul/2020 16:19:18] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:20:52,882127.0.0.1 - - [21/Jul/2020 16:20:52] "POST /post HTTP/1.1" 200 -
+2020-07-21 16:20:57,922127.0.0.1 - - [21/Jul/2020 16:20:57] "GET /author_wise_posts/Karanbir HTTP/1.1" 200 -
+2020-07-21 16:21:07,754127.0.0.1 - - [21/Jul/2020 16:21:07] "GET /post HTTP/1.1" 200 -
+2020-07-21 16:21:45,652127.0.0.1 - - [21/Jul/2020 16:21:45] "POST /post HTTP/1.1" 200 -
+2020-07-21 16:21:47,562127.0.0.1 - - [21/Jul/2020 16:21:47] "GET /author_wise_posts/Karanbir HTTP/1.1" 200 -
+2020-07-21 16:26:44,929127.0.0.1 - - [21/Jul/2020 16:26:44] "GET / HTTP/1.1" 200 -
+2020-07-21 16:26:53,116127.0.0.1 - - [21/Jul/2020 16:26:53] "GET /about HTTP/1.1" 200 -
+2020-07-21 16:26:54,060127.0.0.1 - - [21/Jul/2020 16:26:54] "GET /contact_us HTTP/1.1" 200 -
+2020-07-21 16:26:55,482127.0.0.1 - - [21/Jul/2020 16:26:55] "GET /author_wise_posts/Karanbir HTTP/1.1" 200 -
+2020-07-21 16:27:03,388127.0.0.1 - - [21/Jul/2020 16:27:03] "GET /author_wise_posts/Karanbir HTTP/1.1" 200 -
+2020-07-21 16:27:05,272127.0.0.1 - - [21/Jul/2020 16:27:05] "GET /author_wise_posts/Karanbir HTTP/1.1" 200 -
+2020-07-21 16:27:08,877127.0.0.1 - - [21/Jul/2020 16:27:08] "GET /edit/69 HTTP/1.1" 200 -
+2020-07-21 16:27:16,325Karanbir about to log out!!
+2020-07-21 16:27:16,332127.0.0.1 - - [21/Jul/2020 16:27:16] "GET /logout HTTP/1.1" 302 -
+2020-07-21 16:27:16,425127.0.0.1 - - [21/Jul/2020 16:27:16] "GET /login HTTP/1.1" 200 -
+2020-07-21 16:27:25,759Session Started for Harinder Singh
+2020-07-21 16:27:25,999127.0.0.1 - - [21/Jul/2020 16:27:25] "POST /login HTTP/1.1" 302 -
+2020-07-21 16:27:26,083127.0.0.1 - - [21/Jul/2020 16:27:26] "GET /todo HTTP/1.1" 200 -
+2020-07-21 16:27:28,882127.0.0.1 - - [21/Jul/2020 16:27:28] "GET /admin HTTP/1.1" 200 -
+2020-07-21 16:28:10,636Harinder Singh about to log out!!
+2020-07-21 16:28:10,639127.0.0.1 - - [21/Jul/2020 16:28:10] "GET /logout HTTP/1.1" 302 -
+2020-07-21 16:28:10,710127.0.0.1 - - [21/Jul/2020 16:28:10] "GET /login HTTP/1.1" 200 -
+2020-07-21 16:28:15,390Session Started for Harinder Singh
+2020-07-21 16:28:15,471127.0.0.1 - - [21/Jul/2020 16:28:15] "POST /login HTTP/1.1" 302 -
+2020-07-21 16:28:15,590127.0.0.1 - - [21/Jul/2020 16:28:15] "GET /todo HTTP/1.1" 200 -
+2020-07-21 16:28:28,619127.0.0.1 - - [21/Jul/2020 16:28:28] "GET / HTTP/1.1" 200 -
+2020-07-21 16:28:40,413127.0.0.1 - - [21/Jul/2020 16:28:40] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 16:28:57,040127.0.0.1 - - [21/Jul/2020 16:28:57] "GET /edit/1 HTTP/1.1" 200 -
+2020-07-21 16:29:02,156127.0.0.1 - - [21/Jul/2020 16:29:02] "POST /update/1 HTTP/1.1" 302 -
+2020-07-21 16:29:02,320127.0.0.1 - - [21/Jul/2020 16:29:02] "GET /article/python-numbers HTTP/1.1" 200 -
+2020-07-21 17:46:52,201127.0.0.1 - - [21/Jul/2020 17:46:52] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 500 -
+2020-07-21 17:46:52,239127.0.0.1 - - [21/Jul/2020 17:46:52] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-07-21 17:46:52,243127.0.0.1 - - [21/Jul/2020 17:46:52] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-07-21 17:46:52,244127.0.0.1 - - [21/Jul/2020 17:46:52] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-07-21 17:46:52,402127.0.0.1 - - [21/Jul/2020 17:46:52] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 17:46:52,447127.0.0.1 - - [21/Jul/2020 17:46:52] "GET /author_wise_posts/Harinder%20Singh?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-07-21 17:46:59,196127.0.0.1 - - [21/Jul/2020 17:46:59] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 17:47:02,056127.0.0.1 - - [21/Jul/2020 17:47:02] "GET /edit/1 HTTP/1.1" 200 -
+2020-07-21 17:47:08,965127.0.0.1 - - [21/Jul/2020 17:47:08] "POST /update/1 HTTP/1.1" 302 -
+2020-07-21 17:47:09,127127.0.0.1 - - [21/Jul/2020 17:47:09] "GET /article/python-numbers HTTP/1.1" 200 -
+2020-07-21 17:48:49,477127.0.0.1 - - [21/Jul/2020 17:48:49] "GET / HTTP/1.1" 200 -
+2020-07-21 17:48:53,417127.0.0.1 - - [21/Jul/2020 17:48:53] "GET /author_wise_posts/Harinder%20Singh HTTP/1.1" 200 -
+2020-07-21 17:48:55,565127.0.0.1 - - [21/Jul/2020 17:48:55] "GET /edit/1 HTTP/1.1" 200 -
+2020-07-21 17:52:03,183 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-07-21 17:52:03,236 * Restarting with stat
+2020-07-21 17:52:03,551 * Debugger is active!
+2020-07-21 17:52:03,551 * Debugger PIN: 239-795-515
+2020-08-18 12:29:23,102 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-08-18 12:29:23,120 * Restarting with stat
+2020-08-18 12:29:23,483 * Debugger is active!
+2020-08-18 12:29:23,484 * Debugger PIN: 239-795-515
+2020-08-18 12:29:31,822127.0.0.1 - - [18/Aug/2020 12:29:31] "GET / HTTP/1.1" 200 -
+2020-08-18 12:29:32,001127.0.0.1 - - [18/Aug/2020 12:29:32] "GET /static/main.css HTTP/1.1" 200 -
+2020-08-18 12:29:52,001127.0.0.1 - - [18/Aug/2020 12:29:52] "GET / HTTP/1.1" 200 -

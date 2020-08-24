@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}  POSTS {% endblock %}
+
+{% block content %}
+	
+
+	<h6> <a class="mr-2" href="{{ url_for('author_wise_posts', author = post.author.name) }}">Click Here</a> to check all your posts </h6>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+{% endblock %}
