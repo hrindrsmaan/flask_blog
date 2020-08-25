@@ -1898,3 +1898,23 @@ IOError: [Errno 32] Broken pipe
 2020-08-24 14:51:07,306 * Debugger PIN: 239-795-515
 2020-08-24 14:51:14,650127.0.0.1 - - [24/Aug/2020 14:51:14] "GET /myfolio HTTP/1.1" 404 -
 2020-08-24 14:51:17,898127.0.0.1 - - [24/Aug/2020 14:51:17] "GET /mididrums HTTP/1.1" 200 -
+2020-08-24 14:58:57,371 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-08-24 14:58:57,371 * Restarting with stat
+2020-08-24 14:58:57,695 * Debugger is active!
+2020-08-24 14:58:57,696 * Debugger PIN: 239-795-515
+2020-08-24 14:59:09,241127.0.0.1 - - [24/Aug/2020 14:59:09] "GET / HTTP/1.1" 200 -
+2020-08-24 14:59:12,110127.0.0.1 - - [24/Aug/2020 14:59:12] "GET /myfolio HTTP/1.1" 404 -
+2020-08-24 14:59:13,059127.0.0.1 - - [24/Aug/2020 14:59:13] "GET /mididrums HTTP/1.1" 200 -
+2020-08-25 15:34:23,650 * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+2020-08-25 15:34:23,651 * Restarting with stat
+2020-08-25 15:34:23,970 * Debugger is active!
+2020-08-25 15:34:23,971 * Debugger PIN: 239-795-515
+2020-08-25 15:34:29,979127.0.0.1 - - [25/Aug/2020 15:34:29] "GET / HTTP/1.1" 200 -
+2020-08-25 15:34:30,078127.0.0.1 - - [25/Aug/2020 15:34:30] "GET /static/main.css HTTP/1.1" 200 -
+2020-08-25 15:34:31,370127.0.0.1 - - [25/Aug/2020 15:34:31] "GET /favicon.ico HTTP/1.1" 404 -
+2020-08-25 15:34:33,078127.0.0.1 - - [25/Aug/2020 15:34:33] "GET /myfolio HTTP/1.1" 404 -
+2020-08-25 15:34:34,431127.0.0.1 - - [25/Aug/2020 15:34:34] "GET /mididrums HTTP/1.1" 200 -
+2020-08-25 15:35:05,893 * Detected change in '/home/harinder/Documents/flask_projects/flask_blog/blog/views.py', reloading
+2020-08-25 15:35:05,939 * Restarting with stat
+2020-08-25 15:35:06,287 * Debugger is active!
+2020-08-25 15:35:06,287 * Debugger PIN: 239-795-515

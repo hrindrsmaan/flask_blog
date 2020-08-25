@@ -252,9 +252,9 @@ def about():
 	return render_template('about.html', categories = categories)
 
 
+
 @app.route('/mididrums', methods = ['GET', 'POST'])
 def midi_kit():
-
 
 	return render_template('midi_kit.html')
 
