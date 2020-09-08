@@ -259,6 +259,12 @@ def midi_kit():
 	return render_template('midi_kit.html')
 
 
+@app.route('/pythonmidikit', methods = ['GET', 'POST'])
+def python_midi_kit():
+
+	return render_template('pythonmidi_kit.html')
+
+
 
 
 
