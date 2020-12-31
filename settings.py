@@ -8,9 +8,11 @@ DB_PASSWORD = 'test'
 DB_HOST = 'mysql:3306'
 DB_NAME = 'blog'
 
-#DB_URI = "mysql+pymysql://%s:%s@%s/%s" % (DB_USERNAME, DB_PASSWORD, DB_HOST, DB_NAME)
+#DEVELOPMENT MYSQL URI
+DB_URI = "mysql+pymysql://%s:%s@%s/%s" % (DB_USERNAME, DB_PASSWORD, DB_HOST, DB_NAME)
 
-DB_URI = "mysql+pymysql://u8d94mojn94ytjyb:G1YmWjlP317GIV8dGM4O@btdlgedasioauwrleasy-mysql.services.clever-cloud.com:3306/btdlgedasioauwrleasy"
+#PRODUCTION MYSQL URI
+#DB_URI = "mysql+pymysql://u8d94mojn94ytjyb:G1YmWjlP317GIV8dGM4O@btdlgedasioauwrleasy-mysql.services.clever-cloud.com:3306/btdlgedasioauwrleasy"
 
 #DB_URI = 'mysql+pymysql://harinder:12345@localhost/flask_blog'
 SQLALCHEMY_DATABASE_URI = DB_URI
