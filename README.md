@@ -11,10 +11,6 @@ Testing is done using the UnitTesting.
 It allows users to register and then creating blogs which can viewed by anyone using the website.
 
 Operations covered:
-Registeration and Login
-Creating a blog
-Reading blog
-Updating blog
-Deleting blog
+Registeration and Login, Creating a blog, Reading blog, Updating blog, Deleting blog
 
 
